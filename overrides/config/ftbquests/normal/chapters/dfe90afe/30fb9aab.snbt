@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "a4579b11",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cuttingboarditem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

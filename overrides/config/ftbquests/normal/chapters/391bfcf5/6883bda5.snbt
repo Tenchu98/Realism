@@ -1,0 +1,42 @@
+{
+	title: "Solar",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersive_energy:material",
+		Damage: 1s
+	},
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		"Solar is a good way to go, but the solars from Tech Reborn are not craftable."
+	],
+	dependencies: [
+		"6a854ad5"
+	],
+	tasks: [{
+		uid: "b9b22176",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersive_energy:material",
+			Damage: 1s
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "edf883cf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wirecoil"
+		},
+		count: 8
+	}]
+}

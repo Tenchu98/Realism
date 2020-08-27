@@ -1,0 +1,21 @@
+{
+	title: "Tinkering",
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"9471db24"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4591b88",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:soil"
+		}],
+		count: 121L,
+		consume_items: false
+	}]
+}

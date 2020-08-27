@@ -1,0 +1,22 @@
+{
+	x: -14.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: "016c7946",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "specialBullet"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "69685219",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

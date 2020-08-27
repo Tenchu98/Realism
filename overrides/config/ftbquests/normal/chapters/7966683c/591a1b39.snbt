@@ -1,0 +1,28 @@
+{
+	x: 7.0d,
+	y: -4.0d,
+	dependencies: [
+		"71134319",
+		"19afadec"
+	],
+	tasks: [{
+		uid: "01cbdb2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "19110018",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "a95d24cf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

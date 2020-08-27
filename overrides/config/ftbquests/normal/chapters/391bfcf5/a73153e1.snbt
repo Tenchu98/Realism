@@ -1,0 +1,40 @@
+{
+	title: "Food",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:bread"
+	},
+	x: -11.0d,
+	y: -0.5d,
+	text: [
+		"Have a food department. You could use fridges, or glass panes and item frames."
+	],
+	dependencies: [
+		"08062fca"
+	],
+	tasks: [{
+		uid: "257c098a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass",
+			Count: 16b
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4c17566e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass"
+		},
+		count: 8
+	}]
+}

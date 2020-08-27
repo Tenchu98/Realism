@@ -1,0 +1,66 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d5650dd6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "silentgems:katana",
+			tag: {
+				SG_UUIDLeast: -7616065715555853354L,
+				SGProperties: {
+					ToolTier: 0,
+					MeleeDamage: 0.0f,
+					MagicDamage: 0.0f,
+					Enchantability: 12,
+					ChargeSpeed: 1.5f,
+					HarvestSpeed: 2.0f,
+					MeleeSpeed: 1.1f,
+					Durability: 69,
+					HarvestLevel: 0,
+					Protection: 10.0f
+				},
+				SGStatistics: {
+					OriginalOwner: "a cheater!"
+				},
+				ExampleToolItem: 1b,
+				PartListForName: {
+					part0: {
+						id: "sgextraparts:genericitem",
+						Count: 1b,
+						Damage: 1s
+					},
+					part1: {
+						id: "sgextraparts:genericitem",
+						Count: 1b,
+						Damage: 1s
+					},
+					part2: {
+						id: "sgextraparts:genericitem",
+						Count: 1b,
+						Damage: 1s
+					}
+				},
+				SGConstruction: {
+					PartRod: "silentgems:rodwood#NONE",
+					Part0: "sgextraparts:wood#NONE",
+					Part2: "sgextraparts:wood#NONE",
+					Part1: "sgextraparts:wood#NONE"
+				},
+				display: {
+					Name: "Polished Wood Katana"
+				},
+				SG_UUIDMost: 5340003572955170065L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

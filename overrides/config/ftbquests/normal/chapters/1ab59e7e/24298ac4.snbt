@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"0f68bfff"
+	],
+	tasks: [{
+		uid: "44b471af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:connector",
+			Damage: 1s
+		}]
+	}]
+}

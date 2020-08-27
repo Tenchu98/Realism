@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b2240438",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:evaporating_basin"
+		}]
+	}]
+}

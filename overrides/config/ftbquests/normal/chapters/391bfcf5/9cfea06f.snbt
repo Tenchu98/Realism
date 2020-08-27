@@ -1,0 +1,54 @@
+{
+	title: "Laboratory",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:laboratory",
+		Damage: 10s
+	},
+	x: -6.5d,
+	y: 10.0d,
+	text: [
+		"Or you could be like me, and have a laboratory!"
+	],
+	dependencies: [
+		"e09d0597"
+	],
+	tasks: [{
+		uid: "6489a064",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:laboratory",
+			Count: 64b
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b8637327",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:laboratory",
+			Damage: 13s
+		},
+		count: 16
+	},
+	{
+		uid: "578cdfe0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:laboratory",
+			Damage: 14s
+		},
+		count: 16
+	}]
+}

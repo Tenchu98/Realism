@@ -1,0 +1,59 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	dependencies: [
+		"7a0cf527"
+	],
+	tasks: [{
+		uid: "72ba31ac",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_gold"
+		}]
+	},
+	{
+		uid: "7bf081bd",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_ie_silver"
+		}]
+	},
+	{
+		uid: "d0942057",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_ie_lead"
+		}]
+	},
+	{
+		uid: "074c4544",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_forestry_tin"
+		}]
+	},
+	{
+		uid: "393e9e11",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_ie_nickel"
+		}]
+	},
+	{
+		uid: "8fc33906",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_ie_aluminum"
+		}]
+	}],
+	rewards: [{
+		uid: "71c2c1f1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "antiqueatlas:empty_antique_atlas"
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	dependencies: [
+		"8b1da75a"
+	],
+	tasks: [{
+		uid: "428286b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:material",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3798d5a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:material",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0365e516",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

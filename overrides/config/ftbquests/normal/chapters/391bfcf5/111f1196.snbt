@@ -1,0 +1,26 @@
+{
+	title: "Department Store",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:emerald_block"
+	},
+	x: -8.0d,
+	y: -0.5d,
+	text: [
+		"You need to eat! Make a well stocked store."
+	],
+	dependencies: [
+		"39bf0bd3"
+	],
+	tasks: [{
+		uid: "46f8c609",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d980016b",
+		type: "choice",
+		table: 1
+	}]
+}

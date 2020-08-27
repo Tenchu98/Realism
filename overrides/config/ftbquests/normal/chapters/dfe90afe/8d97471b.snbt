@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: "3ed2c9a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:carrotcakeitem"
+		}]
+	}]
+}

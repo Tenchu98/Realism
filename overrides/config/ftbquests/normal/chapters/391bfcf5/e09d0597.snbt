@@ -1,0 +1,40 @@
+{
+	title: "Home base!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:dark_oak_door"
+	},
+	x: -8.0d,
+	y: 8.5d,
+	text: [
+		"Here I will show you how to make a base. You must make it just like I say!",
+		"",
+		"§e§6§e§m§7§2JK"
+	],
+	dependencies: [
+		"ad07ed5f"
+	],
+	tasks: [{
+		uid: "d8a47799",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4a7667b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

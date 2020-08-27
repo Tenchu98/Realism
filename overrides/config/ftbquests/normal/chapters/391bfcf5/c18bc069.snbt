@@ -1,0 +1,54 @@
+{
+	title: "Power grid",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiveengineering:metal_decoration2",
+		Damage: 2s
+	},
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		"Deliver power to your entire city!"
+	],
+	dependencies: [
+		"cc9f2fe9",
+		"6883bda5"
+	],
+	tasks: [{
+		uid: "338d3b11",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device1",
+			Count: 4b,
+			Damage: 3s
+		}],
+		count: 4L
+	},
+	{
+		uid: "8c0248c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb445983",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_bars"
+		},
+		count: 32
+	}]
+}

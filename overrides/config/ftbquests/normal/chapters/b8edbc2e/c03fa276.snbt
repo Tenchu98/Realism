@@ -1,0 +1,62 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "survivalist:hatchet"
+	},
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"This axe will get you started. If you ever find youself lacking the resources need, you can always make this improvised tool."
+	],
+	dependencies: [
+		"8b4b4af4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e30a752b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3a604bee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}]
+	},
+	{
+		uid: "fd322fc8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		}]
+	},
+	{
+		uid: "6a3e8af3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "survivalist:hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 2.25d,
+	shape: "square",
+	dependencies: [
+		"1c2e9ca2",
+		"b8ef8f42",
+		"1cbe4fdc"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "91681267",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3ee67363",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:meatfeastpizzaitem"
+		}
+	}]
+}

@@ -1,0 +1,139 @@
+{
+	title: "Gas station",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				maxCap: 32768,
+				objColors: [I;
+					-1,
+					-1,
+					-1,
+					-1
+				],
+				refFluid: {},
+				oreDict: 0b,
+				overflow: 0b,
+				refStack: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:air",
+					Count: 1b,
+					Damage: 0s
+				},
+				count: 0,
+				locked: 0b,
+				stackCap: 64
+			},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "bdsandm:metal_barrel",
+		tag: {
+			barrelCap: {
+				maxCap: 32768,
+				objColors: [I;
+					-1,
+					-1,
+					-1,
+					-1
+				],
+				refFluid: {},
+				oreDict: 0b,
+				overflow: 0b,
+				refStack: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:air",
+					Count: 1b,
+					Damage: 0s
+				},
+				count: 0,
+				locked: 0b,
+				stackCap: 64
+			}
+		}
+	},
+	x: -8.0d,
+	y: 7.0d,
+	text: [
+		"Gotta have gas! Deisel to?"
+	],
+	dependencies: [
+		"b6bfe075"
+	],
+	tasks: [{
+		uid: "2049e3a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1,
+						-1,
+						-1
+					],
+					refFluid: {},
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bdsandm:metal_barrel",
+			tag: {
+				barrelCap: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1,
+						-1,
+						-1
+					],
+					refFluid: {},
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			}
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "23b40e47",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "gasoline",
+				Amount: 1000
+			}
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Cooking",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cookingforblockheads:sink"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

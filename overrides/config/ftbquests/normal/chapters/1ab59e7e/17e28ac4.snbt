@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	dependencies: [
+		"4419c0b7"
+	],
+	tasks: [{
+		uid: "07db2279",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_device1"
+		}]
+	}],
+	rewards: [{
+		uid: "a9acb93e",
+		type: "random",
+		table: 0
+	}]
+}

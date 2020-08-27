@@ -1,0 +1,100 @@
+{
+	title: "Construct",
+	x: 0.0d,
+	y: -3.5d,
+	dependencies: [
+		"321c1f48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d38c7eb5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "aff5f097",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4b57a263",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_io"
+		}],
+		count: 2L
+	},
+	{
+		uid: "603869e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		}],
+		count: 17L
+	},
+	{
+		uid: "837d514b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "679ce14f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials"
+		}],
+		count: 121L
+	},
+	{
+		uid: "db37b1de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "08a11f47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "5f90e427",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

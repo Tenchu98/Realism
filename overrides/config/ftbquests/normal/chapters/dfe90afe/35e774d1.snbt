@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "d5ffdc4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:juiceritem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: -8.5d,
+	tasks: [{
+		uid: "1441e973",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_ore"
+		}]
+	}]
+}

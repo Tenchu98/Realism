@@ -1,0 +1,16 @@
+{
+	title: "Introduction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:sign"
+	},
+	disable_toast: true,
+	description: [
+		"Getting started!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

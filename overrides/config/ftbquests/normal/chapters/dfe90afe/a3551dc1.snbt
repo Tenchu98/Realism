@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "bb2964e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "aquaculture:diamond_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

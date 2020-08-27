@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "15cb791a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bdsandm:upgrade"
+		}]
+	}]
+}

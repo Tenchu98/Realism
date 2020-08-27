@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "2f3c532b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:counter"
+		}]
+	}]
+}

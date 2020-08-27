@@ -1,0 +1,13 @@
+{
+	title: "Enchantment Tokens!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "silentgems:enchantmenttoken",
+		Damage: 256s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

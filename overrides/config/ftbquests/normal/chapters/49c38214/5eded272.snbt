@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "0371c425",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgems:enchantmenttoken",
+			Damage: 256s
+		}]
+	}]
+}

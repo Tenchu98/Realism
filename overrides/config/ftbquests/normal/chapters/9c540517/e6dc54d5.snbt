@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "aaab9607",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:groundtrap"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "0.5 Caveman",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:bone"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

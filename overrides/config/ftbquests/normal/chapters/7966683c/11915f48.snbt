@@ -1,0 +1,42 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"608bec58"
+	],
+	tasks: [{
+		uid: "33e46e66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "619a65ff",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:carrot"
+		}
+	},
+	{
+		uid: "beb605b9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:melon_seeds"
+		}
+	},
+	{
+		uid: "c13e3871",
+		type: "item",
+		item: "solcarrot:food_book"
+	}]
+}

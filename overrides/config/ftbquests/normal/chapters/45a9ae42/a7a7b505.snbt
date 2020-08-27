@@ -1,0 +1,58 @@
+{
+	title: "Welcome to Tanehu's Realism!",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"The wilderness is a rewarding and treacherous place. Exploring, you will find various plants and animals that can sustain you. Be warned! A lot of vicious beats are lurking, Often around areas of concealment and darkness.",
+		"-Mob spawning in the overworld occures below light level 1"
+	],
+	tasks: [{
+		uid: "e9515058",
+		type: "checkmark",
+		title: "The Beginning",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt",
+			Damage: 1s
+		},
+		tags: [
+			"tag"
+		],
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "dff62844",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camping:tent",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "5800a58a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camping:sleeping_bag"
+		}
+	},
+	{
+		uid: "a8598152",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "camping:knife"
+		}
+	}]
+}

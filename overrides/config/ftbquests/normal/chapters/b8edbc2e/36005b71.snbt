@@ -1,0 +1,94 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"100b3281"
+	],
+	tasks: [{
+		uid: "2f4ff6e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "silentgear:axe",
+			tag: {
+				ToolCore_Data: {
+					Construction: {
+						RandomGradingDone: 1b,
+						Parts: [{
+							Item: {
+								id: "minecraft:planks",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "B",
+							Key: "silentgear:main_wood"
+						},
+						{
+							Item: {
+								id: "minecraft:planks",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:main_wood"
+						},
+						{
+							Item: {
+								id: "minecraft:planks",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "C",
+							Key: "silentgear:main_wood"
+						},
+						{
+							Item: {
+								id: "minecraft:stick",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:rod_wood"
+						}]
+					},
+					ModelKeys: {
+						0: "axe|0|13"
+					},
+					Properties: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 0.9970239f,
+						durability: 58.82441f,
+						armor_durability: 8.973215f,
+						harvest_speed: 1.9940478f,
+						attack_speed: -3.2f,
+						ranged_speed: 0.0f,
+						ranged_damage: 0.0f,
+						armor_toughness: 0.0f,
+						LockStats: 0b,
+						Traits: [{
+							Level: 1b,
+							Name: "silentgear:jagged"
+						}],
+						enchantability: 16.450893f,
+						armor: 6.979167f,
+						melee_damage: 5.0f,
+						chargeability: 0.6f,
+						harvest_level: 0.0f,
+						magic_damage: 0.0f,
+						rarity: 0.0f
+					}
+				},
+				ToolCore_UUIDMost: -6669842284003766524L,
+				ToolCore_UUIDLeast: -5274200499584960203L,
+				debug_modelkey: "axe|0|13"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

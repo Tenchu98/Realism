@@ -1,0 +1,15 @@
+{
+	title: "Creating your town!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:brick_block"
+	},
+	description: [
+		"Here I will show you how to make not just a town, but a thriving city!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

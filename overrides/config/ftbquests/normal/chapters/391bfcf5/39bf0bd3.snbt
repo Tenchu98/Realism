@@ -1,0 +1,51 @@
+{
+	title: "Airport",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:redstone_block"
+	},
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"Air travel is a great way to travel to other towns, so lets build an airport! In order for most planes to take off, make it at least§c §c§412 chunks long.§0 A busy airport should have more then one lane, Google \"airport runway map\" for ideas.§0"
+	],
+	tasks: [{
+		uid: "482ca120",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "90aea265",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rcroads:road"
+		},
+		count: 64
+	},
+	{
+		uid: "d106ce46",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rcroads:line11"
+		},
+		count: 64
+	},
+	{
+		uid: "9825e1c2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rcroads:line11a"
+		},
+		count: 64
+	}]
+}

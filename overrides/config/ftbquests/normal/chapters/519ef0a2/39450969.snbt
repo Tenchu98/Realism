@@ -1,0 +1,21 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:smeltery_controller"
+	},
+	x: 1.0d,
+	y: -3.5d,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "a26454e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}]
+	}]
+}

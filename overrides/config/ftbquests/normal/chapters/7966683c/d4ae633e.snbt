@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Now you can cut grass to acquire some fibers",
+	dependencies: [
+		"fe326576",
+		"0ad0939d",
+		"63fbd826"
+	],
+	tasks: [{
+		uid: "fdada3e8",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:crude_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ba4ccb9",
+		type: "item",
+		item: "roughtweaks:plaster"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"206cdf82"
+	],
+	tasks: [{
+		uid: "f4e6df41",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Count: 1b
+		}]
+	}],
+	rewards: [{
+		uid: "f5286349",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"You are becoming a very proficent survivalist. Only the best tools can get the job done efficently!"
+	],
+	dependencies: [
+		"4def2f20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b0197a4a",
+		type: "checkmark",
+		title: "Time to make better tools",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "45506009",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_rod"
+		}
+	}]
+}

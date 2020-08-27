@@ -1,0 +1,22 @@
+{
+	x: -14.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "b526a1e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "electrode"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8cfc245b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

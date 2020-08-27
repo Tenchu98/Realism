@@ -1,0 +1,36 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Time to knock a tree down!"
+	],
+	tasks: [{
+		uid: "35f9836d",
+		type: "item",
+		title: "Wood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L,
+		consume_items: false,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "fd4cb9fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:steaktartareitem"
+		}
+	}]
+}

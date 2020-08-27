@@ -1,0 +1,14 @@
+{
+	x: -10.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "74eb9a24",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:part_analyzer"
+		}]
+	}]
+}

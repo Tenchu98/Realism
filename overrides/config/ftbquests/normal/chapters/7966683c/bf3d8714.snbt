@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"591a1b39"
+	],
+	tasks: [{
+		uid: "5f69e102",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f400f84",
+		type: "xp",
+		xp: 100
+	}]
+}

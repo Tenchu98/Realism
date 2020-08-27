@@ -1,0 +1,23 @@
+{
+	x: -13.0d,
+	y: -5.5d,
+	dependencies: [
+		"a288aed7"
+	],
+	tasks: [{
+		uid: "200e7e3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgems:gemore",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "fb2c660a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

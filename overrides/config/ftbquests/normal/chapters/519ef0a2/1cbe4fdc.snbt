@@ -1,0 +1,71 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"f477aa36"
+	],
+	hide: true,
+	tasks: [{
+		uid: "10fe1326",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "f95e2f01",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_dagger"
+		}
+	},
+	{
+		uid: "9b7a3277",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_katana"
+		}
+	},
+	{
+		uid: "fa5bf145",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_machete"
+		}
+	},
+	{
+		uid: "24ba2ea5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_sickle"
+		}
+	},
+	{
+		uid: "737cfd7d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_bow"
+		}
+	}]
+}

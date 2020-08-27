@@ -1,0 +1,13 @@
+{
+	title: "1 basics",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "magneticraft:stone_hammer"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

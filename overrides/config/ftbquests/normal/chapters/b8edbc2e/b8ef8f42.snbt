@@ -1,0 +1,21 @@
+{
+	title: "Iron Ore",
+	x: 4.0d,
+	y: -0.5d,
+	dependencies: [
+		"3eb29b50"
+	],
+	tasks: [{
+		uid: "b64fcb63",
+		type: "item",
+		title: "Iron Ore",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

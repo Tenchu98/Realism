@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -3.5d,
+	dependencies: [
+		"dc7bbf0e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c967e72f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "12ed4fb7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

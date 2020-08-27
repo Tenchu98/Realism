@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "047871d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tektopia:structure_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

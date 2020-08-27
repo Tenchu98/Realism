@@ -1,0 +1,68 @@
+{
+	title: "Parking lot",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "props:props",
+		Damage: 1129s
+	},
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"Fill this up with cars! RC roads and the Cars mod adds road paint, or you can use carpets. Or none at all (-:"
+	],
+	dependencies: [
+		"111f1196"
+	],
+	tasks: [{
+		uid: "39275db0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "536649b7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:carpet"
+		},
+		count: 16
+	},
+	{
+		uid: "275ad687",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:carpet",
+			Damage: 4s
+		},
+		count: 16
+	},
+	{
+		uid: "0ae62093",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone_pressure_plate"
+		},
+		count: 16
+	},
+	{
+		uid: "901fd09a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "props:props",
+			Damage: 1129s
+		},
+		count: 16
+	}]
+}

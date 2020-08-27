@@ -1,0 +1,7 @@
+{
+	title: "10 Ten",
+	icon: "additional_lights:fire_pit_l_diamond_block",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,54 @@
+{
+	title: "Campfire",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "campfire:campfire"
+	},
+	x: 0.0d,
+	y: -4.0d,
+	description: "Time to cook some food!",
+	text: [
+		"This is a good start to cooking your food in the begining, as it lights when placed and doesn't require fuel. I will burn out after a short period of time. Maybe when you settle down, you can build something better.."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"12ec9774",
+		"e52a6409"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "5174505d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c49d8b8a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "24c6a8b3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:smoresitem"
+		}
+	}]
+}

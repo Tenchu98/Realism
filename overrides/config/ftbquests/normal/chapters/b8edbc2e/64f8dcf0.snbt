@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"You can use these basic tools to repeat this process with more durable items. In addition, this tools can be easily repaired by placing it in the crafting grid with its base material! NICE!"
+	],
+	dependencies: [
+		"3eb29b50"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "c4d34dba",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a1de1b72",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

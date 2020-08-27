@@ -1,0 +1,115 @@
+{
+	title: "Pumpjack",
+	x: -4.0d,
+	y: -4.0d,
+	dependencies: [
+		"772740c7"
+	],
+	tasks: [{
+		uid: "31f79903",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration1",
+			Damage: 1s
+		}],
+		count: 11L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a95b97d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_decoration"
+		}],
+		count: 6L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "672a149e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_device1",
+			Damage: 6s
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed55825a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d2005caa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 4s
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a465628",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 5s
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5217719b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:storage",
+			Damage: 8s
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fcf4323c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:sheetmetal",
+			Damage: 8s
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8802b18",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

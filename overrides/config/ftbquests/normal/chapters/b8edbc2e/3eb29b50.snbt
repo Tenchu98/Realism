@@ -1,0 +1,359 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "silentgear:pickaxe",
+		tag: {
+			ToolCore_Data: {
+				Construction: {
+					RandomGradingDone: 1b,
+					Parts: [{
+						Item: {
+							id: "minecraft:flint",
+							Count: 1b,
+							Damage: 0s
+						},
+						Grade: "D",
+						Key: "silentgear:main_flint"
+					},
+					{
+						Item: {
+							id: "minecraft:flint",
+							Count: 1b,
+							Damage: 0s
+						},
+						Grade: "C",
+						Key: "silentgear:main_flint"
+					},
+					{
+						Item: {
+							id: "minecraft:flint",
+							Count: 1b,
+							Damage: 0s
+						},
+						Grade: "E",
+						Key: "silentgear:main_flint"
+					},
+					{
+						Item: {
+							id: "silentgear:stone_rod",
+							Count: 1b,
+							Damage: 0s
+						},
+						Grade: "E",
+						Key: "silentgear:rod_stone"
+					}]
+				},
+				ModelKeys: {
+					0: "pickaxe|2|15"
+				},
+				Properties: {
+					repair_efficiency: 1.0f,
+					reach_distance: 0.0f,
+					synergy: 1.0f,
+					magic_armor: 0.0f,
+					durability: 107.476425f,
+					armor_durability: 3.852201f,
+					ranged_damage: 0.96305025f,
+					ranged_speed: -0.3f,
+					attack_speed: -3.0f,
+					harvest_speed: 5.7783017f,
+					armor_toughness: 0.0f,
+					LockStats: 0b,
+					Traits: [{
+						Level: 3b,
+						Name: "silentgear:jagged"
+					}],
+					enchantability: 2.0224056f,
+					armor: 3.852201f,
+					melee_damage: 2.9261005f,
+					chargeability: 0.8f,
+					magic_damage: 0.0f,
+					harvest_level: 1.0f,
+					rarity: 10.778302f
+				}
+			},
+			ToolCore_UUIDMost: -1947759475113245575L,
+			ToolCore_UUIDLeast: -6023448760262657336L,
+			debug_modelkey: "pickaxe|2|15"
+		}
+	},
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"While stone is a more durable material, flint can break blocks faster. With all that flint you gathered, you can repair on the go!"
+	],
+	dependencies: [
+		"aa504d38"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e8c76499",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "silentgear:pickaxe",
+			tag: {
+				ToolCore_Data: {
+					Construction: {
+						RandomGradingDone: 1b,
+						Parts: [{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "D",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "C",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "silentgear:stone_rod",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:rod_stone"
+						}]
+					},
+					ModelKeys: {
+						0: "pickaxe|2|15"
+					},
+					Properties: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 0.0f,
+						durability: 107.476425f,
+						armor_durability: 3.852201f,
+						ranged_damage: 0.96305025f,
+						ranged_speed: -0.3f,
+						attack_speed: -3.0f,
+						harvest_speed: 5.7783017f,
+						armor_toughness: 0.0f,
+						LockStats: 0b,
+						Traits: [{
+							Level: 3b,
+							Name: "silentgear:jagged"
+						}],
+						enchantability: 2.0224056f,
+						armor: 3.852201f,
+						melee_damage: 2.9261005f,
+						chargeability: 0.8f,
+						magic_damage: 0.0f,
+						harvest_level: 1.0f,
+						rarity: 10.778302f
+					}
+				},
+				ToolCore_UUIDMost: -1947759475113245575L,
+				ToolCore_UUIDLeast: -6023448760262657336L,
+				debug_modelkey: "pickaxe|2|15"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4369d9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "silentgear:axe",
+			tag: {
+				ToolCore_Data: {
+					Construction: {
+						RandomGradingDone: 1b,
+						Parts: [{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "D",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "D",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "silentgear:stone_rod",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "B",
+							Key: "silentgear:rod_stone"
+						}],
+						RepairCount: 1
+					},
+					ModelKeys: {
+						0: "axe|2|15"
+					},
+					Properties: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 0.0f,
+						durability: 106.12472f,
+						armor_durability: 3.8037531f,
+						ranged_damage: 0.9509383f,
+						ranged_speed: -0.3f,
+						attack_speed: -3.4f,
+						harvest_speed: 5.7056303f,
+						armor_toughness: 0.0f,
+						LockStats: 0b,
+						Traits: [{
+							Level: 3b,
+							Name: "silentgear:jagged"
+						}],
+						enchantability: 1.9969704f,
+						armor: 3.8037531f,
+						melee_damage: 6.9018764f,
+						chargeability: 0.8f,
+						magic_damage: 0.0f,
+						harvest_level: 1.0f,
+						rarity: 10.705629f
+					}
+				},
+				SGProperties: {},
+				ToolCore_UUIDMost: 1276112693471891280L,
+				ToolCore_UUIDLeast: -8493962030142410560L,
+				debug_modelkey: "axe|2|15"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d814a862",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "silentgear:shovel",
+			tag: {
+				ToolCore_Data: {
+					Construction: {
+						RandomGradingDone: 1b,
+						Parts: [{
+							Item: {
+								id: "minecraft:flint",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:main_flint"
+						},
+						{
+							Item: {
+								id: "silentgear:stone_rod",
+								Count: 1b,
+								Damage: 0s
+							},
+							Grade: "E",
+							Key: "silentgear:rod_stone"
+						}]
+					},
+					ModelKeys: {
+						0: "shovel|2|15"
+					},
+					Properties: {
+						repair_efficiency: 2.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 0.0f,
+						durability: 102.672f,
+						armor_durability: 3.68f,
+						ranged_damage: 0.92f,
+						ranged_speed: -0.3f,
+						attack_speed: -3.2f,
+						harvest_speed: 5.52f,
+						armor_toughness: 0.0f,
+						LockStats: 0b,
+						Traits: [{
+							Level: 3b,
+							Name: "silentgear:jagged"
+						}],
+						enchantability: 1.9319999f,
+						armor: 3.68f,
+						melee_damage: 3.3400002f,
+						chargeability: 0.8f,
+						magic_damage: 0.0f,
+						harvest_level: 1.0f,
+						rarity: 10.52f
+					}
+				},
+				ToolCore_UUIDMost: 2076232899717843274L,
+				ToolCore_UUIDLeast: -9163933099850183307L,
+				debug_modelkey: "shovel|2|15"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b5d3d02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:stone_rod"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "6b88593d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		},
+		count: 16
+	}]
+}

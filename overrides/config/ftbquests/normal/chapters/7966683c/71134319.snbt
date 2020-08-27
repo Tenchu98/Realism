@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -4.0d,
+	dependencies: [
+		"7a0cf527"
+	],
+	tasks: [{
+		uid: "64f1175e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:furnace"
+		}]
+	}]
+}

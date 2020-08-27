@@ -1,0 +1,53 @@
+{
+	title: "Hydro-electric",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiveengineering:wooden_device1"
+	},
+	x: -6.5d,
+	y: 2.5d,
+	text: [
+		"Good old water wheels!"
+	],
+	dependencies: [
+		"6a854ad5"
+	],
+	tasks: [{
+		uid: "42e6c868",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device1",
+			Count: 9b
+		}],
+		count: 9L
+	},
+	{
+		uid: "f3282b7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_device1",
+			Count: 3b,
+			Damage: 2s
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "c15fd729",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:piston"
+		},
+		count: 4
+	}]
+}

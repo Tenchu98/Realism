@@ -1,0 +1,16 @@
+{
+	x: -8.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "8ac3f3fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:skilletitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

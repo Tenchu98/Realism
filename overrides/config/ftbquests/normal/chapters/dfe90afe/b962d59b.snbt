@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "aaad2ff1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:presser"
+		}]
+	}]
+}

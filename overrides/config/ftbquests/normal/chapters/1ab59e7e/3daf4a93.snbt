@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"5bfe584e"
+	],
+	tasks: [{
+		uid: "3ac5cee6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device1",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "ca6b5c76",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	title: "It's time to get a map",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "antiqueatlas:empty_antique_atlas"
+	},
+	x: -3.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"1cbe4fdc"
+	],
+	tasks: [{
+		uid: "27901b5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:book"
+		}]
+	},
+	{
+		uid: "b48d6233",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:compass"
+		}]
+	},
+	{
+		uid: "d331a7a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "antiqueatlas:empty_antique_atlas"
+		}]
+	}],
+	rewards: [{
+		uid: "ca588460",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "f71de94b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

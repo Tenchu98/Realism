@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"1cbe4fdc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96afb8a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket"
+		}]
+	}]
+}

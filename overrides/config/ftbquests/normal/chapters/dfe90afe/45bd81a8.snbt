@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "3ba09049",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mixingbowlitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

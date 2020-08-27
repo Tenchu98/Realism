@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"5bfe584e"
+	],
+	tasks: [{
+		uid: "08f7d35f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fb01fbbf",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

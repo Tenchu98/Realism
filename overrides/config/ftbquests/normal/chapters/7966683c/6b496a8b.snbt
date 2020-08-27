@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	dependencies: [
+		"11915f48"
+	],
+	tasks: [{
+		uid: "985d3d46",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "5d9096ea",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "75a2cccf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

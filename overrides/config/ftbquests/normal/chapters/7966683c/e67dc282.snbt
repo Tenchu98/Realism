@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	shape: "circle",
+	dependencies: [
+		"206cdf82"
+	],
+	tasks: [{
+		uid: "2ef0da3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "d7e9f134",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

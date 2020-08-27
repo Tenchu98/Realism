@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	shape: "diamond",
+	text: [
+		"You'll notice that you do not have a GUI map. And why would you? This is real life! ..okay not really, but this modpack is intended to be more realistic. You want to get an atlas. There will be a quest to get one!"
+	],
+	dependencies: [
+		"f906a73f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "79d5cb4b",
+		type: "checkmark",
+		title: "Exploring",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:compass"
+		}
+	}]
+}

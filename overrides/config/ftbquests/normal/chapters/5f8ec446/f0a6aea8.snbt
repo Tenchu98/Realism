@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "624edc27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest"
+		}]
+	}]
+}

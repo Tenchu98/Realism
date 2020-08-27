@@ -1,0 +1,22 @@
+{
+	x: -14.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "efda543f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "molds"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ddf2c51d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

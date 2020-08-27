@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: "65844fa9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:recipe_book"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"21f66888"
+	],
+	tasks: [{
+		uid: "7684074b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device0",
+			Damage: 2s
+		}]
+	}]
+}

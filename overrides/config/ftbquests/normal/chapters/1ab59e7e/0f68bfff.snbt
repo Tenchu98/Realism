@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	dependencies: [
+		"db8762cf"
+	],
+	tasks: [{
+		uid: "3623473a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:connector"
+		}]
+	}],
+	rewards: [{
+		uid: "4b586611",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

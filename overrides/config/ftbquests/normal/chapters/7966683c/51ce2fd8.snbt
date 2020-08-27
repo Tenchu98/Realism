@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"07dcb3d0"
+	],
+	tasks: [{
+		uid: "a8de006f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "397497e9",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {},
+			Count: 1b
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"29c35951"
+	],
+	tasks: [{
+		uid: "e5cc0183",
+		type: "item",
+		items: [{
+			item: "divergentunderground:rock_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "dcccc068",
+		type: "item",
+		item: "quark:charcoal_block"
+	}]
+}

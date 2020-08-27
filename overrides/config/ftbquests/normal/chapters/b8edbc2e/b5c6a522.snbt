@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	dependencies: [
+		"d0e1900c"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4a6e5323",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "65151e30",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:popcornitem"
+		}
+	}]
+}

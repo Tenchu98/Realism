@@ -1,0 +1,35 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	shape: "circle",
+	dependencies: [
+		"29c35951"
+	],
+	tasks: [{
+		uid: "3019faac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b47d8b99",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "1cf07a06",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

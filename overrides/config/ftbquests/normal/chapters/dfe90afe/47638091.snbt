@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "e7b88330",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:spice_rack"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "f1e85d27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mortarandpestleitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "47379628",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:saucepanitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

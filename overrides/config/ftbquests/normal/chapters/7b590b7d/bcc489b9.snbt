@@ -1,0 +1,87 @@
+{
+	title: "Metal Press",
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"18963ee3"
+	],
+	tasks: [{
+		uid: "74e755e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:piston"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e50a2c4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bab3cc50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration1",
+			Damage: 1s
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "181df475",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a37477f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:mold",
+			Damage: 1s
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "17465412",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "af0c87f5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

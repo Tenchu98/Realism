@@ -1,0 +1,22 @@
+{
+	x: 9.0d,
+	y: -6.0d,
+	dependencies: [
+		"9471db24"
+	],
+	tasks: [{
+		uid: "9987ecdf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "ef263507",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

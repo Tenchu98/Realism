@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Finally craft basic crude hatched and saw",
+	text: [
+		"Are you tired already?"
+	],
+	dependencies: [
+		"d4ae633e"
+	],
+	tasks: [{
+		uid: "8c567c34",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:grass_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "f821afe0",
+		type: "item",
+		item: "betterwithmods:chocolate"
+	},
+	{
+		uid: "0266a225",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

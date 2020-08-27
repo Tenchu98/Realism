@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -8.5d,
+	tasks: [{
+		uid: "be2ffe09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lapis_ore"
+		}]
+	}]
+}

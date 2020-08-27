@@ -1,0 +1,7 @@
+{
+	title: "2 two",
+	icon: "minecraft:stone_pickaxe",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

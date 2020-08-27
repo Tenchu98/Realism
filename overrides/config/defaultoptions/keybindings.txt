@@ -1,0 +1,117 @@
+key_key.attack:-100:NONE
+key_key.use:-99:NONE
+key_key.forward:17:NONE
+key_key.left:30:NONE
+key_key.back:31:NONE
+key_key.right:32:NONE
+key_key.jump:57:NONE
+key_key.sneak:42:NONE
+key_key.sprint:29:NONE
+key_key.drop:16:NONE
+key_key.inventory:18:NONE
+key_key.chat:20:NONE
+key_key.playerlist:15:NONE
+key_key.pickItem:-98:NONE
+key_key.command:53:NONE
+key_key.screenshot:60:NONE
+key_key.togglePerspective:63:NONE
+key_key.smoothCamera:0:NONE
+key_key.fullscreen:87:NONE
+key_key.spectatorOutlines:0:NONE
+key_key.swapHands:33:NONE
+key_key.saveToolbarActivator:46:NONE
+key_key.loadToolbarActivator:45:NONE
+key_key.advancements:38:NONE
+key_key.hotbar.1:2:NONE
+key_key.hotbar.2:3:NONE
+key_key.hotbar.3:4:NONE
+key_key.hotbar.4:5:NONE
+key_key.hotbar.5:6:NONE
+key_key.hotbar.6:7:NONE
+key_key.hotbar.7:8:NONE
+key_key.hotbar.8:9:NONE
+key_key.hotbar.9:10:NONE
+key_ir_keys.increase_throttle:72:NONE
+key_ir_keys.zero_throttle:76:NONE
+key_ir_keys.decrease_throttle:80:NONE
+key_ir_keys.increase_brake:71:NONE
+key_ir_keys.zero_brake:75:NONE
+key_ir_keys.decrease_brake:79:NONE
+key_ir_keys.horn:156:NONE
+key_ir_keys.dead_mans_switch:55:NONE
+key_ir_keys.start_stop_engine:78:NONE
+key_ir_keys.bell:74:NONE
+key_ir_keys.config:181:NONE
+key_key.conarm.toggle_helm.desc:34:NONE
+key_key.conarm.toggle_chest.desc:35:NONE
+key_key.conarm.toggle_leg.desc:36:NONE
+key_keybind.baublesinventory:48:NONE
+key_key.next_placement_mode.desc:67:NONE
+key_key.next_axis_mode.desc:68:NONE
+key_key.betterfoliage.gui:66:NONE
+key_cos.key.opencosarmorinventory:0:NONE
+key_MoCreatures Dive:44:NONE
+key_MoCreatures GUI:100:NONE
+key_Open Menu:25:NONE
+key_Toggle Freeze Effect:19:NONE
+key_Enable/Disable:0:NONE
+key_Kill Particles:0:NONE
+key_Blacklist Block:45:NONE
+key_key.ftbutilities.nbt:49:ALT
+key_key.ftbutilities.trash:211:NONE
+key_key.ftbquests.quests:0:NONE
+key_key.ftbmoney.shop:0:NONE
+key_key.moreoverlays.lightoverlay.desc:65:NONE
+key_key.moreoverlays.chunkbounds.desc:67:NONE
+key_Test:43:NONE
+key_Toggle Special:46:SHIFT
+key_Toggle Chaos Gem (First):34:NONE
+key_Toggle Chaos Gem (All):34:SHIFT
+key_Use Return Home Charm:25:SHIFT
+key_key.xtones.scroll:42:NONE
+key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.toggleCheatMode:0:NONE
+key_key.jei.toggleEditMode:0:NONE
+key_key.jei.showRecipe:19:NONE
+key_key.jei.showUses:22:NONE
+key_key.jei.recipeBack:14:NONE
+key_key.jei.previousPage:201:NONE
+key_key.jei.nextPage:209:NONE
+key_key.jei.bookmark:30:NONE
+key_key.jei.toggleBookmarkOverlay:0:NONE
+key_waila.keybind.wailaconfig:82:NONE
+key_waila.keybind.wailadisplay:79:NONE
+key_waila.keybind.liquid:80:NONE
+key_waila.keybind.recipe:81:NONE
+key_waila.keybind.usage:75:NONE
+key_Options Gui:23:NONE
+key_key.cofh.multimode:47:NONE
+key_key.craftingtweaks.rotate:0:NONE
+key_key.craftingtweaks.rotate_counter_clockwise:0:NONE
+key_key.craftingtweaks.balance:0:NONE
+key_key.craftingtweaks.spread:0:NONE
+key_key.craftingtweaks.clear:0:NONE
+key_key.craftingtweaks.force_clear:0:NONE
+key_key.craftingtweaks.toggleButtons:0:NONE
+key_key.craftingtweaks.compressOne:37:CONTROL
+key_key.craftingtweaks.compressStack:37:NONE
+key_key.craftingtweaks.compressAll:37:SHIFT
+key_key.craftingtweaks.decompressOne:0:NONE
+key_key.craftingtweaks.decompressStack:0:NONE
+key_key.craftingtweaks.decompressAll:0:NONE
+key_key.craftingtweaks.refill_last:15:NONE
+key_key.craftingtweaks.refill_last_stack:15:NONE
+key_Dynamic Lights toggle:38:NONE
+key_key.nextitem:26:NONE
+key_key.previtem:27:NONE
+key_key.placeitem:25:NONE
+key_key.debughandles:0:NONE
+key_key.immersiveengineering.magnetEquip:31:NONE
+key_key.immersiveengineering.chemthrowerSwitch:0:NONE
+key_key.immersiveintelligence.mgScope:44:NONE
+key_Open Backpack:48:NONE
+key_key.realdropsaddon.desc1:44:NONE
+key_key.realdropsaddon.desc2:56:NONE
+key_Camping Inventory Key:34:NONE
+key_tombstone.message.knowledge_of_death:0:NONE

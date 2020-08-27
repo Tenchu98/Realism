@@ -1,0 +1,54 @@
+{
+	title: "Factory",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:technical",
+		Damage: 11s
+	},
+	x: -6.5d,
+	y: 8.5d,
+	text: [
+		"Or you could have a factory for your base! Chisel factory blocks are awesome."
+	],
+	dependencies: [
+		"e09d0597"
+	],
+	tasks: [{
+		uid: "3baa0adf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:factory",
+			Count: 64b
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "24e5e884",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:factory",
+			Damage: 12s
+		},
+		count: 16
+	},
+	{
+		uid: "067e2d7c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:factory",
+			Damage: 13s
+		},
+		count: 16
+	}]
+}

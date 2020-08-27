@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: -8.5d,
+	tasks: [{
+		uid: "1ab3295f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_ore"
+		}]
+	}]
+}

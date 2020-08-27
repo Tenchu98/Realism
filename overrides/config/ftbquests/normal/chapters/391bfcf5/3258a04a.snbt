@@ -1,0 +1,40 @@
+{
+	title: "House",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:log"
+	},
+	x: -6.5d,
+	y: 7.0d,
+	text: [
+		"You could have a house for a base. Maybe more then one?"
+	],
+	dependencies: [
+		"e09d0597"
+	],
+	tasks: [{
+		uid: "99face92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log",
+			Count: 64b
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "39b295fe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brick_block"
+		},
+		count: 32
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Police department",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:beacon"
+	},
+	x: -8.0d,
+	y: 4.0d,
+	text: [
+		"Got to have one of these. Make sure its towards the middle of your town."
+	],
+	dependencies: [
+		"6a854ad5"
+	],
+	tasks: [{
+		uid: "451a3d4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wool",
+			Count: 8b,
+			Damage: 11s
+		}],
+		count: 8L
+	},
+	{
+		uid: "049b383f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wool",
+			Count: 8b,
+			Damage: 14s
+		}],
+		count: 8L
+	}]
+}

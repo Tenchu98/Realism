@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "802e654d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagenetwork:master"
+		}]
+	}]
+}

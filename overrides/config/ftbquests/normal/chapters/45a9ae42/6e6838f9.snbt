@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: 3.5d,
+	shape: "diamond",
+	text: [
+		"Holding torches on the off-hand will light up your surroundings. This is a good way to explore at night!"
+	],
+	dependencies: [
+		"955bc4da"
+	],
+	tasks: [{
+		uid: "5fec89e8",
+		type: "checkmark",
+		title: "Lighting on the go",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		}
+	}],
+	rewards: [{
+		uid: "d0a9d276",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		}
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	dependencies: [
+		"7a0cf527"
+	],
+	tasks: [{
+		uid: "0f570322",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "basemetals:copper_ore"
+		}],
+		ignore_nbt: 1b
+	}]
+}

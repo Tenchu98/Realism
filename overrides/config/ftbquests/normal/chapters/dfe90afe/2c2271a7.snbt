@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "ee8fc5a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"0ea5de22"
+	],
+	tasks: [{
+		uid: "2bfd2caa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal",
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "869a7a3b",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

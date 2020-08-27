@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "3ec00697",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:potitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

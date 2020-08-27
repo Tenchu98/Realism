@@ -1,0 +1,41 @@
+{
+	title: "Base power",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiveengineering:wirecoil"
+	},
+	x: -5.0d,
+	y: 8.5d,
+	text: [
+		"Wires. Make one get one free deal."
+	],
+	dependencies: [
+		"962e9a92",
+		"9cfea06f",
+		"3258a04a"
+	],
+	tasks: [{
+		uid: "9397dab7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wirecoil"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7a8aded4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wirecoil"
+		},
+		count: 32
+	}]
+}

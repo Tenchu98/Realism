@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "1d4a4052",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wooden_device0"
+		}]
+	}]
+}

@@ -1,0 +1,238 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"There are two parts in crafting your first tools. First, place the desired blueprint onto the top left corner of the crafting table. 3 planks for the axe and pick, 2 for the sword and 1 for the shovel."
+	],
+	dependencies: [
+		"4def2f20"
+	],
+	tasks: [{
+		uid: "f8ae189b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:tool_head",
+			tag: {
+				ToolHeadData: {
+					Materials: [{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					},
+					{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					},
+					{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					}],
+					ToolClass: "axe",
+					StatCache: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 1.0f,
+						durability: 59.0f,
+						armor_durability: 8.999999f,
+						harvest_speed: 2.0f,
+						attack_speed: -3.2f,
+						ranged_speed: 0.0f,
+						ranged_damage: 0.0f,
+						armor_toughness: 0.0f,
+						enchantability: 15.0f,
+						armor: 6.9999995f,
+						melee_damage: 5.0f,
+						chargeability: 0.6f,
+						harvest_level: 0.0f,
+						magic_damage: 0.0f,
+						rarity: 0.0f
+					}
+				}
+			}
+		}]
+	},
+	{
+		uid: "756632a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:tool_head",
+			tag: {
+				ToolHeadData: {
+					Materials: [{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					}],
+					ToolClass: "shovel",
+					StatCache: {
+						repair_efficiency: 2.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 1.0f,
+						durability: 59.0f,
+						armor_durability: 9.0f,
+						harvest_speed: 2.0f,
+						attack_speed: -3.0f,
+						ranged_speed: 0.0f,
+						ranged_damage: 0.0f,
+						armor_toughness: 0.0f,
+						enchantability: 15.0f,
+						armor: 7.0f,
+						melee_damage: 1.5f,
+						chargeability: 0.6f,
+						harvest_level: 0.0f,
+						magic_damage: 0.0f,
+						rarity: 0.0f
+					}
+				}
+			}
+		}]
+	},
+	{
+		uid: "c33c1207",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:tool_head",
+			tag: {
+				ToolHeadData: {
+					Materials: [{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					},
+					{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					},
+					{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					}],
+					ToolClass: "pickaxe",
+					StatCache: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 1.0f,
+						durability: 59.0f,
+						armor_durability: 8.999999f,
+						harvest_speed: 2.0f,
+						attack_speed: -2.8f,
+						ranged_speed: 0.0f,
+						ranged_damage: 0.0f,
+						armor_toughness: 0.0f,
+						enchantability: 15.0f,
+						armor: 6.9999995f,
+						melee_damage: 1.0f,
+						chargeability: 0.6f,
+						harvest_level: 0.0f,
+						magic_damage: 0.0f,
+						rarity: 0.0f
+					}
+				}
+			}
+		}]
+	},
+	{
+		uid: "01bb9f24",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:tool_head",
+			tag: {
+				ToolHeadData: {
+					Materials: [{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					},
+					{
+						Item: {
+							id: "minecraft:planks",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_wood"
+					}],
+					ToolClass: "sword",
+					StatCache: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 1.0f,
+						durability: 58.999996f,
+						armor_durability: 8.999999f,
+						harvest_speed: 2.0f,
+						attack_speed: -2.4f,
+						ranged_speed: 0.0f,
+						ranged_damage: 0.0f,
+						armor_toughness: 0.0f,
+						enchantability: 15.0f,
+						armor: 6.9999995f,
+						melee_damage: 3.0f,
+						chargeability: 0.6f,
+						harvest_level: 0.0f,
+						magic_damage: 0.0f,
+						rarity: 0.0f
+					}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9db73fa6",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "6deba83a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		},
+		count: 8
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Craft some flint from gravel, then smash that flint against stone",
+	tasks: [{
+		uid: "a9ae72b9",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:flint_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "e2ca6c7a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

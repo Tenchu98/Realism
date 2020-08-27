@@ -1,0 +1,12 @@
+{
+	title: "Agriculture",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "campfire:campfire"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

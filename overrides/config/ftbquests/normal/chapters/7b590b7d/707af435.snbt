@@ -1,0 +1,25 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	shape: "hexagon",
+	dependencies: [
+		"219e46fb",
+		"28c02f6e"
+	],
+	tasks: [{
+		uid: "85530062",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:piston"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37d67989",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:string"
+	},
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"String! An essential item for all survivalist. There are many ways of obtaining string. For now, mow down some grass, flax and vines to get some fiber. Four piece of fiber should be enough to make string, right?"
+	],
+	dependencies: [
+		"e52a6409"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c235945",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:plant_fibres"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7914ea29",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		}]
+	}],
+	rewards: [{
+		uid: "1b67620b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		}
+	}]
+}

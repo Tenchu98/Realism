@@ -1,0 +1,56 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "3655e1d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1
+					],
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bdsandm:metal_crate",
+			tag: {
+				crateCap: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1
+					],
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "189f98a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "f6ab597e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a25099b1",
+		type: "xp",
+		xp: 500
+	}]
+}

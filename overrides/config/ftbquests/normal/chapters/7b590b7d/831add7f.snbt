@@ -1,0 +1,24 @@
+{
+	x: -20.0d,
+	y: -4.0d,
+	dependencies: [
+		"03dce8f2"
+	],
+	tasks: [{
+		uid: "7fa559fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8665c00",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

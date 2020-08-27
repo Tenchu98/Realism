@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "17f0147b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "magneticraft:container"
+		}]
+	}]
+}

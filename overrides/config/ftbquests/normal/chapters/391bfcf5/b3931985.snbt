@@ -1,0 +1,52 @@
+{
+	title: "Lamps",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "props:props",
+		Damage: 985s
+	},
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"Light the parking lot with something. Lamp props? Or redstone lights?"
+	],
+	dependencies: [
+		"08062fca"
+	],
+	tasks: [{
+		uid: "de4daacb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_lamp",
+			Count: 4b
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6d39e708",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:daylight_detector"
+		},
+		count: 2
+	},
+	{
+		uid: "c1cdd6fc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_torch"
+		},
+		count: 8
+	}]
+}

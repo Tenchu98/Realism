@@ -1,0 +1,51 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"These blueprints allow you to craft tools inside your new crafting table. You will later discover how to get more."
+	],
+	dependencies: [
+		"b5c6a522"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f81519f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_axe"
+		}]
+	},
+	{
+		uid: "d79a2b2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_pickaxe"
+		}]
+	},
+	{
+		uid: "639201ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_shovel"
+		}]
+	},
+	{
+		uid: "1f9639d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_sword"
+		}]
+	}]
+}

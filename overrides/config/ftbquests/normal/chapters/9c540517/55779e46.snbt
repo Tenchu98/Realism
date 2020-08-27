@@ -1,0 +1,84 @@
+{
+	title: "Need more fish!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "harvestcraft:watertrap"
+	},
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Fishing was a nice break, but you got a civilization to build. This trap can free up your time."
+	],
+	tasks: [{
+		uid: "9f05f6ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:fishing_rod"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2cf8ba05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "257895f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "a8a7cc8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "098a9e0c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watertrap"
+		}
+	},
+	{
+		uid: "065f99e6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
+		},
+		count: 4
+	}]
+}

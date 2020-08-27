@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	dependencies: [
+		"25c626a7",
+		"3bb04e46",
+		"8393d7d0"
+	],
+	tasks: [{
+		uid: "3dab7017",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0a5c805",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

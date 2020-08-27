@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	shape: "circle",
+	dependencies: [
+		"41065e0b"
+	],
+	tasks: [{
+		uid: "4e8be6e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "7d9ac766",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b009dc5b",
+		type: "item",
+		item: "betterwithmods:chocolate"
+	}]
+}

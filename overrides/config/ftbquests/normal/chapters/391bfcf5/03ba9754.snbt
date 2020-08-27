@@ -1,0 +1,44 @@
+{
+	title: "Armory",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:anvil",
+		Damage: 2s
+	},
+	x: -8.0d,
+	y: 1.0d,
+	text: [
+		"With all of the techgun mobs around, you will need a good Armory, stock it with all your armor, swords and guns."
+	],
+	dependencies: [
+		"111f1196"
+	],
+	tasks: [{
+		uid: "679ae3d3",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "62dc1dd9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:iron_sword"
+		}
+	},
+	{
+		uid: "e40c711d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:swordpedestal",
+			Damage: 2s
+		}
+	}]
+}

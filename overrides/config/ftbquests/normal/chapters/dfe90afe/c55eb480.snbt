@@ -1,0 +1,14 @@
+{
+	x: -12.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "6ce76b0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "skyes_bakery:saltedpretzel"
+		}]
+	}]
+}

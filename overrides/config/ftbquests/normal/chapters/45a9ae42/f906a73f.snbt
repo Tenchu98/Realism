@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	shape: "diamond",
+	text: [
+		"This early version of the modpack is still under construction. Quests will be added over time."
+	],
+	dependencies: [
+		"a7a7b505"
+	],
+	tasks: [{
+		uid: "0d0939dc",
+		type: "checkmark",
+		title: "Quest Incomplete"
+	}]
+}

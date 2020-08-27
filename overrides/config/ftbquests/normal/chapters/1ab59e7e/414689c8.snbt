@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"0f68bfff"
+	],
+	tasks: [{
+		uid: "06b094dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:wirecoil"
+		}]
+	}],
+	rewards: [{
+		uid: "a9b38123",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

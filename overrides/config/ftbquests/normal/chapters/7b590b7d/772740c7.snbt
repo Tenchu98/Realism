@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "c9024174",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_device1",
+			Damage: 7s
+		}]
+	},
+	{
+		uid: "2f93abef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:coresample"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd2b8c60",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

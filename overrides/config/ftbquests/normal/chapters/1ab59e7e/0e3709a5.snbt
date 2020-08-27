@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "16cfe372",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:stone_decoration",
+			Damage: 1s
+		}],
+		count: 27L
+	}]
+}

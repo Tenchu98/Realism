@@ -1,0 +1,28 @@
+{
+	title: "Fire department",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:fire_charge"
+	},
+	x: -8.0d,
+	y: 5.5d,
+	text: [
+		"FIRE! FIRE! Good thing you made a fire department! Again, make sure its near the midddle of the city."
+	],
+	dependencies: [
+		"adc5c975"
+	],
+	tasks: [{
+		uid: "bc27d769",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "props:props",
+			Damage: 472s
+		}]
+	}]
+}

@@ -1,0 +1,98 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	dependencies: [
+		"1fc5d259"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9cbdad89",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "79a96acb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6582fd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b955f60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5e8e544e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern"
+		},
+		count: 4
+	},
+	{
+		uid: "4fbcd137",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast"
+		},
+		count: 4
+	}]
+}

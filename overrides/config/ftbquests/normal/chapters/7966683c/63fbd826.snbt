@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	shape: "circle",
+	description: "Break some leaves and collect sticks",
+	tasks: [{
+		uid: "f15719ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "d3917d0c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"Use that gravel you gathered to craft flint! Two gravel will give you one flint."
+	],
+	dependencies: [
+		"3704baa9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ceb45bb7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Lighting!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:redstone_lamp"
+	},
+	x: -3.5d,
+	y: 2.5d,
+	text: [
+		"Have lights throughout your entire city. Can you wire them to daylight sensers?"
+	],
+	dependencies: [
+		"c18bc069"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0356ae97",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:daylight_detector",
+			Count: 4b
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8561f169",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

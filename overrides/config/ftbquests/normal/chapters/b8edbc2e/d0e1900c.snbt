@@ -1,0 +1,68 @@
+{
+	title: "Chopping Block",
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"You've tried to hulk-rip the wood into planks and discovered, while that works in an alternate reality, you need to set that down and chop chop"
+	],
+	dependencies: [
+		"c03fa276"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6e08180e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:chopping_block"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:chopping_block",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:chopping_block",
+			Damage: 8s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:chopping_block",
+			Damage: 12s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:chopping_block2"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "survivalist:chopping_block2",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "9d040919",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 2
+	}]
+}

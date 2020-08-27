@@ -1,0 +1,30 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiveengineering:stone_device"
+	},
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"0ea5de22"
+	],
+	tasks: [{
+		uid: "3582e904",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:stone_decoration",
+			Damage: 2s
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "b32ae84f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"Now that you have a construct, you can get the hammer and excavator blueprint by combining paper and dye to make blueprint paper, then use the NEI to show you how to craft the last blueprints."
+	],
+	dependencies: [
+		"dc7bbf0e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a04dc98f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_hammer"
+		}]
+	},
+	{
+		uid: "4de9be43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_excavator"
+		}]
+	}]
+}

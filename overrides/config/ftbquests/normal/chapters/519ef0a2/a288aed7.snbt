@@ -1,0 +1,21 @@
+{
+	x: -6.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"Now that you have tinker's construct, you are all set! ...You want more?! I guess if you want to be overpowered, you'd better get started on the Silent G mods."
+	],
+	tasks: [{
+		uid: "82a32508",
+		type: "checkmark",
+		title: "Silent G!",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgems:chaosgem",
+			tag: {},
+			Damage: 48s
+		}
+	}]
+}

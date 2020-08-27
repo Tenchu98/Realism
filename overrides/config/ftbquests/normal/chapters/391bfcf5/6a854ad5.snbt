@@ -1,0 +1,40 @@
+{
+	title: "Power plant!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "immersiveengineering:wooden_device1",
+		Damage: 3s
+	},
+	x: -8.0d,
+	y: 2.5d,
+	text: [
+		"If theres one thing a city needs, its power. Lots of it. (Of course we all know whos §oreally§0 using it). So, make a power plant! Here are some ideas in the next quests."
+	],
+	dependencies: [
+		"03ba9754"
+	],
+	tasks: [{
+		uid: "f2a48a48",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d072ace8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lever",
+			tag: {
+				display: {
+					Lore: [
+						"Flick da lever"
+					],
+					Name: "Master control switch"
+				}
+			}
+		}
+	}]
+}

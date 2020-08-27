@@ -1,0 +1,90 @@
+{
+	title: "Upgraded Crafing Table",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "silentgear:crafting_station"
+	},
+	x: 5.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"Not only can this table hold items in the crafting grid, but can store items as well. Maybe a place to keep those blueprints?"
+	],
+	dependencies: [
+		"575e755c"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "0002aee3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:upgrade_base"
+		}]
+	},
+	{
+		uid: "4546a5ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:crafting_station"
+		}]
+	}],
+	rewards: [{
+		uid: "fddfa168",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:delightedmealitem"
+		}
+	},
+	{
+		uid: "3ed50094",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_helmet"
+		}
+	},
+	{
+		uid: "dd0fe039",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_chestplate"
+		}
+	},
+	{
+		uid: "09fbcaa2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_leggings"
+		}
+	},
+	{
+		uid: "62e9d051",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:blueprint_boots"
+		}
+	}]
+}

@@ -1,0 +1,72 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "d0b7907a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "silentgems:bow",
+			tag: {
+				SG_UUIDLeast: -8918321434064641809L,
+				SGProperties: {
+					ToolTier: 0,
+					MeleeDamage: 1.5f,
+					MagicDamage: 0.0f,
+					Enchantability: 6,
+					ChargeSpeed: 1.0f,
+					HarvestSpeed: 5.0f,
+					MeleeSpeed: 1.1f,
+					Durability: 128,
+					HarvestLevel: 1,
+					Protection: 3.0f
+				},
+				SGStatistics: {
+					OriginalOwner: "a cheater!"
+				},
+				ExampleToolItem: 1b,
+				PartListForName: {
+					part0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:flint",
+						Count: 1b,
+						Damage: 0s
+					},
+					part1: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:flint",
+						Count: 1b,
+						Damage: 0s
+					},
+					part2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:flint",
+						Count: 1b,
+						Damage: 0s
+					}
+				},
+				SGConstruction: {
+					PartRod: "silentgems:rodwood#NONE",
+					Part0: "silentgems:flint#NONE",
+					Part2: "silentgems:flint#NONE",
+					Part1: "silentgems:flint#NONE"
+				},
+				display: {
+					Name: "Flint Bow"
+				},
+				SG_UUIDMost: 5164811664122400658L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: "ca675050",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Jail",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:glass_pane"
+	},
+	x: -9.5d,
+	y: 4.0d,
+	text: [
+		"You can make this in the police department or somewere else. Just don't let those criminals escape!"
+	],
+	dependencies: [
+		"adc5c975"
+	],
+	tasks: [{
+		uid: "7beffc1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_bars",
+			Count: 32b
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "44787e60",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_door"
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	shape: "circle",
+	dependencies: [
+		"608bec58"
+	],
+	tasks: [{
+		uid: "b2b8af0b",
+		type: "item",
+		items: [{
+			item: "tinkersurvival:crude_hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24b827cf",
+		type: "item",
+		item: "betterbuilderswands:wandstone"
+	},
+	{
+		uid: "93443bd3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:book",
+			tag: {
+				mantle: {
+					book: {
+						page: "materials.darkmatter"
+					}
+				}
+			}
+		}
+	}]
+}

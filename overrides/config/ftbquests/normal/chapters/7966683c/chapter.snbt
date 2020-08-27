@@ -1,0 +1,7 @@
+{
+	title: "Primitive living",
+	icon: "tinkersurvival:crude_hatchet",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

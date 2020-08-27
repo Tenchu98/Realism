@@ -1,0 +1,41 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	shape: "gear",
+	dependencies: [
+		"f2c3dcf2"
+	],
+	tasks: [{
+		uid: "669ab0b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil",
+				Amount: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1518039",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1269885d",
+		type: "custom",
+		title: "Industrial Age",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 5s
+		},
+		auto: "enabled"
+	}]
+}

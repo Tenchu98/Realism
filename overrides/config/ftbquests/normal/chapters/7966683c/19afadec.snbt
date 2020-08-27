@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"7a0cf527"
+	],
+	tasks: [{
+		uid: "232e7bba",
+		type: "item",
+		items: [{
+			item: "divergentunderground:ore_iron"
+		}]
+	}]
+}

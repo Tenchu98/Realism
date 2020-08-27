@@ -1,0 +1,23 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:sapling",
+		Damage: 3s
+	},
+	x: 1.0d,
+	y: 2.5d,
+	shape: "diamond",
+	text: [
+		"The mechanics of this modpack differs from others. For example, trees will fall when harvest from the bottom and branches can be removed for sticks.",
+		"Falling trees hurt! I wouldn't recommend trying to catch it.."
+	],
+	dependencies: [
+		"f906a73f"
+	],
+	tasks: [{
+		uid: "e0eba2ac",
+		type: "checkmark"
+	}]
+}

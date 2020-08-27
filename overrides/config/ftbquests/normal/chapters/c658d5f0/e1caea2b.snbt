@@ -1,0 +1,14 @@
+{
+	x: -8.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "f9494c12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgear:tip_upgrade_gold"
+		}]
+	}]
+}
