@@ -1,1 +1,1 @@
-mods.tconstruct.Drying.addRecipe(<minecraft:cactus>, <minecraft:leather>, 50);
+mods.tconstruct.Drying.addRecipe(<minecraft:dye:2>, <minecraft:leather>, 50);
