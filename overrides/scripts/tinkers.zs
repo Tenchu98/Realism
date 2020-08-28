@@ -1,1 +1,3 @@
-mods.tconstruct.Drying.addRecipe(<minecraft:dye:2>, <minecraft:leather>, 50);
+import modtweaker.tconstruct.ITICMaterial;
+
+mods.tconstruct.Drying.addRecipe(<silentgear:leather_scrap>,<minecraft:dye:2>, 50);
