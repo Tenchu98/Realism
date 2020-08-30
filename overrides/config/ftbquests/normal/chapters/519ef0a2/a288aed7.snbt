@@ -3,7 +3,8 @@
 	y: -3.5d,
 	shape: "diamond",
 	text: [
-		"Now that you have tinker's construct, you are all set! ...You want more?! I guess if you want to be overpowered, you'd better get started on the Silent G mods."
+		"Now that you have tinker's construct, you are all set! ...You want more?! I guess if you want to be overpowered, you'd better get started on the Silent G mods.",
+		"Both Tinker's and Silent Gems possess silk touch, so make sure to take advantage of them. "
 	],
 	tasks: [{
 		uid: "82a32508",
@@ -17,5 +18,21 @@
 			tag: {},
 			Damage: 48s
 		}
+	},
+	{
+		uid: "dea4a3da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgems:enchantmenttoken",
+			tag: {
+				TokenEnchantments: [{
+					lvl: 1s,
+					id: "minecraft:silk_touch"
+				}]
+			}
+		}]
 	}]
 }

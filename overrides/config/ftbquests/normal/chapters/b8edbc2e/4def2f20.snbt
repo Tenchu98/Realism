@@ -2,7 +2,9 @@
 	x: -1.5d,
 	y: -1.5d,
 	text: [
-		"These blueprints allow you to craft tools inside your new crafting table. You will later discover how to get more."
+		"These blueprints allow you to craft tools inside your new crafting table. You will later discover how to get more.",
+		"",
+		"It is important to note that when making parts, the materials don't all have to be the same. For instance you can make an axe head with 1 cobblestone, 1 iron, and 1 gold. Try different combinations to get different stats."
 	],
 	dependencies: [
 		"b5c6a522"
