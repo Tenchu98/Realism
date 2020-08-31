@@ -1,10 +1,11 @@
 {
-	title: "Silent Gear",
+	title: "mo' creatures",
 	icon: {
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "silentgems:chaospylon"
+		id: "mocreatures:amuletfairyfull",
+		tag: {}
 	},
 	always_invisible: false,
 	group: 0,

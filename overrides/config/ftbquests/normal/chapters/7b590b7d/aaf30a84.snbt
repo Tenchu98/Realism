@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "3529034c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "diesel",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

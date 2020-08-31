@@ -1,0 +1,14 @@
+{
+	title: "Isn't Realism Neat!?!",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Items no longer sping on the ground, because gravity.",
+	text: [
+		"To pick up items simply press alt while standing near them. This can be changed in the controls menu.",
+		"Now get out there and start gathering items."
+	],
+	tasks: [{
+		uid: "cbe6b010",
+		type: "checkmark"
+	}]
+}

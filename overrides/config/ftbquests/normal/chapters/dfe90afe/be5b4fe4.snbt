@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "2ea42a27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "aquaculture:gold_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

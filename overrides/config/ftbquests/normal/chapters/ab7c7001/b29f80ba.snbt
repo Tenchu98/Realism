@@ -1,0 +1,19 @@
+{
+	title: "What's in a name?",
+	x: 0.0d,
+	y: 0.0d,
+	description: "A medallion is an item the player can use to rename tamed mobs, and tame certain mobs.",
+	text: [
+		"Tamed kitties, manticores and big cats will drop a medallion upon death, but will only do so if the player has used the medallion on it. "
+	],
+	tasks: [{
+		uid: "3ed48210",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mocreatures:medallion"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Ownership, Sale, and Release",
+	x: 0.0d,
+	y: -1.0d,
+	description: "scrolls can allow you to sell, trade or release your tamed pets.",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8bd97250",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mocreatures:scrollofsale"
+		}]
+	}]
+}
