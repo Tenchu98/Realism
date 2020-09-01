@@ -39,15 +39,5 @@
 			},
 			id: "silentgear:blueprint_shovel"
 		}]
-	},
-	{
-		uid: "1f9639d1",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "silentgear:blueprint_sword"
-		}]
 	}]
 }
