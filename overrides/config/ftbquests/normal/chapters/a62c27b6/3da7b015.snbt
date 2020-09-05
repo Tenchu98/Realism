@@ -1,0 +1,32 @@
+{
+	title: "Suit Workstation",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:suitworkstation"
+	},
+	x: 16.166666666666664d,
+	y: 3.8333333333333335d,
+	text: [
+		"The various Space Suit parts can be modified in the Suit Workstation - You can add things like a jetpack, and padding to boots."
+	],
+	dependencies: [
+		"136d7722"
+	],
+	tasks: [{
+		uid: "c65e1801",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:suitworkstation"
+		}]
+	}],
+	rewards: [{
+		uid: "4b88ef3e",
+		type: "random",
+		table: 0
+	}]
+}

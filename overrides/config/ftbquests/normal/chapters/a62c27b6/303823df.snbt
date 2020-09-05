@@ -1,0 +1,28 @@
+{
+	title: "Coils and Motors",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "libvulpes:elitemotor"
+	},
+	x: 2.5d,
+	y: 1.8333333333333333d,
+	text: [
+		"Several multiblock machines in this mod make use of either Coils, Motors or both.",
+		"",
+		"These come in several tiers, with the more expensive ones making the machine work faster, but any given machine will accept any of them."
+	],
+	dependencies: [
+		"303875cb"
+	],
+	tasks: [{
+		uid: "8978c1ce",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fb9f4717",
+		type: "random",
+		table: 0
+	}]
+}

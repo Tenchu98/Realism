@@ -1,0 +1,34 @@
+{
+	title: "Satellite Builder",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:satellitebuilder"
+	},
+	x: 11.5d,
+	y: 5.833333333333333d,
+	text: [
+		"Satellites can be used to collect data from celestial objects.",
+		" ",
+		"See \"http://65.78.115.159:8000/AdvancedRocketry/items/satellite.php\" for specific details."
+	],
+	dependencies: [
+		"40e490c0"
+	],
+	tasks: [{
+		uid: "a477f8b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:satellitebuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "aa3d3a47",
+		type: "random",
+		table: 0
+	}]
+}

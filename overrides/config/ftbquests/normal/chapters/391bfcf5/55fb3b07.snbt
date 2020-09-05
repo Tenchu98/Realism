@@ -15,6 +15,7 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "props:props",
+			Count: 1b,
 			Damage: 844s
 		}],
 		count: 64L
@@ -42,6 +43,7 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "props:props",
+			Count: 1b,
 			Damage: 332s
 		},
 		count: 32

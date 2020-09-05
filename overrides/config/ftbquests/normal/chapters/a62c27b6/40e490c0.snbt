@@ -1,0 +1,34 @@
+{
+	title: "Space Station ID Chip",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:spacestationchip"
+	},
+	x: 10.166666666666666d,
+	y: 5.833333333333333d,
+	text: [
+		"It's §4extremely§0 important that you don't lose your Space Station ID Chip, once it has been set to your Space Station.§0 If you lose the chip, and don't have any other means of transport to the Space Station, it's lost.",
+		"",
+		"Luckily, it can be copied in the Satellite Builder multiblock."
+	],
+	dependencies: [
+		"65ccb87a"
+	],
+	tasks: [{
+		uid: "55fed03d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:spacestationchip"
+		}]
+	}],
+	rewards: [{
+		uid: "752e22cf",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,82 @@
+{
+	title: "Warp Core",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:warpcore"
+	},
+	x: 8.166666666666668d,
+	y: 9.833333333333334d,
+	text: [
+		"Building a Warp Core multiblock in your Space Station will allow you to travel to other planets and solar systems!",
+		"",
+		"It uses Dilithium Crystals as fuel."
+	],
+	dependencies: [
+		"65ccb87a",
+		"a1c06e9e"
+	],
+	tasks: [{
+		uid: "bfdbfa6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "8be768b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:metal0",
+			Count: 15b,
+			Damage: 7s
+		}],
+		count: 15L
+	},
+	{
+		uid: "0c05f2a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_block",
+			Count: 2b
+		}],
+		count: 2L
+	},
+	{
+		uid: "a9537b67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:structuremachine",
+			Count: 4b
+		}],
+		count: 4L
+	},
+	{
+		uid: "d3922c12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	}],
+	rewards: [{
+		uid: "44c2cd8f",
+		type: "random",
+		table: 0
+	}]
+}

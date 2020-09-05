@@ -1,0 +1,36 @@
+{
+	x: 4.0d,
+	y: -4.5d,
+	dependencies: [
+		"9053a758"
+	],
+	tasks: [{
+		uid: "1351a811",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2584667e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 42s
+		}]
+	}],
+	rewards: [{
+		uid: "c1f76609",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

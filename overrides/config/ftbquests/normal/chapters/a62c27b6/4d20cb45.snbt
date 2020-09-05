@@ -1,0 +1,132 @@
+{
+	title: "Rolling Machine",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:rollingmachine"
+	},
+	x: 4.166666666666666d,
+	y: 4.833333333333333d,
+	text: [
+		"The Rolling Machine is a multiblock machine that uses RF and Water to make Plates much more efficiently than the Smal Plate Presser.",
+		"",
+		"Its other uses include the ability to craft Sheets of various materials, as well as Pressure Tanks that allow to easily transport higher quantities of fluid than Buckets.",
+		"",
+		"It is recommended to make this machine early to cut down the metal cost of crafting the various components required by other machines."
+	],
+	dependencies: [
+		"303823df"
+	],
+	tasks: [{
+		uid: "f3d93b94",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:rollingmachine"
+		}]
+	},
+	{
+		uid: "f34db679",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:structuremachine",
+			Count: 6b
+		}],
+		count: 6L
+	},
+	{
+		uid: "242df831",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "cc903cbc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}]
+	},
+	{
+		uid: "c07560fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}]
+	},
+	{
+		uid: "11b2a7c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "75815dd5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Count: 2b
+		}],
+		count: 2L
+	},
+	{
+		uid: "bec12d54",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Count: 2b,
+			Damage: 1s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3a2d8798",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: -0.5d,
+	dependencies: [
+		"8c86dbd7"
+	],
+	tasks: [{
+		uid: "f2f9cb7c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 340s
+		}]
+	},
+	{
+		uid: "2603fe74",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 360s
+		}]
+	}],
+	rewards: [{
+		uid: "f88df843",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

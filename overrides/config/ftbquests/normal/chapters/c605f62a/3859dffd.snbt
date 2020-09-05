@@ -1,0 +1,51 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	dependencies: [
+		"13d55130"
+	],
+	tasks: [{
+		uid: "746de1b4",
+		type: "item",
+		items: [{
+			id: "wft:wft",
+			tag: {
+				InfinityEnergy: 0
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0a841f87",
+		type: "item",
+		items: [{
+			id: "wit:wit",
+			tag: {
+				InfinityEnergy: 0
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0b445447",
+		type: "item",
+		items: [{
+			id: "wpt:wpt",
+			tag: {
+				InfinityEnergy: 0
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46a4a505",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

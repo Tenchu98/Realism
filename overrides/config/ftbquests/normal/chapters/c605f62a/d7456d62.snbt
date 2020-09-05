@@ -1,0 +1,46 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	dependencies: [
+		"8c86dbd7"
+	],
+	tasks: [{
+		uid: "96a6f613",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:interface"
+		}],
+		count: 10L
+	},
+	{
+		uid: "2e52fc18",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 440s
+		}],
+		count: 10L
+	},
+	{
+		uid: "c0450696",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:molecular_assembler"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "d81e671d",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

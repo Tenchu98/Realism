@@ -1,0 +1,94 @@
+{
+	title: "Building a Rocket",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:guidancecomputer"
+	},
+	x: 14.166666666666666d,
+	y: 3.8333333333333335d,
+	text: [
+		"Building a Rocket is the last step before getting to space.",
+		"",
+		"The Rocket needs to be built on your Rocket Assembling Machine, with the Launch Pad blocks delimiting the horizontal space you have and the Structure Tower the vertical space you have (you can't go higher than your stack of Structure Towers and can't go out the rectangle of Launch Pad).",
+		"",
+		"A manned Rocket needs a Guidance Computer, a Seat, at least one Rocket Engine (a better version can be crafted once you got Titanium Iridium Alloy) and at least one Liquid Fuel Tank. There are no other restrictions that apply, your Rocket can be as unrealistic as you want so long that you respect the above points.",
+		"",
+		"To check if your Rocket is actually capable of reaching space, go on your Rocket Assembling Machine and click Scan. It will both tell you how what's missing as well as various stats, as follow :",
+		"-Thrust : how much thrust the Engines are providing",
+		"-Weight : how heavy is the Rocket, most blocks have the same weight but blocks with inventories can be heavier",
+		"-Fuel : how much fuel capacity you have, increased by adding more Tanks; the white line is the amount required to reach orbit, and thus you should always have more than that",
+		"-Acceleration : how fast will the Rocket accelerate on a planet with as much gravity as the Overworld; white bar in the middle is 0 m/s² so you should always be higher than that",
+		"",
+		"When your Rocket is ready, click Build on the Rocket Assembling Machine. You can then right click to board it or sneak + right click to open its inventories and check the fuel level.",
+		"",
+		"Finally, insert your Planet Id Chip in the Guidance Computer's inventory, then in the Rocket's inventory click Select Dst, select Luna either on the map or through the Planet List, and click Select.",
+		"",
+		"Make sure you have a full Space Suit (or full armor enchanted with Airtight Seal) filled with Oxygen, then board the Rocket and press Space. You will then arrive on Luna. To go back, select Earth like you selected Luna earlier, board the Rocket and take off again. You don't need as much fuel to take off from Luna."
+	],
+	dependencies: [
+		"fe6e929e",
+		"e10cf3d1"
+	],
+	tasks: [{
+		uid: "b4d378aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:guidancecomputer"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a40a45bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:planetidchip"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bafe703",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:seat"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "351ef43e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:fueltank"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "951cc8bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:rocketmotor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ed6ffe9",
+		type: "random",
+		table: 0
+	}]
+}

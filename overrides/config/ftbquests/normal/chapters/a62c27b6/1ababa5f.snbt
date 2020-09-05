@@ -1,0 +1,91 @@
+{
+	title: "Astrobody Data Processor",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:planetanalyser"
+	},
+	x: 12.833333333333334d,
+	y: 5.833333333333333d,
+	text: [
+		"The Astrobody Data Processor is a multiblock machine used to research Asteroids, when provided with information from satellites.",
+		"",
+		"Asteroids contain extremely rare metals in abundance. Asteroids have been custom made for this pack.",
+		"",
+		"See \"http://65.78.115.159:8000/AdvancedRocketry/guides/Missions.php\" for more information."
+	],
+	dependencies: [
+		"041fc8f7"
+	],
+	tasks: [{
+		uid: "0eb8499c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:planetanalyser"
+		}]
+	},
+	{
+		uid: "7526081d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone_slab",
+			Count: 5b
+		}],
+		count: 5L
+	},
+	{
+		uid: "aaf1d503",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:loader",
+			Count: 3b
+		}],
+		count: 3L
+	},
+	{
+		uid: "3097f8ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "4049b2c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "03d9e233",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}]
+	}],
+	rewards: [{
+		uid: "3d7daa03",
+		type: "random",
+		table: 0
+	}]
+}

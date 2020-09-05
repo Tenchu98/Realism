@@ -1,0 +1,48 @@
+{
+	title: "CO2 Scrubber",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "advancedrocketry:carbonscrubbercartridge"
+	},
+	x: 12.166666666666666d,
+	y: 7.166666666666667d,
+	text: [
+		"The CO2 Scrubber, with Carbon Collecting Cartridge in, will decrease the amount of oxygen the Oxygen Vent uses.",
+		"",
+		"You can place up to 2 next to a Oxygen vent - the rotation of the CO2 Scrubber matters.",
+		"",
+		"The Carbon Collecting Cartridges will be destroyed over time."
+	],
+	dependencies: [
+		"acc2ea64"
+	],
+	tasks: [{
+		uid: "f97eaa29",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "advancedrocketry:carbonscrubbercartridge"
+		}]
+	},
+	{
+		uid: "355cfe81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:oxygenscrubber"
+		}]
+	}],
+	rewards: [{
+		uid: "3ee71668",
+		type: "random",
+		table: 0
+	}]
+}

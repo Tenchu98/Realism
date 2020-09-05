@@ -1,0 +1,36 @@
+{
+	title: "Gas Charge Pad",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:oxygencharger"
+	},
+	x: 14.166666666666666d,
+	y: 1.8333333333333333d,
+	text: [
+		"The Gas Charge Pad is a simple machine that can fill items with Hydrogen or Oxygen without using RF.",
+		"",
+		"Simply pipe in the gas you want and insert any container that you want to insert the gas into.",
+		"",
+		"Most importantly though, standing on top of it with either a Space Suit Chest-Piece with a tank installed or a chestplate enchanted with Airtight Seal equipped will fill it with Oxygen. This is required to not die when on a planet with no atmosphere."
+	],
+	dependencies: [
+		"98810701"
+	],
+	tasks: [{
+		uid: "3688cd4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:oxygencharger"
+		}]
+	}],
+	rewards: [{
+		uid: "25d977aa",
+		type: "random",
+		table: 0
+	}]
+}

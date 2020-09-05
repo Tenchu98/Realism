@@ -1,0 +1,70 @@
+{
+	x: -12.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "7b48caca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "33d89392",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "d582c591",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 15s
+		}]
+	},
+	{
+		uid: "9550417f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 19s
+		}]
+	}],
+	rewards: [{
+		uid: "351ce4f7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:sky_stone_block"
+		},
+		count: 4
+	},
+	{
+		uid: "8db0afc1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material"
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Holo-Projector",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "libvulpes:holoprojector"
+	},
+	x: 0.8333333333333333d,
+	y: 0.8333333333333333d,
+	text: [
+		"The Holo-Projector is a device that can project 3d blueprints of the various multiblock machines this mod adds.",
+		"",
+		"Sneak + right clicking will open a menu that lets you select which multiblock you wish to make. Once you've selected one, simply right click on the ground to place the blueprint.",
+		"",
+		"The blueprint will tell you which blocks need to be placed where, along with possible alternatives, in order to fully assemble a given multiblock machine. Sneak + mouse scrolling will change which layer is currently displayed.",
+		"",
+		"Once you're done with your construction, you can simply right click the controller block of the machine to finish it."
+	],
+	tasks: [{
+		uid: "99f79057",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:holoprojector"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5871635b",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "95df9efb",
+		type: "command",
+		auto: "invisible",
+		command: "/say @p has begun the Advanced Rocketry questline!"
+	}]
+}

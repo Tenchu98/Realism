@@ -1,0 +1,94 @@
+{
+	title: "Cutting Machine",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:cuttingmachine"
+	},
+	x: 6.166666666666667d,
+	y: 1.8333333333333333d,
+	text: [
+		"The Cutting Machine is a multiblock machine that is used to cut things using RF.",
+		"",
+		"It can be used to turn wood Logs into Planks much more efficiently than by hand, but is mostly used in the making of Basic Circuits, a crucial component for later on."
+	],
+	dependencies: [
+		"303823df"
+	],
+	tasks: [{
+		uid: "e2b69278",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:cuttingmachine"
+		}]
+	},
+	{
+		uid: "801c2ee5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:sawblade"
+		}]
+	},
+	{
+		uid: "4a8f7be0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}]
+	},
+	{
+		uid: "0f47aa8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}]
+	},
+	{
+		uid: "a698a4eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "be7e9014",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "498f1371",
+		type: "random",
+		table: 0
+	}]
+}

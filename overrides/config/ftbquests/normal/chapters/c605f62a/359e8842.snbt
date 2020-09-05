@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	dependencies: [
+		"04713983"
+	],
+	tasks: [{
+		uid: "6603cd37",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:quantum_ring"
+		}],
+		count: 16L
+	},
+	{
+		uid: "87813981",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:quantum_link"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "8529ccf9",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

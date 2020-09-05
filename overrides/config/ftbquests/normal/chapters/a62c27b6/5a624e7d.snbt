@@ -1,0 +1,96 @@
+{
+	title: "Crystallizer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:crystallizer"
+	},
+	x: 6.166666666666667d,
+	y: 2.8333333333333335d,
+	text: [
+		"The Crystallizer is a multiblock machine used to make various crystals using RF.",
+		"",
+		"Its only uses are turning Dilithium Dust into Dilithium Crystals, which will be used to fuel a Warp Drive later on, and making Silicon Boules, a component in making Basic Circuits for more advanced machines."
+	],
+	dependencies: [
+		"303823df"
+	],
+	tasks: [{
+		uid: "9a62886f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:crystallizer"
+		}]
+	},
+	{
+		uid: "60c17f91",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:iquartzcrucible",
+			Count: 6b
+		}],
+		count: 6L
+	},
+	{
+		uid: "a1052193",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "80d41033",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}]
+	},
+	{
+		uid: "8534b600",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "772786d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "911a3162",
+		type: "random",
+		table: 0
+	}]
+}

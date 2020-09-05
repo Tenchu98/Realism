@@ -1,0 +1,129 @@
+{
+	title: "Precision Assembler",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:precisionassemblingmachine"
+	},
+	x: 6.166666666666667d,
+	y: 0.8333333333333333d,
+	text: [
+		"The Precision Assembler is a machine that can assemble electronics much more efficiently than by hand using RF.",
+		"",
+		"Its main use is crafting the various Circuit Boards, used to craft various machines, for a much cheaper cost than their normal crafting recipes. It is also used with other machines in making Basic Circuits for more advanced machines.",
+		"",
+		"It is recommended to make this machine as soon as possible, as it drastically cuts the cost of other machines."
+	],
+	dependencies: [
+		"303823df"
+	],
+	tasks: [{
+		uid: "ed045120",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:precisionassemblingmachine"
+		}]
+	},
+	{
+		uid: "8a727d04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:structuremachine",
+			Count: 24b
+		}],
+		count: 24L
+	},
+	{
+		uid: "0e19d4a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass",
+			Count: 2b
+		}],
+		count: 2L
+	},
+	{
+		uid: "b5c930cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "85469f84",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}]
+	},
+	{
+		uid: "e7a7f5ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}]
+	},
+	{
+		uid: "663bdf92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "f95afc09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "808533da",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	dependencies: [
+		"306f5268"
+	],
+	tasks: [{
+		uid: "fef1afe8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ae2stuff:grower"
+		}]
+	}],
+	rewards: [{
+		uid: "8d178c00",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,101 @@
+{
+	title: "Electrolyser",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:electrolyser"
+	},
+	x: 10.166666666666666d,
+	y: 1.8333333333333333d,
+	text: [
+		"The Electrolyser is a machine that uses RF to turn Water into Hydrogen and Oxygen.",
+		"",
+		"Both of those fluids are needed later on to make Rocket Fuel as well as to be able to breath in space with the Space Suit."
+	],
+	dependencies: [
+		"ebf28fcd"
+	],
+	tasks: [{
+		uid: "871ac993",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:electrolyser"
+		}]
+	},
+	{
+		uid: "84c4f86c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:structuremachine",
+			Count: 2b
+		}],
+		count: 2L
+	},
+	{
+		uid: "818e8c6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "eec07a7f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput",
+			Count: 2b
+		}],
+		count: 2L
+	},
+	{
+		uid: "2aa4a440",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "cd2208af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Count: 2b,
+			Damage: 3s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "367337e1",
+		type: "random",
+		table: 0
+	}]
+}

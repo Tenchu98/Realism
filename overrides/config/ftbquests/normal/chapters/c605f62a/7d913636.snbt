@@ -1,0 +1,83 @@
+{
+	x: 7.0d,
+	y: -1.5d,
+	dependencies: [
+		"67b1eee1",
+		"d7456d62"
+	],
+	tasks: [{
+		uid: "5ecd1462",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_unit"
+		}]
+	},
+	{
+		uid: "211fa2a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "0dcfea7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_1k"
+		}]
+	},
+	{
+		uid: "949801a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_4k"
+		}]
+	},
+	{
+		uid: "f7d20188",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_16k"
+		}]
+	},
+	{
+		uid: "c8d4b9b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_64k"
+		}]
+	},
+	{
+		uid: "00453175",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "f182d62f",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

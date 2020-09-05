@@ -5,6 +5,7 @@
 			"customnpcs:itemscripteddata": {}
 		},
 		id: "props:props",
+		Count: 1b,
 		Damage: 985s
 	},
 	x: -9.5d,

@@ -1,0 +1,32 @@
+{
+	title: "Dilithium Ore",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "libvulpes:ore0"
+	},
+	x: 14.166666666666666d,
+	y: 9.833333333333334d,
+	text: [
+		"An extremely rare ore, found on moons."
+	],
+	dependencies: [
+		"dae9268a"
+	],
+	tasks: [{
+		uid: "d750d3bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:ore0"
+		}]
+	}],
+	rewards: [{
+		uid: "f1196c97",
+		type: "random",
+		table: 0
+	}]
+}

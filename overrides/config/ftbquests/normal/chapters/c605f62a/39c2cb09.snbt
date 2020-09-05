@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"1144974b"
+	],
+	tasks: [{
+		uid: "d90275fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 23s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "cb4347e2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

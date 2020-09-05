@@ -1,0 +1,96 @@
+{
+	title: "Lathe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:lathe"
+	},
+	x: 5.166666666666667d,
+	y: 4.833333333333333d,
+	text: [
+		"The Lathe is a simple machine used to make Rods much more efficiently than by hand, using RF.",
+		"",
+		"You should consider making it relatively early, as it is cheap and can cut down a lot of material cost in the long run."
+	],
+	dependencies: [
+		"303823df"
+	],
+	tasks: [{
+		uid: "079c82da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:lathe"
+		}]
+	},
+	{
+		uid: "16b1e88b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:structuremachine",
+			Count: 2b
+		}],
+		count: 2L
+	},
+	{
+		uid: "ee95d2e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockMotor",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockMotor"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b7cafe8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput"
+		}]
+	},
+	{
+		uid: "eddf13f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "57122f6d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "98c9b50d",
+		type: "random",
+		table: 0
+	}]
+}

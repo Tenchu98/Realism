@@ -1,0 +1,36 @@
+{
+	title: "Titanium",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "libvulpes:productingot",
+		Damage: 7s
+	},
+	x: 2.5d,
+	y: 0.8333333333333333d,
+	text: [
+		"Before you're able to get to space, you can make Titanium in the Advanced Metallurgic Fabricator.",
+		"",
+		"Titanium can be found in space, as Rutile Ore."
+	],
+	dependencies: [
+		"303875cb"
+	],
+	tasks: [{
+		uid: "f93d1cb0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:productingot",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "05fbc47f",
+		type: "random",
+		table: 0
+	}]
+}

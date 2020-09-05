@@ -22,6 +22,7 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "props:props",
+			Count: 1b,
 			Damage: 472s
 		}]
 	}]

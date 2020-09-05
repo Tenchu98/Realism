@@ -1,0 +1,16 @@
+{
+	title: "AE2",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:dense_energy_cell",
+		tag: {
+			internalMaxPower: 1600000.0d,
+			internalCurrentPower: 1600000.0d
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

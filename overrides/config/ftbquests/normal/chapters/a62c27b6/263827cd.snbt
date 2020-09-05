@@ -1,0 +1,32 @@
+{
+	title: "Gravity Controller",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:gravitycontroller"
+	},
+	x: 10.166666666666666d,
+	y: 8.5d,
+	text: [
+		"The Gravity Controller lets you control the gravity of your Space Station."
+	],
+	dependencies: [
+		"65ccb87a"
+	],
+	tasks: [{
+		uid: "a5a0eb67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:gravitycontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "91dfbe70",
+		type: "random",
+		table: 0
+	}]
+}

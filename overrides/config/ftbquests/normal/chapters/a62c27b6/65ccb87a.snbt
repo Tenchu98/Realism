@@ -1,0 +1,39 @@
+{
+	title: "Space Station Assembler",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:stationbuilder"
+	},
+	x: 8.166666666666668d,
+	y: 5.833333333333333d,
+	text: [
+		"The Space Station Assembler is used to assemble Space Stations.",
+		"",
+		"You will need the same setup as for building Rockets, the only differences being Space Stations don't need fuel, and when they're built, they compress into item form.",
+		"",
+		"The item then needs to be launched into space, with a rocket with a Satellite Bay. The rocket will be lost, unless you give it a Guidance Computer with the Space Station ID Chip in it, in which case it'll land on the newly made Space Station.",
+		"",
+		"You can travel there by making a Rocket, and placing the Space Station ID Chip in the Guidance Computer.§4 Make sure to always have backups of your Space Station ID Chip!"
+	],
+	dependencies: [
+		"057f89f6",
+		"dae9268a"
+	],
+	tasks: [{
+		uid: "6bfc4326",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:stationbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "15c175f8",
+		type: "random",
+		table: 0
+	}]
+}

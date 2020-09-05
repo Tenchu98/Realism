@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -0.5d,
+	dependencies: [
+		"329c30e3"
+	],
+	tasks: [{
+		uid: "ef1c37f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:energy_acceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "15d1ae42",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

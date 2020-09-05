@@ -1,0 +1,49 @@
+{
+	x: 7.0d,
+	y: 0.5d,
+	dependencies: [
+		"67b1eee1",
+		"efc7984e"
+	],
+	tasks: [{
+		uid: "107586f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 16s
+		}],
+		count: 64L
+	},
+	{
+		uid: "32df9b13",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 56s
+		}],
+		count: 64L
+	},
+	{
+		uid: "1f52a1d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 76s
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "d2b8007e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Rocket Fuel",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:bucketrocketfuel",
+		tag: {
+			Fluid: {
+				FluidName: "rocketfuel",
+				Amount: 1000
+			}
+		}
+	},
+	x: 12.166666666666666d,
+	y: 2.8333333333333335d,
+	text: [
+		"Your Rocket needs fuel to work. The following liquids are viable rocket fuels:",
+		"",
+		"Rocket Fuel",
+		"Refined Fuel",
+		"Pyrotheum",
+		"Neutron",
+		"Liquid Oxygen",
+		"UU-Matter",
+		"Liquid Starlight",
+		"",
+		"Rocket Fuel is made in the Mixer multiblock."
+	],
+	dependencies: [
+		"98810701",
+		"dae9268a"
+	],
+	tasks: [{
+		uid: "8eed400e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "df71c39b",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

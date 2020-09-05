@@ -1,0 +1,34 @@
+{
+	title: "Oxygen Vent",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:oxygenvent"
+	},
+	x: 10.166666666666666d,
+	y: 7.166666666666667d,
+	text: [
+		"The Oxygen Vent, when supplied with Oxygen and power, will fill the room it's in with oxygen, given that it's airtight.",
+		"",
+		"The size it can fill with oxygen is limited, but large."
+	],
+	dependencies: [
+		"65ccb87a"
+	],
+	tasks: [{
+		uid: "b7ae5769",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:oxygenvent"
+		}]
+	}],
+	rewards: [{
+		uid: "e1fbb3eb",
+		type: "random",
+		table: 0
+	}]
+}

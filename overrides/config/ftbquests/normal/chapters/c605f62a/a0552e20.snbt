@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -6.0d,
+	dependencies: [
+		"13d55130"
+	],
+	tasks: [{
+		uid: "f20a4470",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}],
+	rewards: [{
+		uid: "5aa63eb9",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Basic Circuits",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:ic"
+	},
+	x: 8.166666666666668d,
+	y: 1.8333333333333333d,
+	text: [
+		"Basic Circuits are an essential crafting component made using the Crystallizer, Cutting Machine and Precision Assembler. They're not the only component that require this processing chain, but they're the most used ones.",
+		"",
+		"To make a Basic Circuit, first make some Silicon in your Electric Arc Furnace, turn it into a Silicon Boule in the Crystallizer, cut it into Silicon Wafers using the Cutting Machine, assemble them with the required components in the Precision Assembler, and finally cut the result in the Cutting Machine."
+	],
+	dependencies: [
+		"66a88dcc",
+		"9ca06ceb",
+		"5a624e7d"
+	],
+	tasks: [{
+		uid: "9bee334a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:ic"
+		}]
+	}],
+	rewards: [{
+		uid: "5db0796a",
+		type: "random",
+		table: 0
+	}]
+}

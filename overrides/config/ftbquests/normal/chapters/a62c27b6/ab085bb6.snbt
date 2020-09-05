@@ -1,0 +1,32 @@
+{
+	title: "Warp Controller",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:warpmonitor"
+	},
+	x: 6.166666666666667d,
+	y: 9.833333333333334d,
+	text: [
+		"The Warp Controller is used to set the destination of your Space Station."
+	],
+	dependencies: [
+		"fbc0f55f"
+	],
+	tasks: [{
+		uid: "631792a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:warpmonitor"
+		}]
+	}],
+	rewards: [{
+		uid: "c41c55da",
+		type: "random",
+		table: 0
+	}]
+}

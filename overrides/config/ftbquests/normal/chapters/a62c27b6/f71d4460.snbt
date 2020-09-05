@@ -1,0 +1,104 @@
+{
+	title: "Electric Arc Furnace",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:arcfurnace"
+	},
+	x: 6.166666666666667d,
+	y: 3.8333333333333335d,
+	text: [
+		"The Electric Arc Furnace is a big multiblock machine that can heat things a lot using RF.",
+		"",
+		"Follow the blueprint provided by the Holo-Projector to assemble it. There are 11 blocks in total in the structure where Input or Output Hatches can be placed, otherwise you'll need to put Heatproof Bricks. The requirements on this quest is the minmum of 1 Input and 1 Output Hatch, with the rest being Bricks.",
+		"",
+		"Once built, right click the Electric Arc Furnace block once to finish it, then another time to open its UI. Turn on the machine using the switch on the top left and you can now use it.",
+		"",
+		"To use it, put your input in the Input Hatch, check the progress in the Electric Arc Furnace block, then get your outputs from the Output Hatch. Most machines from this mod behave in similar way so be sure to remember it.",
+		"",
+		"The main use of this Furnace is to make Steel from Iron and Charcoal, Titanium from Rutile Ore and Silicon Ingots from Sand. All of them are used in several crafting recipes later on. All of these items can be obtained through other means aswell."
+	],
+	dependencies: [
+		"303823df"
+	],
+	tasks: [{
+		uid: "1f64e0b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:arcfurnace"
+		}]
+	},
+	{
+		uid: "f7fba1a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:blastbrick",
+			Count: 81b
+		}],
+		count: 81L
+	},
+	{
+		uid: "0c275dd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCoil",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockCoil"
+				}
+			}
+		}]
+	},
+	{
+		uid: "cbcd6dde",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:forgepowerinput",
+			Count: 3b
+		}],
+		count: 3L
+	},
+	{
+		uid: "f932b5a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "6bdb8282",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "libvulpes:hatch",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "eb3e02c0",
+		type: "random",
+		table: 0
+	}]
+}

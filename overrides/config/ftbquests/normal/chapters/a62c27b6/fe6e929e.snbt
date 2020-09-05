@@ -1,0 +1,73 @@
+{
+	title: "Rocket Assembling Machine",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "advancedrocketry:rocketbuilder"
+	},
+	x: 10.166666666666666d,
+	y: 3.8333333333333335d,
+	text: [
+		"The Rocket Assembling Machine is a multiblock structure that will allow you to make Rockets to go into space. This first quest will only detail how to build the structure.",
+		"",
+		"Start by placing Launch Pad blocks in a rectangle on the ground. It can be anywhere from 3x3 to 16x16. On the same level, place a Structure Tower near one of the side, then stack up more of them to make a 1 block tower. This tower can be anywhere from 4 to 64 blocks tall.",
+		"",
+		"Finally, place the Rocket Assembling Machine itself one block above the level of the Pads, with the back of the machine facing the Pad, and plug it with RF. If you did this correctly, it should no longer say \"Invalid Launch Pad Structure\".",
+		"",
+		"Then you need the Fueling Station to be able to fuel your Rockets. Place it somewhere near the Assembling Machine, plug it with RF and your source of Rocket Fuel, then sneak + right click it with a Linker, then sneak + right click the Assembling Machine with the same Linker."
+	],
+	dependencies: [
+		"98810701",
+		"ebf28fcd"
+	],
+	tasks: [{
+		uid: "35b5d5af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "dc1b2389",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:launchpad",
+			Count: 9b
+		}],
+		count: 9L
+	},
+	{
+		uid: "19bbc582",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:structuretower",
+			Count: 4b
+		}],
+		count: 4L
+	},
+	{
+		uid: "f5215897",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advancedrocketry:fuelingstation"
+		}]
+	}],
+	rewards: [{
+		uid: "62de3d35",
+		type: "random",
+		table: 0
+	}]
+}
