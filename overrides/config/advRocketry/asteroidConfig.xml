@@ -8,8 +8,8 @@
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="5" />
 	</asteroid>
-<asteroid name="Energistic Asteroid" distance="25" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.7" richnessVariability="0.3">
+<asteroid name="Energistic Asteroid" distance="25" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.6" richnessVariability="0.2">
 		<ore itemStack="appliedenergistics2:sky_stone_block" chance="75" />
-		<ore itemStack="<ore:oreCertusQuartz>" chance="5" />
+		<ore itemStack="ore:oreCertusQuartz" chance="5" />
 	</asteroid>
 </Asteroids>
