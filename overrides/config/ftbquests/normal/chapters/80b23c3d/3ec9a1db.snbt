@@ -24,7 +24,10 @@
 		uid: "ebbe5e6a",
 		type: "item",
 		items: [{
-			item: "energyconverters:energy_producer_mj"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "energyconverters:energy_producer_mj"
 		}]
 	}],
 	rewards: [{
@@ -40,6 +43,11 @@
 	{
 		uid: "71210ad9",
 		type: "item",
-		item: "energyconverters:energy_bridge"
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "energyconverters:energy_bridge"
+		}
 	}]
 }

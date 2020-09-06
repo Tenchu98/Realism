@@ -4,9 +4,7 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "props:props",
-		Count: 1b,
-		Damage: 985s
+		id: "minecraft:redstone_lamp"
 	},
 	x: -9.5d,
 	y: -2.0d,
