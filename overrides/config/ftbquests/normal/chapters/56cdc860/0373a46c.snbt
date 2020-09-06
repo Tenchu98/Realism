@@ -1,0 +1,56 @@
+{
+	title: "TownHall to Gather Around",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				totalProfessionSales: 0,
+				SalesHistory: [],
+				checkedMerchants: 0b,
+				childTime: 0L,
+				checkedNomads: 0b,
+				uuidMost: 808234205018408620L,
+				startingGifts: 0b,
+				uuidLeast: -5379037048477868901L
+			},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tektopia:structure_townhall"
+	},
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "48dafa95",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0efbf542",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:item_frame"
+		},
+		count: 7
+	},
+	{
+		uid: "7b2e8046",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {
+					totalProfessionSales: 0,
+					SalesHistory: [],
+					checkedMerchants: 0b,
+					childTime: 0L,
+					checkedNomads: 0b,
+					uuidMost: 6291994876100497133L,
+					startingGifts: 0b,
+					uuidLeast: -7914472115148198319L
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tektopia:structure_townhall"
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"0373a46c"
+	],
+	tasks: [{
+		uid: "7b567c23",
+		type: "kill",
+		title: "UnDead Raider!?",
+		entity: "tektopia:necromancer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "749f5c02",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

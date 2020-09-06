@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	shape: "circle",
+	dependencies: [
+		"dab9444f"
+	],
+	tasks: [{
+		uid: "1924eac8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "buildcraftfactory:tank"
+		}]
+	}],
+	rewards: [{
+		uid: "5b58959a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

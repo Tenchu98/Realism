@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	dependencies: [
+		"0373a46c"
+	],
+	tasks: [{
+		uid: "be6b4919",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tektopia:prof_guard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+customloadingscreen.modstate.minecraft_init=Awakening Vanilla Plus Initializing
+customloadingscreen.modstate.construction=Awakening Vanilla Plus Construction
+customloadingscreen.modstate.pre_initialization=Awakening Vanilla Plus Pre Initialization
+customloadingscreen.modstate.initialization=Awakening Vanilla Plus Initialization
+customloadingscreen.modstate.post_initialization=Awakening Vanilla Plus Post Initialization
+customloadingscreen.modstate.completed=Awakening Vanilla Plus Completed
+customloadingscreen.modstate.reloading_resource_packs=Loading Custom Resources
+customloadingscreen.mcstate.modelloader.items=Loading Item Models
+customloadingscreen.mcstate.modelloader.blocks=Loading Block Models
+customloadingscreen.mcstate.modelloader.bake=Baking Models
+customloadingscreen.mcstate.texture.load=Loading Textures
+customloadingscreen.mcstate.texture.stitch=Stitching Textures
+customloadingscreen.loading=Loading
+customloadingscreen.finishing=Finishing

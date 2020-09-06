@@ -1,0 +1,13 @@
+{
+	title: "Tektopia",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "tektopia:rancher_hat"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

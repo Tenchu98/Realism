@@ -1,5 +1,11 @@
 {
 	title: "Buildcraft",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "buildcraftlib:guide"
+	},
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""
