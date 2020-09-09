@@ -25,10 +25,5 @@
 			id: "appliedenergistics2:quantum_link"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "8529ccf9",
-		type: "ftbmoney:money",
-		ftb_money: 1000L
 	}]
 }

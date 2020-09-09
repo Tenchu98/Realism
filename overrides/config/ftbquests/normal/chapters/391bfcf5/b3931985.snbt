@@ -4,7 +4,7 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "minecraft:redstone_lamp"
+		id: "unuparts:unuparts_trafficsignal_unu_standard"
 	},
 	x: -9.5d,
 	y: -2.0d,

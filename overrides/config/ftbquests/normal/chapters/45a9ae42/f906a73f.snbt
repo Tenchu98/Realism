@@ -1,9 +1,15 @@
 {
+	title: "Time to really get started",
 	x: 0.0d,
 	y: 1.5d,
 	shape: "diamond",
+	description: "Why are you here?",
 	text: [
-		"This early version of the modpack is still under construction. Quests will be added over time."
+		"Imagine you have just arrived on a new world, completely devoid of all civilization ...... oh wait you did!",
+		"",
+		"It's up to you to build up society, and expand beyond the stars. Perhaps you can enlist some help along the way?",
+		"",
+		"It's all up to you."
 	],
 	dependencies: [
 		"a7a7b505"

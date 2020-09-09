@@ -37,10 +37,5 @@
 			id: "appliedenergistics2:molecular_assembler"
 		}],
 		count: 20L
-	}],
-	rewards: [{
-		uid: "d81e671d",
-		type: "ftbmoney:money",
-		ftb_money: 5000L
 	}]
 }

@@ -14,10 +14,5 @@
 			id: "appliedenergistics2:part",
 			Damage: 520s
 		}]
-	}],
-	rewards: [{
-		uid: "41e3ab59",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

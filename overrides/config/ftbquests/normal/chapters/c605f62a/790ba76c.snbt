@@ -13,10 +13,5 @@
 			},
 			id: "appliedenergistics2:energy_acceptor"
 		}]
-	}],
-	rewards: [{
-		uid: "15d1ae42",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

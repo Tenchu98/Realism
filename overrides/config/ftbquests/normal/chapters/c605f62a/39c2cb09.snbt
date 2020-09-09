@@ -15,10 +15,5 @@
 			Damage: 23s
 		}],
 		count: 32L
-	}],
-	rewards: [{
-		uid: "cb4347e2",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

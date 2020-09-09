@@ -13,10 +13,5 @@
 			},
 			id: "appliedenergistics2:condenser"
 		}]
-	}],
-	rewards: [{
-		uid: "3f0cd15f",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

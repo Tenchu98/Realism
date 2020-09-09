@@ -8,6 +8,6 @@
 		Damage: 1s
 	},
 	always_invisible: false,
-	group: 0,
+	group: -1076257497,
 	default_quest_shape: ""
 }

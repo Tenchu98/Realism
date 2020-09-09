@@ -8,6 +8,6 @@
 		id: "tektopia:rancher_hat"
 	},
 	always_invisible: false,
-	group: 0,
+	group: 1496676618,
 	default_quest_shape: ""
 }

@@ -13,10 +13,5 @@
 			},
 			id: "ae2stuff:grower"
 		}]
-	}],
-	rewards: [{
-		uid: "8d178c00",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

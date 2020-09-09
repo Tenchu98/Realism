@@ -13,10 +13,5 @@
 			},
 			id: "appliedenergistics2:quartz_growth_accelerator"
 		}]
-	}],
-	rewards: [{
-		uid: "033ae66a",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

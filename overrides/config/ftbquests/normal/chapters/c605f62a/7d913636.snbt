@@ -74,10 +74,5 @@
 			},
 			id: "appliedenergistics2:crafting_monitor"
 		}]
-	}],
-	rewards: [{
-		uid: "f182d62f",
-		type: "ftbmoney:money",
-		ftb_money: 2000L
 	}]
 }

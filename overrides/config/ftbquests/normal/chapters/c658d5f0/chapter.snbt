@@ -7,6 +7,6 @@
 		id: "silentgems:chaospylon"
 	},
 	always_invisible: false,
-	group: 0,
+	group: 1496676618,
 	default_quest_shape: ""
 }

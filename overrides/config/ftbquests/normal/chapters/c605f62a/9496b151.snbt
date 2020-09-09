@@ -13,10 +13,5 @@
 			},
 			id: "appliedenergistics2:charger"
 		}]
-	}],
-	rewards: [{
-		uid: "34957d84",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

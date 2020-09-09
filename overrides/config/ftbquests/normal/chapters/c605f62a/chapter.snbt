@@ -11,6 +11,6 @@
 		}
 	},
 	always_invisible: false,
-	group: 0,
+	group: -531432998,
 	default_quest_shape: ""
 }

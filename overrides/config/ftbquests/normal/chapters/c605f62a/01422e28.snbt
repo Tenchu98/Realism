@@ -13,10 +13,5 @@
 			},
 			id: "appliedenergistics2:inscriber"
 		}]
-	}],
-	rewards: [{
-		uid: "a2946c55",
-		type: "ftbmoney:money",
-		ftb_money: 100L
 	}]
 }

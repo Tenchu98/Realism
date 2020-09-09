@@ -4,7 +4,7 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "rcroads:sign33"
+		id: "rcroads:road"
 	},
 	x: -9.5d,
 	y: -0.5d,
@@ -49,6 +49,19 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "minecraft:stone_pressure_plate"
+		},
+		count: 16
+	},
+	{
+		uid: "901fd09a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "props:props",
+			Count: 1b,
+			Damage: 1129s
 		},
 		count: 16
 	}]
