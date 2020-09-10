@@ -17,5 +17,15 @@
 		}],
 		count: 121L,
 		consume_items: false
+	}],
+	rewards: [{
+		uid: "91bf0e73",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:book"
+		}
 	}]
 }

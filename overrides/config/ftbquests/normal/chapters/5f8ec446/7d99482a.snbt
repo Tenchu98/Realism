@@ -10,5 +10,15 @@
 			},
 			id: "magneticraft:shelving_unit"
 		}]
+	}],
+	rewards: [{
+		uid: "87cdb1b7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "magneticraft:guide_book"
+		}
 	}]
 }

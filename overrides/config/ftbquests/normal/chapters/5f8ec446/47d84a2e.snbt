@@ -10,5 +10,15 @@
 			},
 			id: "immcraft:chest"
 		}]
+	}],
+	rewards: [{
+		uid: "d20280bc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immcraft:manual"
+		}
 	}]
 }

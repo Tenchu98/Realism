@@ -111,5 +111,26 @@
 		uid: "f8802b18",
 		type: "ftbmoney:money",
 		ftb_money: 100L
+	},
+	{
+		uid: "993b6259",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiverailroading:item_manual",
+			tag: {}
+		}
+	},
+	{
+		uid: "cc580d33",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:handbook_en"
+		}
 	}]
 }

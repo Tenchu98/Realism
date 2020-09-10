@@ -27,5 +27,15 @@
 			},
 			id: "silentgear:blueprint_excavator"
 		}]
+	}],
+	rewards: [{
+		uid: "2d276632",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "silentgems:guide_book"
+		}
 	}]
 }

@@ -10,5 +10,16 @@
 			},
 			id: "immersiveengineering:wooden_device0"
 		}]
+	}],
+	rewards: [{
+		uid: "b22b8daa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 3s
+		}
 	}]
 }
