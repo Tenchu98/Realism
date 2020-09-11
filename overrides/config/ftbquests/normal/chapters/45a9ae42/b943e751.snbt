@@ -1,0 +1,25 @@
+{
+	title: "Ouch!!! That's hot!",
+	x: 2.0d,
+	y: 3.5d,
+	shape: "diamond",
+	text: [
+		"In real life you can't hold lava, well I think that should be obvious, so you can't here either. Unless of course you get the new Steveco Mitts!"
+	],
+	dependencies: [
+		"84f75ec6"
+	],
+	tasks: [{
+		uid: "2aa087dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "hotornot:mitts"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

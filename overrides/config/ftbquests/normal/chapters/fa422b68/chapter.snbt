@@ -1,0 +1,12 @@
+{
+	title: "OpenComputers",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "opencomputers:case1"
+	},
+	always_invisible: false,
+	group: -531432998,
+	default_quest_shape: ""
+}

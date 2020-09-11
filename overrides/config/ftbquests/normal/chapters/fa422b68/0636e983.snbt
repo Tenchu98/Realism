@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"78d07805"
+	],
+	tasks: [{
+		uid: "ad90e249",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:case1"
+		}]
+	}]
+}

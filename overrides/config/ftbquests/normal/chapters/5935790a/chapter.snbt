@@ -1,0 +1,12 @@
+{
+	title: "Colonizing",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tektopia:heart"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

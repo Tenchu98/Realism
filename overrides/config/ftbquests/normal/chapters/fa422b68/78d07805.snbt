@@ -1,0 +1,23 @@
+{
+	title: "Always read the manual before trying to use your new computer.",
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"This manual is a indespensible, not only will it explain what you need to make a working PC, but it can be used to craft the OS disk and eeprom. Don't forget to make a few of these."
+	],
+	dependencies: [
+		"2b2ca47b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0b0fe81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:tool",
+			Damage: 4s
+		}]
+	}]
+}

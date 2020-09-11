@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"78d07805"
+	],
+	tasks: [{
+		uid: "476a0d59",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:diskdrive"
+		}]
+	}]
+}

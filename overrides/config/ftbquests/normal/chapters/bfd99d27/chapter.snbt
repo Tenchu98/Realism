@@ -1,0 +1,12 @@
+{
+	title: "Upgrading the town.",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "architecturecraft:hammer"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

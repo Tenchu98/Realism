@@ -1,0 +1,22 @@
+{
+	title: "This is the beginning of your tech driven society.",
+	x: -0.5d,
+	y: -2.5d,
+	description: "Something so small can make a big impact.",
+	text: [
+		"True automation can be made through the power of the computer, and this little part is where it all begins."
+	],
+	tasks: [{
+		uid: "2b2ca47b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:material",
+			Damage: 7s
+		}],
+		count: 3L,
+		consume_items: false
+	}]
+}

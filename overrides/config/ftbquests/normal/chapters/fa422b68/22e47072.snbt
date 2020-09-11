@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "879819fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:storage",
+			tag: {
+				"oc:data": {
+					"oc:fs.label": "openos"
+				},
+				"oc:color": 2,
+				display: {
+					Name: "OpenOS (Operating System)"
+				},
+				"oc:lootFactory": "opencomputers:openos"
+			},
+			Damage: 1s
+		}]
+	}]
+}

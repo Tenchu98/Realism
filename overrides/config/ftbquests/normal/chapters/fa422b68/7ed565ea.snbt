@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"f0b0fe81"
+	],
+	tasks: [{
+		uid: "679871a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "opencomputers:keyboard"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "Advanced Technology",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "opencomputers:component",
+		Damage: 19s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
