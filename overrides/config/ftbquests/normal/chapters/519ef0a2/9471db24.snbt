@@ -4,7 +4,6 @@
 	dependencies: [
 		"1cbe4fdc"
 	],
-	hide: true,
 	tasks: [{
 		uid: "96afb8a5",
 		type: "item",
@@ -14,5 +13,10 @@
 			},
 			id: "minecraft:bucket"
 		}]
+	}],
+	rewards: [{
+		uid: "e91ae970",
+		type: "random",
+		table: 2
 	}]
 }

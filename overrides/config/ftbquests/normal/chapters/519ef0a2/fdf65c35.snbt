@@ -4,7 +4,6 @@
 	dependencies: [
 		"9471db24"
 	],
-	hide: true,
 	tasks: [{
 		uid: "aaab98a7",
 		type: "item",
@@ -62,5 +61,10 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "874c9961",
+		type: "random",
+		table: 2
 	}]
 }

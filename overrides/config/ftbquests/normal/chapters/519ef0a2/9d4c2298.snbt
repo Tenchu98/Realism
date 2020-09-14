@@ -51,5 +51,10 @@
 		uid: "f71de94b",
 		type: "ftbmoney:money",
 		ftb_money: 50L
+	},
+	{
+		uid: "2e579f44",
+		type: "random",
+		table: 2
 	}]
 }

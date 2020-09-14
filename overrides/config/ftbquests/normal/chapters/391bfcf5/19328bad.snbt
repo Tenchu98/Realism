@@ -22,9 +22,114 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:tripwire_hook",
-			Count: 4b
+			id: "minecraft:tripwire_hook"
 		}],
-		count: 4L
+		count: 2L,
+		only_from_crafting: false
+	},
+	{
+		uid: "5773666b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wooden_pressure_plate"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone_pressure_plate"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:light_weighted_pressure_plate"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:heavy_weighted_pressure_plate"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	},
+	{
+		uid: "ad230c82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lever"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "a4eae48a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		},
+		count: 10
+	},
+	{
+		uid: "9a374d11",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:repeater"
+		}
+	},
+	{
+		uid: "f5bc8e01",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:comparator"
+		},
+		count: 3
+	},
+	{
+		uid: "77669663",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_block"
+		}
+	},
+	{
+		uid: "fbff5494",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:noteblock"
+		},
+		count: 2
+	},
+	{
+		uid: "e680f656",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone"
+		}
 	}]
 }

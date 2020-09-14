@@ -1,4 +1,49 @@
 {
+	title: "Food",
 	loot_size: 1,
-	rewards: []
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:delightedmealitem"
+		},
+		count: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:friedfeastitem"
+		},
+		count: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:meatfeastpizzaitem"
+		},
+		count: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:turkishdelightitem"
+		},
+		count: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_apple",
+			Damage: 1s
+		}
+	}]
 }

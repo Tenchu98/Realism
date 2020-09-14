@@ -1,0 +1,50 @@
+{
+	x: 9.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "f5d2894f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charm:crate_sealed"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charm:crate_sealed",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charm:crate_sealed",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charm:crate_sealed",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charm:crate_sealed",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "charm:crate_sealed",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}]
+}

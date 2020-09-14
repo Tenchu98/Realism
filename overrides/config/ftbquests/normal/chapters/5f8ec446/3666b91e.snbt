@@ -1,0 +1,56 @@
+{
+	x: 3.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "34b76d6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:armorstand",
+			Damage: 6s
+		}]
+	}]
+}

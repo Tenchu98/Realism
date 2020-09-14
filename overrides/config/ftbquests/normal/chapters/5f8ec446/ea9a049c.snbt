@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "a7a39c9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "rustic:barrel"
+		}]
+	}]
+}

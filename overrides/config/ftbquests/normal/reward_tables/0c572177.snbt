@@ -1,0 +1,168 @@
+{
+	loot_size: 16,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 15s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 14s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 9s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 11s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 10s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:green_dye"
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 12s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 6s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:blue_dye"
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 13s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 5s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:brown_dye"
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 8s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 7s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:black_dye"
+		},
+		count: 32
+	}],
+	loot_crate: {
+		string_id: "reward_table",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

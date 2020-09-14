@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "c5474c9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grainbaititem"
+		}]
+	}],
+	rewards: [{
+		uid: "9623e03e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

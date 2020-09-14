@@ -19,5 +19,10 @@
 			id: "opencomputers:tool",
 			Damage: 4s
 		}]
+	}],
+	rewards: [{
+		uid: "6405802d",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

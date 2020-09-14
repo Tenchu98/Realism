@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 4.5d,
+	x: 9.0d,
+	y: 0.5d,
 	tasks: [{
 		uid: "98061395",
 		type: "item",
@@ -10,5 +10,10 @@
 			},
 			id: "charm:bookshelf_chest"
 		}]
+	}],
+	rewards: [{
+		uid: "d044792f",
+		type: "random",
+		table: 2
 	}]
 }

@@ -8,7 +8,6 @@
 	dependencies: [
 		"3eb29b50"
 	],
-	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "c4d34dba",
@@ -18,5 +17,10 @@
 		uid: "a1de1b72",
 		type: "ftbmoney:money",
 		ftb_money: 1L
+	},
+	{
+		uid: "168916e5",
+		type: "random",
+		table: 2
 	}]
 }

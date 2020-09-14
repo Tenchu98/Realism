@@ -1,5 +1,5 @@
 {
-	x: 3.0d,
+	x: 5.0d,
 	y: 2.5d,
 	tasks: [{
 		uid: "53f9079b",
@@ -10,5 +10,10 @@
 			},
 			id: "bdsandm:shipping_container"
 		}]
+	}],
+	rewards: [{
+		uid: "c531e528",
+		type: "random",
+		table: 2
 	}]
 }

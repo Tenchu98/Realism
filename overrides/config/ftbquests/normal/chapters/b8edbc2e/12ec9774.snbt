@@ -6,8 +6,8 @@
 		},
 		id: "aquaculture:fishing_rod"
 	},
-	x: -2.0d,
-	y: -3.5d,
+	x: -0.5d,
+	y: -3.0d,
 	text: [
 		"The wild is filled with sources of food. Now that you have a campfire, why not cook up some tasty fish?"
 	],
@@ -15,7 +15,6 @@
 	dependencies: [
 		"945c351c"
 	],
-	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "565b79ed",
@@ -27,7 +26,7 @@
 			id: "minecraft:string"
 		}],
 		count: 2L,
-		consume_items: true
+		consume_items: false
 	},
 	{
 		uid: "7565ad0a",
@@ -39,17 +38,24 @@
 			id: "minecraft:stick"
 		}],
 		count: 3L,
-		consume_items: true
-	}],
-	rewards: [{
-		uid: "2e38f46a",
+		consume_items: false
+	},
+	{
+		uid: "08bfe0e0",
 		type: "item",
-		item: {
+		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {},
 				"ocdevices:item_analyze": {}
 			},
-			id: "aquaculture:fishing_rod"
-		}
+			id: "minecraft:fishing_rod"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "45d6041e",
+		type: "random",
+		table: 2
 	}]
 }

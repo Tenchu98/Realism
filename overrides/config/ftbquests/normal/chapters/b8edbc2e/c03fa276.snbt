@@ -14,7 +14,6 @@
 	dependencies: [
 		"8b4b4af4"
 	],
-	hide: true,
 	tasks: [{
 		uid: "e30a752b",
 		type: "item",
@@ -58,5 +57,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ddb8e17",
+		type: "random",
+		title: "Basic",
+		table: 2
 	}]
 }

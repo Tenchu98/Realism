@@ -10,5 +10,10 @@
 			},
 			id: "rustic:brewing_barrel"
 		}]
+	}],
+	rewards: [{
+		uid: "0a12f672",
+		type: "random",
+		table: 2
 	}]
 }

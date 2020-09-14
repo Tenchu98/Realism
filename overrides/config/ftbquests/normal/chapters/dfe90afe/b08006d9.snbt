@@ -10,5 +10,10 @@
 			},
 			id: "rustic:evaporating_basin"
 		}]
+	}],
+	rewards: [{
+		uid: "59211bed",
+		type: "random",
+		table: 2
 	}]
 }

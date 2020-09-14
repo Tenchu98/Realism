@@ -10,5 +10,10 @@
 			},
 			id: "cookingforblockheads:oven"
 		}]
+	}],
+	rewards: [{
+		uid: "421f33f7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

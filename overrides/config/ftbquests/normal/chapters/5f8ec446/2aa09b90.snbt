@@ -1,14 +1,15 @@
 {
-	x: 0.0d,
-	y: 3.0d,
+	x: 11.0d,
+	y: 5.5d,
 	tasks: [{
-		uid: "69af0b68",
+		uid: "216ccc6f",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "harvestcraft:veggiebaititem"
+			id: "improvedbackpacks:upgrade",
+			Damage: 3s
 		}]
 	}]
 }

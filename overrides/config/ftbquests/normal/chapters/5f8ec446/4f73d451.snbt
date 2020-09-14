@@ -1,0 +1,56 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "506ce311",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:case",
+			Damage: 6s
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "90625c00",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "immcraft:cupboard"
+		}]
+	}]
+}

@@ -4,10 +4,10 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "campfire:campfire"
+		id: "futureminecraf:campfire"
 	},
-	x: 0.0d,
-	y: -4.0d,
+	x: 0.5d,
+	y: -3.0d,
 	description: "Time to cook some food!",
 	text: [
 		"This is a good start to cooking your food in the begining, as it lights when placed and doesn't require fuel. I will burn out after a short period of time. Maybe when you settle down, you can build something better.."
@@ -17,7 +17,6 @@
 		"12ec9774",
 		"e52a6409"
 	],
-	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "5174505d",
@@ -28,7 +27,7 @@
 			},
 			id: "minecraft:log"
 		}],
-		count: 4L
+		count: 3L
 	},
 	{
 		uid: "c49d8b8a",
@@ -40,6 +39,33 @@
 			id: "minecraft:stick"
 		}],
 		count: 3L
+	},
+	{
+		uid: "9be264fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
+		}]
+	},
+	{
+		uid: "281ce6af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:campfire"
+		}]
 	}],
 	rewards: [{
 		uid: "24c6a8b3",

@@ -66,5 +66,10 @@
 		uid: "ad014193",
 		type: "ftbmoney:money",
 		ftb_money: 10L
+	},
+	{
+		uid: "903e3d1a",
+		type: "random",
+		table: 2
 	}]
 }

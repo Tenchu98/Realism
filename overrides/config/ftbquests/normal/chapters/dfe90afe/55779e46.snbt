@@ -6,7 +6,7 @@
 		},
 		id: "harvestcraft:watertrap"
 	},
-	x: 0.0d,
+	x: -7.0d,
 	y: 0.0d,
 	text: [
 		"Fishing was a nice break, but you got a civilization to build. This trap can free up your time."

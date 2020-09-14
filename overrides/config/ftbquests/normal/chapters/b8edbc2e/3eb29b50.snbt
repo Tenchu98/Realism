@@ -88,7 +88,6 @@
 	dependencies: [
 		"aa504d38"
 	],
-	hide: true,
 	tasks: [{
 		uid: "e8c76499",
 		type: "item",
@@ -355,5 +354,10 @@
 			id: "minecraft:flint"
 		},
 		count: 16
+	},
+	{
+		uid: "dbf96be9",
+		type: "random",
+		table: 2
 	}]
 }

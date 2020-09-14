@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "3ab4990c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:discrack"
+		}]
+	}]
+}

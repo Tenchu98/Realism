@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 2.5d,
+	x: 3.0d,
+	y: 0.5d,
 	tasks: [{
 		uid: "624edc27",
 		type: "item",
@@ -9,6 +9,53 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "bibliocraft:framedchest"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framedchest",
+			Damage: 6s
 		}]
+	}],
+	rewards: [{
+		uid: "dd777e2a",
+		type: "random",
+		table: 2
 	}]
 }

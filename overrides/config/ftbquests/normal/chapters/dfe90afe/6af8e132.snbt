@@ -10,5 +10,10 @@
 			},
 			id: "cookingforblockheads:fridge"
 		}]
+	}],
+	rewards: [{
+		uid: "0768c147",
+		type: "random",
+		table: 2
 	}]
 }

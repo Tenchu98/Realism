@@ -10,5 +10,10 @@
 			},
 			id: "cookingforblockheads:tool_rack"
 		}]
+	}],
+	rewards: [{
+		uid: "4d387a0b",
+		type: "xp_levels",
+		xp_levels: 3
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: 11.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "ce25b6d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "improvedbackpacks:upgrade",
+			Damage: 2s
+		}]
+	}]
+}

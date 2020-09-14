@@ -11,6 +11,9 @@
 	text: [
 		"Air travel is a great way to travel to other towns, so lets build an airport! In order for most planes to take off, make it at least§c §c§412 chunks long.§0 A busy airport should have more then one lane, Google \"airport runway map\" for ideas.§0"
 	],
+	dependencies: [
+		"e16c6ba7"
+	],
 	tasks: [{
 		uid: "482ca120",
 		type: "checkmark"

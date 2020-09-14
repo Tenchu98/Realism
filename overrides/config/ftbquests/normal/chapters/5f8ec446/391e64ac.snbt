@@ -1,6 +1,6 @@
 {
-	x: 1.0d,
-	y: 2.5d,
+	x: -3.0d,
+	y: 0.5d,
 	tasks: [{
 		uid: "b60565b2",
 		type: "item",
@@ -10,5 +10,10 @@
 			},
 			id: "rustic:cabinet"
 		}]
+	}],
+	rewards: [{
+		uid: "ecb5f9d7",
+		type: "random",
+		table: 2
 	}]
 }

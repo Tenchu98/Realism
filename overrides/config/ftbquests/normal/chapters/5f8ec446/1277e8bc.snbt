@@ -1,14 +1,14 @@
 {
-	x: 1.5d,
+	x: -5.0d,
 	y: 1.5d,
 	tasks: [{
-		uid: "c5474c9a",
+		uid: "a6232974",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "harvestcraft:grainbaititem"
+			id: "minecraft:ender_chest"
 		}]
 	}]
 }

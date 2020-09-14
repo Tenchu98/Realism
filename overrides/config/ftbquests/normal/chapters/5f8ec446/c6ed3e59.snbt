@@ -1,14 +1,14 @@
 {
-	x: 0.0d,
-	y: 1.5d,
+	x: 1.0d,
+	y: 2.5d,
 	tasks: [{
-		uid: "f9709703",
+		uid: "fa8746c3",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "harvestcraft:fishtrapbaititem"
+			id: "immcraft:bookshelf"
 		}]
 	}]
 }

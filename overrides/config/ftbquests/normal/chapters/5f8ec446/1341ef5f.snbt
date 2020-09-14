@@ -1,14 +1,14 @@
 {
-	x: 1.5d,
-	y: 0.0d,
+	x: -5.0d,
+	y: 2.5d,
 	tasks: [{
-		uid: "aaab9607",
+		uid: "a6758491",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "harvestcraft:groundtrap"
+			id: "minecraft:trapped_chest"
 		}]
 	}]
 }

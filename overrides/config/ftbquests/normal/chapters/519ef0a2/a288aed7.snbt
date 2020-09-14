@@ -34,5 +34,10 @@
 				}]
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "208fdb29",
+		type: "random",
+		table: 2
 	}]
 }

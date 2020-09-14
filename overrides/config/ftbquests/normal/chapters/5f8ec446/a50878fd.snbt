@@ -1,5 +1,5 @@
 {
-	x: 3.0d,
+	x: 5.0d,
 	y: 3.5d,
 	tasks: [{
 		uid: "15cb791a",
@@ -10,5 +10,10 @@
 			},
 			id: "bdsandm:upgrade"
 		}]
+	}],
+	rewards: [{
+		uid: "90a9eaae",
+		type: "random",
+		table: 2
 	}]
 }

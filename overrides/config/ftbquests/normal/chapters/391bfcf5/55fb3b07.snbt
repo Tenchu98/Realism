@@ -8,17 +8,8 @@
 		"19328bad"
 	],
 	tasks: [{
-		uid: "79f522ae",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "props:props",
-			Count: 1b,
-			Damage: 844s
-		}],
-		count: 64L
+		uid: "225554df",
+		type: "checkmark"
 	}],
 	rewards: [{
 		uid: "435cb90d",
@@ -34,18 +25,5 @@
 		uid: "386c91ae",
 		type: "ftbmoney:money",
 		ftb_money: 10L
-	},
-	{
-		uid: "ba40685e",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "props:props",
-			Count: 1b,
-			Damage: 332s
-		},
-		count: 32
 	}]
 }

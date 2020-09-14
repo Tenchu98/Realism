@@ -2,11 +2,9 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "square",
-	hide_dependency_lines: true,
 	dependencies: [
 		"f477aa36"
 	],
-	hide: true,
 	tasks: [{
 		uid: "10fe1326",
 		type: "item",

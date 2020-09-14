@@ -7,7 +7,6 @@
 		"b8ef8f42",
 		"1cbe4fdc"
 	],
-	hide: true,
 	size: 1.5d,
 	tasks: [{
 		uid: "91681267",
@@ -28,5 +27,10 @@
 			},
 			id: "harvestcraft:meatfeastpizzaitem"
 		}
+	},
+	{
+		uid: "8fd6f7a3",
+		type: "random",
+		table: 2
 	}]
 }

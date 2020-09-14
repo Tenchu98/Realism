@@ -10,5 +10,10 @@
 			},
 			id: "skyes_bakery:sugarspecialdonut"
 		}]
+	}],
+	rewards: [{
+		uid: "9471001b",
+		type: "random",
+		table: 1
 	}]
 }

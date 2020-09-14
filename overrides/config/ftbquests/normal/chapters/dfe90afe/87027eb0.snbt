@@ -1,6 +1,6 @@
 {
-	x: 1.5d,
-	y: 3.0d,
+	x: -9.0d,
+	y: 1.0d,
 	tasks: [{
 		uid: "7912d101",
 		type: "item",
@@ -10,5 +10,10 @@
 			},
 			id: "harvestcraft:fruitbaititem"
 		}]
+	}],
+	rewards: [{
+		uid: "2d4a7677",
+		type: "ftbmoney:money",
+		ftb_money: 5L
 	}]
 }

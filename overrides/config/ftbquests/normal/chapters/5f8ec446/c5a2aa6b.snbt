@@ -1,6 +1,6 @@
 {
-	x: 1.0d,
-	y: 4.5d,
+	x: 11.0d,
+	y: 0.5d,
 	tasks: [{
 		uid: "94280505",
 		type: "item",
@@ -13,5 +13,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40ea017e",
+		type: "random",
+		table: 2
 	}]
 }

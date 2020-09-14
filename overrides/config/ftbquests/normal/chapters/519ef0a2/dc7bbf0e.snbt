@@ -4,7 +4,6 @@
 	dependencies: [
 		"1fc5d259"
 	],
-	hide: true,
 	tasks: [{
 		uid: "9cbdad89",
 		type: "item",
@@ -94,5 +93,10 @@
 			id: "tconstruct:cast"
 		},
 		count: 4
+	},
+	{
+		uid: "1ef3efae",
+		type: "random",
+		table: 2
 	}]
 }

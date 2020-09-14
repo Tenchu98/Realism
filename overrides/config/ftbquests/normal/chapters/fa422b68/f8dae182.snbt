@@ -18,5 +18,10 @@
 		}],
 		count: 3L,
 		consume_items: false
+	}],
+	rewards: [{
+		uid: "d6b08d8f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

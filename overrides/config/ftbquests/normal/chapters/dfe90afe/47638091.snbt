@@ -10,5 +10,10 @@
 			},
 			id: "cookingforblockheads:spice_rack"
 		}]
+	}],
+	rewards: [{
+		uid: "318a00fd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

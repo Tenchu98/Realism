@@ -1,6 +1,6 @@
 {
-	x: 1.0d,
-	y: -5.0d,
+	x: 0.0d,
+	y: -4.5d,
 	text: [
 		""
 	],
@@ -62,5 +62,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f823bac",
+		type: "random",
+		table: 2
 	}]
 }

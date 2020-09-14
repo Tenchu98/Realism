@@ -1,15 +1,13 @@
 {
 	title: "Chopping Block",
 	x: -1.5d,
-	y: 2.0d,
+	y: 1.5d,
 	text: [
 		"You've tried to hulk-rip the wood into planks and discovered, while that works in an alternate reality, you need to set that down and chop chop"
 	],
 	dependencies: [
 		"c03fa276"
 	],
-	hide: true,
-	optional: true,
 	tasks: [{
 		uid: "6e08180e",
 		type: "item",

@@ -15,15 +15,17 @@
 		"adc5c975"
 	],
 	tasks: [{
-		uid: "bc27d769",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "props:props",
-			Count: 1b,
-			Damage: 472s
-		}]
+		uid: "7568dd3d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "612f51df",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b3d17243",
+		type: "loot",
+		table: 4
 	}]
 }

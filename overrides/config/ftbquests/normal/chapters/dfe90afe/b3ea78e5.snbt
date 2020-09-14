@@ -10,5 +10,10 @@
 			},
 			id: "cookingforblockheads:cooking_table"
 		}]
+	}],
+	rewards: [{
+		uid: "5e03bd68",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

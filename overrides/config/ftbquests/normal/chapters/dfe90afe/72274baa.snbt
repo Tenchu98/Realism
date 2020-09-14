@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "69af0b68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:veggiebaititem"
+		}]
+	}],
+	rewards: [{
+		uid: "799f4023",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

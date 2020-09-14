@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"You have a few coins by now! There is a store in central city that has a lot of custom building decore for your town, including street signs. Due to an overstocking error, these items need to go now! Prices has never been this low! Deal ends soon!!"
+	],
+	tasks: [{
+		uid: "f45ec97b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "bbffdc08",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

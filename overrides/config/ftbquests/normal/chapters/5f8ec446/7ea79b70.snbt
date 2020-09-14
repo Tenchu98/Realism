@@ -1,0 +1,114 @@
+{
+	x: 11.0d,
+	y: 7.5d,
+	text: [
+		"Attach a backpack with an IC2 Jetpack and a Jetpack Attachment Plate."
+	],
+	tasks: [{
+		uid: "fd943b84",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "improvedbackpacks:backpack",
+			tag: {
+				charge: 0.0d,
+				hasIC2Jetpack: 1b
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "improvedbackpacks:backpack",
+			tag: {
+				charge: 0.0d,
+				UUIDMost: 7649334014768597765L,
+				UUIDLeast: -8316323025313958237L,
+				Tier: 1,
+				Items: [],
+				hasIC2Jetpack: 1b
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "improvedbackpacks:backpack",
+			tag: {
+				charge: 0.0d,
+				UUIDMost: 7649334014768597765L,
+				UUIDLeast: -8316323025313958237L,
+				Tier: 2,
+				Items: [],
+				hasIC2Jetpack: 1b
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "improvedbackpacks:backpack",
+			tag: {
+				charge: 0.0d,
+				UUIDMost: 7649334014768597765L,
+				UUIDLeast: -8316323025313958237L,
+				Tier: 3,
+				Items: [],
+				hasIC2Jetpack: 1b
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "improvedbackpacks:backpack",
+			tag: {
+				charge: 0.0d,
+				UUIDMost: 7649334014768597765L,
+				UUIDLeast: -8316323025313958237L,
+				Tier: 4,
+				Items: [],
+				hasIC2Jetpack: 1b
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "improvedbackpacks:backpack",
+			tag: {
+				charge: 0.0d,
+				UUIDMost: 7649334014768597765L,
+				UUIDLeast: -8316323025313958237L,
+				Tier: 5,
+				Items: [],
+				hasIC2Jetpack: 1b
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "0bb29fc2",
+		type: "toast",
+		title: "Taking inventory.. to the skies!",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "ic2:jetpack_electric",
+			tag: {},
+			Damage: 26s
+		},
+		team_reward: true,
+		description: "Attach a jetpack to that backpack"
+	}]
+}

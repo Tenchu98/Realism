@@ -1,6 +1,6 @@
 {
-	x: -2.0d,
-	y: 3.5d,
+	x: -1.0d,
+	y: 4.0d,
 	shape: "diamond",
 	text: [
 		"Holding torches on the off-hand will light up your surroundings. This is a good way to explore at night!"

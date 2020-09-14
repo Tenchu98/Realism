@@ -10,5 +10,10 @@
 			},
 			id: "skyes_bakery:saltedpretzel"
 		}]
+	}],
+	rewards: [{
+		uid: "cc782c97",
+		type: "random",
+		table: 1
 	}]
 }
