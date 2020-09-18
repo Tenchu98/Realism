@@ -32,5 +32,10 @@
 		uid: "8fd6f7a3",
 		type: "random",
 		table: 2
+	},
+	{
+		uid: "c30c300f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

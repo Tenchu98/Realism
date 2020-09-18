@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "You seem like a knowledgable person.. How about I pay you to make a town?",
+	text: [
+		"You will be paid for your efforts. Labor, time, and supply is included in your wage. Don't spend it all on booze and entertainment, you have a town to build!",
+		"There is a shop tab in the questbook where you can buy items not generated in the overworld. Other items can be purchased in the main city!"
+	],
+	dependencies: [
+		"b943e751"
+	],
+	tasks: [{
+		uid: "668232f9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b823a095",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

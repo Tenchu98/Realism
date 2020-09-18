@@ -359,5 +359,10 @@
 		uid: "dbf96be9",
 		type: "random",
 		table: 2
+	},
+	{
+		uid: "f8d03c45",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }

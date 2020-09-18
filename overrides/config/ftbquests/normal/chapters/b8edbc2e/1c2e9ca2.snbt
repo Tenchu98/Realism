@@ -13,5 +13,10 @@
 			},
 			id: "minecraft:furnace"
 		}]
+	}],
+	rewards: [{
+		uid: "fef9d3e5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
 	}]
 }
