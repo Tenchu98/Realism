@@ -63,10 +63,5 @@
 		type: "random",
 		title: "Basic",
 		table: 2
-	},
-	{
-		uid: "d3bf7c84",
-		type: "ftbmoney:money",
-		ftb_money: 10L
 	}]
 }

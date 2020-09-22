@@ -161,10 +161,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "d982383a",
-		type: "ftbmoney:money",
-		ftb_money: 10L
 	}]
 }

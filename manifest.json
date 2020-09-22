@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Tanehu's Realism",
-  "version": "1.0.8",
+  "version": "1.0.8c",
   "author": "Tenchu98_1",
   "projectID": 399501,
   "files": [
@@ -993,6 +993,11 @@
     {
       "projectID": 319404,
       "fileID": 2708193,
+      "required": true
+    },
+    {
+      "projectID": 225603,
+      "fileID": 2554100,
       "required": true
     }
   ],

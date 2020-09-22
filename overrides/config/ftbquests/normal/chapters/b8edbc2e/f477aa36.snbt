@@ -90,10 +90,5 @@
 		uid: "4e7b4063",
 		type: "random",
 		table: 2
-	},
-	{
-		uid: "870730fe",
-		type: "ftbmoney:money",
-		ftb_money: 50L
 	}]
 }

@@ -234,10 +234,5 @@
 			id: "minecraft:torch"
 		},
 		count: 8
-	},
-	{
-		uid: "0ad6ec1e",
-		type: "ftbmoney:money",
-		ftb_money: 10L
 	}]
 }
