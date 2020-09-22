@@ -12,10 +12,13 @@
 		"dab9444f"
 	],
 	tasks: [{
-		uid: "0e8d9226",
+		uid: "3a85a5ef",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 26"
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "buildcraftcore:gear_diamond"
 		}]
 	}],
 	rewards: [{
