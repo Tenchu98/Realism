@@ -2,13 +2,13 @@
 	x: -8.0d,
 	y: -8.5d,
 	tasks: [{
-		uid: "1ab3295f",
+		uid: "fd3ce624",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:redstone_ore"
+			id: "minecraft:redstone"
 		}]
 	}]
 }

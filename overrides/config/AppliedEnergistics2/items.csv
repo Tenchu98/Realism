@@ -10102,15 +10102,15 @@ appliedenergistics2:facade:0, Cable Facade - Pressed Wax Block
 appliedenergistics2:facade:0, Cable Facade - Waxcomb Block
 appliedenergistics2:facade:0, Cable Facade - Thorny Hedge
 appliedenergistics2:facade:0, Cable Facade - Hedge
-appliedenergistics2:facade:0, Cable Facade - Machine Block
-appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
-appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
-appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
-appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
-appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
+appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
+appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
+appliedenergistics2:facade:0, Cable Facade - Copper Block
+appliedenergistics2:facade:0, Cable Facade - Machine Block
+appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
+appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
 appliedenergistics2:facade:0, Cable Facade - Salt Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Ancient Debris
 appliedenergistics2:facade:0, Cable Facade - Block of Mercury
@@ -10581,42 +10581,42 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Chisel Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Bowlimb Pattern
 tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Chisel Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
 tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Helmet Core Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -10644,6 +10644,21 @@ tconstruct:shard:0, Lead Shard
 tconstruct:shard:0, Silver Shard
 tconstruct:shard:0, Electrum Shard
 tconstruct:shard:0, Steel Shard
+tconstruct:shard:0, Adamantine Shard
+tconstruct:shard:0, Antimony Shard
+tconstruct:shard:0, Aquarium Shard
+tconstruct:shard:0, Bismuth Shard
+tconstruct:shard:0, Brass Shard
+tconstruct:shard:0, Cold-Iron Shard
+tconstruct:shard:0, Cupronickel Shard
+tconstruct:shard:0, Invar Shard
+tconstruct:shard:0, Mithril Shard
+tconstruct:shard:0, Nickel Shard
+tconstruct:shard:0, Pewter Shard
+tconstruct:shard:0, Platinum Shard
+tconstruct:shard:0, Star-Steel Shard
+tconstruct:shard:0, Tin Shard
+tconstruct:shard:0, Zinc Shard
 tconstruct:shard:0, Beryllium Shard
 tconstruct:shard:0, Boron Shard
 tconstruct:shard:0, Cadmium Shard
@@ -10663,21 +10678,6 @@ tconstruct:shard:0, Titanium Shard
 tconstruct:shard:0, Tungsten Shard
 tconstruct:shard:0, Uranium Shard
 tconstruct:shard:0, Zirconium Shard
-tconstruct:shard:0, Adamantine Shard
-tconstruct:shard:0, Antimony Shard
-tconstruct:shard:0, Aquarium Shard
-tconstruct:shard:0, Bismuth Shard
-tconstruct:shard:0, Brass Shard
-tconstruct:shard:0, Cold-Iron Shard
-tconstruct:shard:0, Cupronickel Shard
-tconstruct:shard:0, Invar Shard
-tconstruct:shard:0, Mithril Shard
-tconstruct:shard:0, Nickel Shard
-tconstruct:shard:0, Pewter Shard
-tconstruct:shard:0, Platinum Shard
-tconstruct:shard:0, Star-Steel Shard
-tconstruct:shard:0, Tin Shard
-tconstruct:shard:0, Zinc Shard
 tconstruct:shard:0, Treated Wood Shard
 tconstruct:shard:0, Constantan Shard
 tconstruct:shard:0, Ruby Shard
@@ -10803,6 +10803,21 @@ tconstruct:sharpening_kit:0, Lead Sharpening Kit
 tconstruct:sharpening_kit:0, Silver Sharpening Kit
 tconstruct:sharpening_kit:0, Electrum Sharpening Kit
 tconstruct:sharpening_kit:0, Steel Sharpening Kit
+tconstruct:sharpening_kit:0, Adamantine Sharpening Kit
+tconstruct:sharpening_kit:0, Antimony Sharpening Kit
+tconstruct:sharpening_kit:0, Aquarium Sharpening Kit
+tconstruct:sharpening_kit:0, Bismuth Sharpening Kit
+tconstruct:sharpening_kit:0, Brass Sharpening Kit
+tconstruct:sharpening_kit:0, Cold-Iron Sharpening Kit
+tconstruct:sharpening_kit:0, Cupronickel Sharpening Kit
+tconstruct:sharpening_kit:0, Invar Sharpening Kit
+tconstruct:sharpening_kit:0, Mithril Sharpening Kit
+tconstruct:sharpening_kit:0, Nickel Sharpening Kit
+tconstruct:sharpening_kit:0, Pewter Sharpening Kit
+tconstruct:sharpening_kit:0, Platinum Sharpening Kit
+tconstruct:sharpening_kit:0, Star-Steel Sharpening Kit
+tconstruct:sharpening_kit:0, Tin Sharpening Kit
+tconstruct:sharpening_kit:0, Zinc Sharpening Kit
 tconstruct:sharpening_kit:0, Beryllium Sharpening Kit
 tconstruct:sharpening_kit:0, Boron Sharpening Kit
 tconstruct:sharpening_kit:0, Cadmium Sharpening Kit
@@ -10822,21 +10837,6 @@ tconstruct:sharpening_kit:0, Titanium Sharpening Kit
 tconstruct:sharpening_kit:0, Tungsten Sharpening Kit
 tconstruct:sharpening_kit:0, Uranium Sharpening Kit
 tconstruct:sharpening_kit:0, Zirconium Sharpening Kit
-tconstruct:sharpening_kit:0, Adamantine Sharpening Kit
-tconstruct:sharpening_kit:0, Antimony Sharpening Kit
-tconstruct:sharpening_kit:0, Aquarium Sharpening Kit
-tconstruct:sharpening_kit:0, Bismuth Sharpening Kit
-tconstruct:sharpening_kit:0, Brass Sharpening Kit
-tconstruct:sharpening_kit:0, Cold-Iron Sharpening Kit
-tconstruct:sharpening_kit:0, Cupronickel Sharpening Kit
-tconstruct:sharpening_kit:0, Invar Sharpening Kit
-tconstruct:sharpening_kit:0, Mithril Sharpening Kit
-tconstruct:sharpening_kit:0, Nickel Sharpening Kit
-tconstruct:sharpening_kit:0, Pewter Sharpening Kit
-tconstruct:sharpening_kit:0, Platinum Sharpening Kit
-tconstruct:sharpening_kit:0, Star-Steel Sharpening Kit
-tconstruct:sharpening_kit:0, Tin Sharpening Kit
-tconstruct:sharpening_kit:0, Zinc Sharpening Kit
 tconstruct:sharpening_kit:0, Treated Wood Sharpening Kit
 tconstruct:sharpening_kit:0, Constantan Sharpening Kit
 tconstruct:sharpening_kit:0, Ruby Sharpening Kit
@@ -10962,6 +10962,21 @@ tconstruct:pick_head:0, Lead Pickaxe Head
 tconstruct:pick_head:0, Silver Pickaxe Head
 tconstruct:pick_head:0, Electrum Pickaxe Head
 tconstruct:pick_head:0, Steel Pickaxe Head
+tconstruct:pick_head:0, Adamantine Pickaxe Head
+tconstruct:pick_head:0, Antimony Pickaxe Head
+tconstruct:pick_head:0, Aquarium Pickaxe Head
+tconstruct:pick_head:0, Bismuth Pickaxe Head
+tconstruct:pick_head:0, Brass Pickaxe Head
+tconstruct:pick_head:0, Cold-Iron Pickaxe Head
+tconstruct:pick_head:0, Cupronickel Pickaxe Head
+tconstruct:pick_head:0, Invar Pickaxe Head
+tconstruct:pick_head:0, Mithril Pickaxe Head
+tconstruct:pick_head:0, Nickel Pickaxe Head
+tconstruct:pick_head:0, Pewter Pickaxe Head
+tconstruct:pick_head:0, Platinum Pickaxe Head
+tconstruct:pick_head:0, Star-Steel Pickaxe Head
+tconstruct:pick_head:0, Tin Pickaxe Head
+tconstruct:pick_head:0, Zinc Pickaxe Head
 tconstruct:pick_head:0, Beryllium Pickaxe Head
 tconstruct:pick_head:0, Boron Pickaxe Head
 tconstruct:pick_head:0, Cadmium Pickaxe Head
@@ -10981,21 +10996,6 @@ tconstruct:pick_head:0, Titanium Pickaxe Head
 tconstruct:pick_head:0, Tungsten Pickaxe Head
 tconstruct:pick_head:0, Uranium Pickaxe Head
 tconstruct:pick_head:0, Zirconium Pickaxe Head
-tconstruct:pick_head:0, Adamantine Pickaxe Head
-tconstruct:pick_head:0, Antimony Pickaxe Head
-tconstruct:pick_head:0, Aquarium Pickaxe Head
-tconstruct:pick_head:0, Bismuth Pickaxe Head
-tconstruct:pick_head:0, Brass Pickaxe Head
-tconstruct:pick_head:0, Cold-Iron Pickaxe Head
-tconstruct:pick_head:0, Cupronickel Pickaxe Head
-tconstruct:pick_head:0, Invar Pickaxe Head
-tconstruct:pick_head:0, Mithril Pickaxe Head
-tconstruct:pick_head:0, Nickel Pickaxe Head
-tconstruct:pick_head:0, Pewter Pickaxe Head
-tconstruct:pick_head:0, Platinum Pickaxe Head
-tconstruct:pick_head:0, Star-Steel Pickaxe Head
-tconstruct:pick_head:0, Tin Pickaxe Head
-tconstruct:pick_head:0, Zinc Pickaxe Head
 tconstruct:pick_head:0, Treated Wood Pickaxe Head
 tconstruct:pick_head:0, Constantan Pickaxe Head
 tconstruct:pick_head:0, Ruby Pickaxe Head
@@ -11121,6 +11121,21 @@ tconstruct:shovel_head:0, Lead Shovel Head
 tconstruct:shovel_head:0, Silver Shovel Head
 tconstruct:shovel_head:0, Electrum Shovel Head
 tconstruct:shovel_head:0, Steel Shovel Head
+tconstruct:shovel_head:0, Adamantine Shovel Head
+tconstruct:shovel_head:0, Antimony Shovel Head
+tconstruct:shovel_head:0, Aquarium Shovel Head
+tconstruct:shovel_head:0, Bismuth Shovel Head
+tconstruct:shovel_head:0, Brass Shovel Head
+tconstruct:shovel_head:0, Cold-Iron Shovel Head
+tconstruct:shovel_head:0, Cupronickel Shovel Head
+tconstruct:shovel_head:0, Invar Shovel Head
+tconstruct:shovel_head:0, Mithril Shovel Head
+tconstruct:shovel_head:0, Nickel Shovel Head
+tconstruct:shovel_head:0, Pewter Shovel Head
+tconstruct:shovel_head:0, Platinum Shovel Head
+tconstruct:shovel_head:0, Star-Steel Shovel Head
+tconstruct:shovel_head:0, Tin Shovel Head
+tconstruct:shovel_head:0, Zinc Shovel Head
 tconstruct:shovel_head:0, Beryllium Shovel Head
 tconstruct:shovel_head:0, Boron Shovel Head
 tconstruct:shovel_head:0, Cadmium Shovel Head
@@ -11140,21 +11155,6 @@ tconstruct:shovel_head:0, Titanium Shovel Head
 tconstruct:shovel_head:0, Tungsten Shovel Head
 tconstruct:shovel_head:0, Uranium Shovel Head
 tconstruct:shovel_head:0, Zirconium Shovel Head
-tconstruct:shovel_head:0, Adamantine Shovel Head
-tconstruct:shovel_head:0, Antimony Shovel Head
-tconstruct:shovel_head:0, Aquarium Shovel Head
-tconstruct:shovel_head:0, Bismuth Shovel Head
-tconstruct:shovel_head:0, Brass Shovel Head
-tconstruct:shovel_head:0, Cold-Iron Shovel Head
-tconstruct:shovel_head:0, Cupronickel Shovel Head
-tconstruct:shovel_head:0, Invar Shovel Head
-tconstruct:shovel_head:0, Mithril Shovel Head
-tconstruct:shovel_head:0, Nickel Shovel Head
-tconstruct:shovel_head:0, Pewter Shovel Head
-tconstruct:shovel_head:0, Platinum Shovel Head
-tconstruct:shovel_head:0, Star-Steel Shovel Head
-tconstruct:shovel_head:0, Tin Shovel Head
-tconstruct:shovel_head:0, Zinc Shovel Head
 tconstruct:shovel_head:0, Treated Wood Shovel Head
 tconstruct:shovel_head:0, Constantan Shovel Head
 tconstruct:shovel_head:0, Ruby Shovel Head
@@ -11280,6 +11280,21 @@ tconstruct:axe_head:0, Lead Axe Head
 tconstruct:axe_head:0, Silver Axe Head
 tconstruct:axe_head:0, Electrum Axe Head
 tconstruct:axe_head:0, Steel Axe Head
+tconstruct:axe_head:0, Adamantine Axe Head
+tconstruct:axe_head:0, Antimony Axe Head
+tconstruct:axe_head:0, Aquarium Axe Head
+tconstruct:axe_head:0, Bismuth Axe Head
+tconstruct:axe_head:0, Brass Axe Head
+tconstruct:axe_head:0, Cold-Iron Axe Head
+tconstruct:axe_head:0, Cupronickel Axe Head
+tconstruct:axe_head:0, Invar Axe Head
+tconstruct:axe_head:0, Mithril Axe Head
+tconstruct:axe_head:0, Nickel Axe Head
+tconstruct:axe_head:0, Pewter Axe Head
+tconstruct:axe_head:0, Platinum Axe Head
+tconstruct:axe_head:0, Star-Steel Axe Head
+tconstruct:axe_head:0, Tin Axe Head
+tconstruct:axe_head:0, Zinc Axe Head
 tconstruct:axe_head:0, Beryllium Axe Head
 tconstruct:axe_head:0, Boron Axe Head
 tconstruct:axe_head:0, Cadmium Axe Head
@@ -11299,21 +11314,6 @@ tconstruct:axe_head:0, Titanium Axe Head
 tconstruct:axe_head:0, Tungsten Axe Head
 tconstruct:axe_head:0, Uranium Axe Head
 tconstruct:axe_head:0, Zirconium Axe Head
-tconstruct:axe_head:0, Adamantine Axe Head
-tconstruct:axe_head:0, Antimony Axe Head
-tconstruct:axe_head:0, Aquarium Axe Head
-tconstruct:axe_head:0, Bismuth Axe Head
-tconstruct:axe_head:0, Brass Axe Head
-tconstruct:axe_head:0, Cold-Iron Axe Head
-tconstruct:axe_head:0, Cupronickel Axe Head
-tconstruct:axe_head:0, Invar Axe Head
-tconstruct:axe_head:0, Mithril Axe Head
-tconstruct:axe_head:0, Nickel Axe Head
-tconstruct:axe_head:0, Pewter Axe Head
-tconstruct:axe_head:0, Platinum Axe Head
-tconstruct:axe_head:0, Star-Steel Axe Head
-tconstruct:axe_head:0, Tin Axe Head
-tconstruct:axe_head:0, Zinc Axe Head
 tconstruct:axe_head:0, Treated Wood Axe Head
 tconstruct:axe_head:0, Constantan Axe Head
 tconstruct:axe_head:0, Ruby Axe Head
@@ -11439,6 +11439,21 @@ tconstruct:broad_axe_head:0, Lead Broad Axe Head
 tconstruct:broad_axe_head:0, Silver Broad Axe Head
 tconstruct:broad_axe_head:0, Electrum Broad Axe Head
 tconstruct:broad_axe_head:0, Steel Broad Axe Head
+tconstruct:broad_axe_head:0, Adamantine Broad Axe Head
+tconstruct:broad_axe_head:0, Antimony Broad Axe Head
+tconstruct:broad_axe_head:0, Aquarium Broad Axe Head
+tconstruct:broad_axe_head:0, Bismuth Broad Axe Head
+tconstruct:broad_axe_head:0, Brass Broad Axe Head
+tconstruct:broad_axe_head:0, Cold-Iron Broad Axe Head
+tconstruct:broad_axe_head:0, Cupronickel Broad Axe Head
+tconstruct:broad_axe_head:0, Invar Broad Axe Head
+tconstruct:broad_axe_head:0, Mithril Broad Axe Head
+tconstruct:broad_axe_head:0, Nickel Broad Axe Head
+tconstruct:broad_axe_head:0, Pewter Broad Axe Head
+tconstruct:broad_axe_head:0, Platinum Broad Axe Head
+tconstruct:broad_axe_head:0, Star-Steel Broad Axe Head
+tconstruct:broad_axe_head:0, Tin Broad Axe Head
+tconstruct:broad_axe_head:0, Zinc Broad Axe Head
 tconstruct:broad_axe_head:0, Beryllium Broad Axe Head
 tconstruct:broad_axe_head:0, Boron Broad Axe Head
 tconstruct:broad_axe_head:0, Cadmium Broad Axe Head
@@ -11458,21 +11473,6 @@ tconstruct:broad_axe_head:0, Titanium Broad Axe Head
 tconstruct:broad_axe_head:0, Tungsten Broad Axe Head
 tconstruct:broad_axe_head:0, Uranium Broad Axe Head
 tconstruct:broad_axe_head:0, Zirconium Broad Axe Head
-tconstruct:broad_axe_head:0, Adamantine Broad Axe Head
-tconstruct:broad_axe_head:0, Antimony Broad Axe Head
-tconstruct:broad_axe_head:0, Aquarium Broad Axe Head
-tconstruct:broad_axe_head:0, Bismuth Broad Axe Head
-tconstruct:broad_axe_head:0, Brass Broad Axe Head
-tconstruct:broad_axe_head:0, Cold-Iron Broad Axe Head
-tconstruct:broad_axe_head:0, Cupronickel Broad Axe Head
-tconstruct:broad_axe_head:0, Invar Broad Axe Head
-tconstruct:broad_axe_head:0, Mithril Broad Axe Head
-tconstruct:broad_axe_head:0, Nickel Broad Axe Head
-tconstruct:broad_axe_head:0, Pewter Broad Axe Head
-tconstruct:broad_axe_head:0, Platinum Broad Axe Head
-tconstruct:broad_axe_head:0, Star-Steel Broad Axe Head
-tconstruct:broad_axe_head:0, Tin Broad Axe Head
-tconstruct:broad_axe_head:0, Zinc Broad Axe Head
 tconstruct:broad_axe_head:0, Treated Wood Broad Axe Head
 tconstruct:broad_axe_head:0, Constantan Broad Axe Head
 tconstruct:broad_axe_head:0, Ruby Broad Axe Head
@@ -11598,6 +11598,21 @@ tconstruct:sword_blade:0, Lead Sword Blade
 tconstruct:sword_blade:0, Silver Sword Blade
 tconstruct:sword_blade:0, Electrum Sword Blade
 tconstruct:sword_blade:0, Steel Sword Blade
+tconstruct:sword_blade:0, Adamantine Sword Blade
+tconstruct:sword_blade:0, Antimony Sword Blade
+tconstruct:sword_blade:0, Aquarium Sword Blade
+tconstruct:sword_blade:0, Bismuth Sword Blade
+tconstruct:sword_blade:0, Brass Sword Blade
+tconstruct:sword_blade:0, Cold-Iron Sword Blade
+tconstruct:sword_blade:0, Cupronickel Sword Blade
+tconstruct:sword_blade:0, Invar Sword Blade
+tconstruct:sword_blade:0, Mithril Sword Blade
+tconstruct:sword_blade:0, Nickel Sword Blade
+tconstruct:sword_blade:0, Pewter Sword Blade
+tconstruct:sword_blade:0, Platinum Sword Blade
+tconstruct:sword_blade:0, Star-Steel Sword Blade
+tconstruct:sword_blade:0, Tin Sword Blade
+tconstruct:sword_blade:0, Zinc Sword Blade
 tconstruct:sword_blade:0, Beryllium Sword Blade
 tconstruct:sword_blade:0, Boron Sword Blade
 tconstruct:sword_blade:0, Cadmium Sword Blade
@@ -11617,21 +11632,6 @@ tconstruct:sword_blade:0, Titanium Sword Blade
 tconstruct:sword_blade:0, Tungsten Sword Blade
 tconstruct:sword_blade:0, Uranium Sword Blade
 tconstruct:sword_blade:0, Zirconium Sword Blade
-tconstruct:sword_blade:0, Adamantine Sword Blade
-tconstruct:sword_blade:0, Antimony Sword Blade
-tconstruct:sword_blade:0, Aquarium Sword Blade
-tconstruct:sword_blade:0, Bismuth Sword Blade
-tconstruct:sword_blade:0, Brass Sword Blade
-tconstruct:sword_blade:0, Cold-Iron Sword Blade
-tconstruct:sword_blade:0, Cupronickel Sword Blade
-tconstruct:sword_blade:0, Invar Sword Blade
-tconstruct:sword_blade:0, Mithril Sword Blade
-tconstruct:sword_blade:0, Nickel Sword Blade
-tconstruct:sword_blade:0, Pewter Sword Blade
-tconstruct:sword_blade:0, Platinum Sword Blade
-tconstruct:sword_blade:0, Star-Steel Sword Blade
-tconstruct:sword_blade:0, Tin Sword Blade
-tconstruct:sword_blade:0, Zinc Sword Blade
 tconstruct:sword_blade:0, Treated Wood Sword Blade
 tconstruct:sword_blade:0, Constantan Sword Blade
 tconstruct:sword_blade:0, Ruby Sword Blade
@@ -11757,6 +11757,21 @@ tconstruct:large_sword_blade:0, Lead Large Sword Blade
 tconstruct:large_sword_blade:0, Silver Large Sword Blade
 tconstruct:large_sword_blade:0, Electrum Large Sword Blade
 tconstruct:large_sword_blade:0, Steel Large Sword Blade
+tconstruct:large_sword_blade:0, Adamantine Large Sword Blade
+tconstruct:large_sword_blade:0, Antimony Large Sword Blade
+tconstruct:large_sword_blade:0, Aquarium Large Sword Blade
+tconstruct:large_sword_blade:0, Bismuth Large Sword Blade
+tconstruct:large_sword_blade:0, Brass Large Sword Blade
+tconstruct:large_sword_blade:0, Cold-Iron Large Sword Blade
+tconstruct:large_sword_blade:0, Cupronickel Large Sword Blade
+tconstruct:large_sword_blade:0, Invar Large Sword Blade
+tconstruct:large_sword_blade:0, Mithril Large Sword Blade
+tconstruct:large_sword_blade:0, Nickel Large Sword Blade
+tconstruct:large_sword_blade:0, Pewter Large Sword Blade
+tconstruct:large_sword_blade:0, Platinum Large Sword Blade
+tconstruct:large_sword_blade:0, Star-Steel Large Sword Blade
+tconstruct:large_sword_blade:0, Tin Large Sword Blade
+tconstruct:large_sword_blade:0, Zinc Large Sword Blade
 tconstruct:large_sword_blade:0, Beryllium Large Sword Blade
 tconstruct:large_sword_blade:0, Boron Large Sword Blade
 tconstruct:large_sword_blade:0, Cadmium Large Sword Blade
@@ -11776,21 +11791,6 @@ tconstruct:large_sword_blade:0, Titanium Large Sword Blade
 tconstruct:large_sword_blade:0, Tungsten Large Sword Blade
 tconstruct:large_sword_blade:0, Uranium Large Sword Blade
 tconstruct:large_sword_blade:0, Zirconium Large Sword Blade
-tconstruct:large_sword_blade:0, Adamantine Large Sword Blade
-tconstruct:large_sword_blade:0, Antimony Large Sword Blade
-tconstruct:large_sword_blade:0, Aquarium Large Sword Blade
-tconstruct:large_sword_blade:0, Bismuth Large Sword Blade
-tconstruct:large_sword_blade:0, Brass Large Sword Blade
-tconstruct:large_sword_blade:0, Cold-Iron Large Sword Blade
-tconstruct:large_sword_blade:0, Cupronickel Large Sword Blade
-tconstruct:large_sword_blade:0, Invar Large Sword Blade
-tconstruct:large_sword_blade:0, Mithril Large Sword Blade
-tconstruct:large_sword_blade:0, Nickel Large Sword Blade
-tconstruct:large_sword_blade:0, Pewter Large Sword Blade
-tconstruct:large_sword_blade:0, Platinum Large Sword Blade
-tconstruct:large_sword_blade:0, Star-Steel Large Sword Blade
-tconstruct:large_sword_blade:0, Tin Large Sword Blade
-tconstruct:large_sword_blade:0, Zinc Large Sword Blade
 tconstruct:large_sword_blade:0, Treated Wood Large Sword Blade
 tconstruct:large_sword_blade:0, Constantan Large Sword Blade
 tconstruct:large_sword_blade:0, Ruby Large Sword Blade
@@ -11916,6 +11916,21 @@ tconstruct:hammer_head:0, Lead Hammer Head
 tconstruct:hammer_head:0, Silver Hammer Head
 tconstruct:hammer_head:0, Electrum Hammer Head
 tconstruct:hammer_head:0, Steel Hammer Head
+tconstruct:hammer_head:0, Adamantine Hammer Head
+tconstruct:hammer_head:0, Antimony Hammer Head
+tconstruct:hammer_head:0, Aquarium Hammer Head
+tconstruct:hammer_head:0, Bismuth Hammer Head
+tconstruct:hammer_head:0, Brass Hammer Head
+tconstruct:hammer_head:0, Cold-Iron Hammer Head
+tconstruct:hammer_head:0, Cupronickel Hammer Head
+tconstruct:hammer_head:0, Invar Hammer Head
+tconstruct:hammer_head:0, Mithril Hammer Head
+tconstruct:hammer_head:0, Nickel Hammer Head
+tconstruct:hammer_head:0, Pewter Hammer Head
+tconstruct:hammer_head:0, Platinum Hammer Head
+tconstruct:hammer_head:0, Star-Steel Hammer Head
+tconstruct:hammer_head:0, Tin Hammer Head
+tconstruct:hammer_head:0, Zinc Hammer Head
 tconstruct:hammer_head:0, Beryllium Hammer Head
 tconstruct:hammer_head:0, Boron Hammer Head
 tconstruct:hammer_head:0, Cadmium Hammer Head
@@ -11935,21 +11950,6 @@ tconstruct:hammer_head:0, Titanium Hammer Head
 tconstruct:hammer_head:0, Tungsten Hammer Head
 tconstruct:hammer_head:0, Uranium Hammer Head
 tconstruct:hammer_head:0, Zirconium Hammer Head
-tconstruct:hammer_head:0, Adamantine Hammer Head
-tconstruct:hammer_head:0, Antimony Hammer Head
-tconstruct:hammer_head:0, Aquarium Hammer Head
-tconstruct:hammer_head:0, Bismuth Hammer Head
-tconstruct:hammer_head:0, Brass Hammer Head
-tconstruct:hammer_head:0, Cold-Iron Hammer Head
-tconstruct:hammer_head:0, Cupronickel Hammer Head
-tconstruct:hammer_head:0, Invar Hammer Head
-tconstruct:hammer_head:0, Mithril Hammer Head
-tconstruct:hammer_head:0, Nickel Hammer Head
-tconstruct:hammer_head:0, Pewter Hammer Head
-tconstruct:hammer_head:0, Platinum Hammer Head
-tconstruct:hammer_head:0, Star-Steel Hammer Head
-tconstruct:hammer_head:0, Tin Hammer Head
-tconstruct:hammer_head:0, Zinc Hammer Head
 tconstruct:hammer_head:0, Treated Wood Hammer Head
 tconstruct:hammer_head:0, Constantan Hammer Head
 tconstruct:hammer_head:0, Ruby Hammer Head
@@ -12075,6 +12075,21 @@ tconstruct:excavator_head:0, Lead Excavator Head
 tconstruct:excavator_head:0, Silver Excavator Head
 tconstruct:excavator_head:0, Electrum Excavator Head
 tconstruct:excavator_head:0, Steel Excavator Head
+tconstruct:excavator_head:0, Adamantine Excavator Head
+tconstruct:excavator_head:0, Antimony Excavator Head
+tconstruct:excavator_head:0, Aquarium Excavator Head
+tconstruct:excavator_head:0, Bismuth Excavator Head
+tconstruct:excavator_head:0, Brass Excavator Head
+tconstruct:excavator_head:0, Cold-Iron Excavator Head
+tconstruct:excavator_head:0, Cupronickel Excavator Head
+tconstruct:excavator_head:0, Invar Excavator Head
+tconstruct:excavator_head:0, Mithril Excavator Head
+tconstruct:excavator_head:0, Nickel Excavator Head
+tconstruct:excavator_head:0, Pewter Excavator Head
+tconstruct:excavator_head:0, Platinum Excavator Head
+tconstruct:excavator_head:0, Star-Steel Excavator Head
+tconstruct:excavator_head:0, Tin Excavator Head
+tconstruct:excavator_head:0, Zinc Excavator Head
 tconstruct:excavator_head:0, Beryllium Excavator Head
 tconstruct:excavator_head:0, Boron Excavator Head
 tconstruct:excavator_head:0, Cadmium Excavator Head
@@ -12094,21 +12109,6 @@ tconstruct:excavator_head:0, Titanium Excavator Head
 tconstruct:excavator_head:0, Tungsten Excavator Head
 tconstruct:excavator_head:0, Uranium Excavator Head
 tconstruct:excavator_head:0, Zirconium Excavator Head
-tconstruct:excavator_head:0, Adamantine Excavator Head
-tconstruct:excavator_head:0, Antimony Excavator Head
-tconstruct:excavator_head:0, Aquarium Excavator Head
-tconstruct:excavator_head:0, Bismuth Excavator Head
-tconstruct:excavator_head:0, Brass Excavator Head
-tconstruct:excavator_head:0, Cold-Iron Excavator Head
-tconstruct:excavator_head:0, Cupronickel Excavator Head
-tconstruct:excavator_head:0, Invar Excavator Head
-tconstruct:excavator_head:0, Mithril Excavator Head
-tconstruct:excavator_head:0, Nickel Excavator Head
-tconstruct:excavator_head:0, Pewter Excavator Head
-tconstruct:excavator_head:0, Platinum Excavator Head
-tconstruct:excavator_head:0, Star-Steel Excavator Head
-tconstruct:excavator_head:0, Tin Excavator Head
-tconstruct:excavator_head:0, Zinc Excavator Head
 tconstruct:excavator_head:0, Treated Wood Excavator Head
 tconstruct:excavator_head:0, Constantan Excavator Head
 tconstruct:excavator_head:0, Ruby Excavator Head
@@ -12234,6 +12234,21 @@ tconstruct:kama_head:0, Lead Kama Head
 tconstruct:kama_head:0, Silver Kama Head
 tconstruct:kama_head:0, Electrum Kama Head
 tconstruct:kama_head:0, Steel Kama Head
+tconstruct:kama_head:0, Adamantine Kama Head
+tconstruct:kama_head:0, Antimony Kama Head
+tconstruct:kama_head:0, Aquarium Kama Head
+tconstruct:kama_head:0, Bismuth Kama Head
+tconstruct:kama_head:0, Brass Kama Head
+tconstruct:kama_head:0, Cold-Iron Kama Head
+tconstruct:kama_head:0, Cupronickel Kama Head
+tconstruct:kama_head:0, Invar Kama Head
+tconstruct:kama_head:0, Mithril Kama Head
+tconstruct:kama_head:0, Nickel Kama Head
+tconstruct:kama_head:0, Pewter Kama Head
+tconstruct:kama_head:0, Platinum Kama Head
+tconstruct:kama_head:0, Star-Steel Kama Head
+tconstruct:kama_head:0, Tin Kama Head
+tconstruct:kama_head:0, Zinc Kama Head
 tconstruct:kama_head:0, Beryllium Kama Head
 tconstruct:kama_head:0, Boron Kama Head
 tconstruct:kama_head:0, Cadmium Kama Head
@@ -12253,21 +12268,6 @@ tconstruct:kama_head:0, Titanium Kama Head
 tconstruct:kama_head:0, Tungsten Kama Head
 tconstruct:kama_head:0, Uranium Kama Head
 tconstruct:kama_head:0, Zirconium Kama Head
-tconstruct:kama_head:0, Adamantine Kama Head
-tconstruct:kama_head:0, Antimony Kama Head
-tconstruct:kama_head:0, Aquarium Kama Head
-tconstruct:kama_head:0, Bismuth Kama Head
-tconstruct:kama_head:0, Brass Kama Head
-tconstruct:kama_head:0, Cold-Iron Kama Head
-tconstruct:kama_head:0, Cupronickel Kama Head
-tconstruct:kama_head:0, Invar Kama Head
-tconstruct:kama_head:0, Mithril Kama Head
-tconstruct:kama_head:0, Nickel Kama Head
-tconstruct:kama_head:0, Pewter Kama Head
-tconstruct:kama_head:0, Platinum Kama Head
-tconstruct:kama_head:0, Star-Steel Kama Head
-tconstruct:kama_head:0, Tin Kama Head
-tconstruct:kama_head:0, Zinc Kama Head
 tconstruct:kama_head:0, Treated Wood Kama Head
 tconstruct:kama_head:0, Constantan Kama Head
 tconstruct:kama_head:0, Ruby Kama Head
@@ -12393,6 +12393,21 @@ tconstruct:scythe_head:0, Lead Scythe Head
 tconstruct:scythe_head:0, Silver Scythe Head
 tconstruct:scythe_head:0, Electrum Scythe Head
 tconstruct:scythe_head:0, Steel Scythe Head
+tconstruct:scythe_head:0, Adamantine Scythe Head
+tconstruct:scythe_head:0, Antimony Scythe Head
+tconstruct:scythe_head:0, Aquarium Scythe Head
+tconstruct:scythe_head:0, Bismuth Scythe Head
+tconstruct:scythe_head:0, Brass Scythe Head
+tconstruct:scythe_head:0, Cold-Iron Scythe Head
+tconstruct:scythe_head:0, Cupronickel Scythe Head
+tconstruct:scythe_head:0, Invar Scythe Head
+tconstruct:scythe_head:0, Mithril Scythe Head
+tconstruct:scythe_head:0, Nickel Scythe Head
+tconstruct:scythe_head:0, Pewter Scythe Head
+tconstruct:scythe_head:0, Platinum Scythe Head
+tconstruct:scythe_head:0, Star-Steel Scythe Head
+tconstruct:scythe_head:0, Tin Scythe Head
+tconstruct:scythe_head:0, Zinc Scythe Head
 tconstruct:scythe_head:0, Beryllium Scythe Head
 tconstruct:scythe_head:0, Boron Scythe Head
 tconstruct:scythe_head:0, Cadmium Scythe Head
@@ -12412,21 +12427,6 @@ tconstruct:scythe_head:0, Titanium Scythe Head
 tconstruct:scythe_head:0, Tungsten Scythe Head
 tconstruct:scythe_head:0, Uranium Scythe Head
 tconstruct:scythe_head:0, Zirconium Scythe Head
-tconstruct:scythe_head:0, Adamantine Scythe Head
-tconstruct:scythe_head:0, Antimony Scythe Head
-tconstruct:scythe_head:0, Aquarium Scythe Head
-tconstruct:scythe_head:0, Bismuth Scythe Head
-tconstruct:scythe_head:0, Brass Scythe Head
-tconstruct:scythe_head:0, Cold-Iron Scythe Head
-tconstruct:scythe_head:0, Cupronickel Scythe Head
-tconstruct:scythe_head:0, Invar Scythe Head
-tconstruct:scythe_head:0, Mithril Scythe Head
-tconstruct:scythe_head:0, Nickel Scythe Head
-tconstruct:scythe_head:0, Pewter Scythe Head
-tconstruct:scythe_head:0, Platinum Scythe Head
-tconstruct:scythe_head:0, Star-Steel Scythe Head
-tconstruct:scythe_head:0, Tin Scythe Head
-tconstruct:scythe_head:0, Zinc Scythe Head
 tconstruct:scythe_head:0, Treated Wood Scythe Head
 tconstruct:scythe_head:0, Constantan Scythe Head
 tconstruct:scythe_head:0, Ruby Scythe Head
@@ -12552,6 +12552,21 @@ tconstruct:pan_head:0, Lead Pan
 tconstruct:pan_head:0, Silver Pan
 tconstruct:pan_head:0, Electrum Pan
 tconstruct:pan_head:0, Steel Pan
+tconstruct:pan_head:0, Adamantine Pan
+tconstruct:pan_head:0, Antimony Pan
+tconstruct:pan_head:0, Aquarium Pan
+tconstruct:pan_head:0, Bismuth Pan
+tconstruct:pan_head:0, Brass Pan
+tconstruct:pan_head:0, Cold-Iron Pan
+tconstruct:pan_head:0, Cupronickel Pan
+tconstruct:pan_head:0, Invar Pan
+tconstruct:pan_head:0, Mithril Pan
+tconstruct:pan_head:0, Nickel Pan
+tconstruct:pan_head:0, Pewter Pan
+tconstruct:pan_head:0, Platinum Pan
+tconstruct:pan_head:0, Star-Steel Pan
+tconstruct:pan_head:0, Tin Pan
+tconstruct:pan_head:0, Zinc Pan
 tconstruct:pan_head:0, Beryllium Pan
 tconstruct:pan_head:0, Boron Pan
 tconstruct:pan_head:0, Cadmium Pan
@@ -12571,21 +12586,6 @@ tconstruct:pan_head:0, Titanium Pan
 tconstruct:pan_head:0, Tungsten Pan
 tconstruct:pan_head:0, Uranium Pan
 tconstruct:pan_head:0, Zirconium Pan
-tconstruct:pan_head:0, Adamantine Pan
-tconstruct:pan_head:0, Antimony Pan
-tconstruct:pan_head:0, Aquarium Pan
-tconstruct:pan_head:0, Bismuth Pan
-tconstruct:pan_head:0, Brass Pan
-tconstruct:pan_head:0, Cold-Iron Pan
-tconstruct:pan_head:0, Cupronickel Pan
-tconstruct:pan_head:0, Invar Pan
-tconstruct:pan_head:0, Mithril Pan
-tconstruct:pan_head:0, Nickel Pan
-tconstruct:pan_head:0, Pewter Pan
-tconstruct:pan_head:0, Platinum Pan
-tconstruct:pan_head:0, Star-Steel Pan
-tconstruct:pan_head:0, Tin Pan
-tconstruct:pan_head:0, Zinc Pan
 tconstruct:pan_head:0, Treated Wood Pan
 tconstruct:pan_head:0, Constantan Pan
 tconstruct:pan_head:0, Ruby Pan
@@ -12711,6 +12711,21 @@ tconstruct:sign_head:0, Lead Sign Plate
 tconstruct:sign_head:0, Silver Sign Plate
 tconstruct:sign_head:0, Electrum Sign Plate
 tconstruct:sign_head:0, Steel Sign Plate
+tconstruct:sign_head:0, Adamantine Sign Plate
+tconstruct:sign_head:0, Antimony Sign Plate
+tconstruct:sign_head:0, Aquarium Sign Plate
+tconstruct:sign_head:0, Bismuth Sign Plate
+tconstruct:sign_head:0, Brass Sign Plate
+tconstruct:sign_head:0, Cold-Iron Sign Plate
+tconstruct:sign_head:0, Cupronickel Sign Plate
+tconstruct:sign_head:0, Invar Sign Plate
+tconstruct:sign_head:0, Mithril Sign Plate
+tconstruct:sign_head:0, Nickel Sign Plate
+tconstruct:sign_head:0, Pewter Sign Plate
+tconstruct:sign_head:0, Platinum Sign Plate
+tconstruct:sign_head:0, Star-Steel Sign Plate
+tconstruct:sign_head:0, Tin Sign Plate
+tconstruct:sign_head:0, Zinc Sign Plate
 tconstruct:sign_head:0, Beryllium Sign Plate
 tconstruct:sign_head:0, Boron Sign Plate
 tconstruct:sign_head:0, Cadmium Sign Plate
@@ -12730,21 +12745,6 @@ tconstruct:sign_head:0, Titanium Sign Plate
 tconstruct:sign_head:0, Tungsten Sign Plate
 tconstruct:sign_head:0, Uranium Sign Plate
 tconstruct:sign_head:0, Zirconium Sign Plate
-tconstruct:sign_head:0, Adamantine Sign Plate
-tconstruct:sign_head:0, Antimony Sign Plate
-tconstruct:sign_head:0, Aquarium Sign Plate
-tconstruct:sign_head:0, Bismuth Sign Plate
-tconstruct:sign_head:0, Brass Sign Plate
-tconstruct:sign_head:0, Cold-Iron Sign Plate
-tconstruct:sign_head:0, Cupronickel Sign Plate
-tconstruct:sign_head:0, Invar Sign Plate
-tconstruct:sign_head:0, Mithril Sign Plate
-tconstruct:sign_head:0, Nickel Sign Plate
-tconstruct:sign_head:0, Pewter Sign Plate
-tconstruct:sign_head:0, Platinum Sign Plate
-tconstruct:sign_head:0, Star-Steel Sign Plate
-tconstruct:sign_head:0, Tin Sign Plate
-tconstruct:sign_head:0, Zinc Sign Plate
 tconstruct:sign_head:0, Treated Wood Sign Plate
 tconstruct:sign_head:0, Constantan Sign Plate
 tconstruct:sign_head:0, Ruby Sign Plate
@@ -12870,6 +12870,21 @@ tconstruct:tool_rod:0, Lead Tool Rod
 tconstruct:tool_rod:0, Silver Tool Rod
 tconstruct:tool_rod:0, Electrum Tool Rod
 tconstruct:tool_rod:0, Steel Tool Rod
+tconstruct:tool_rod:0, Adamantine Tool Rod
+tconstruct:tool_rod:0, Antimony Tool Rod
+tconstruct:tool_rod:0, Aquarium Tool Rod
+tconstruct:tool_rod:0, Bismuth Tool Rod
+tconstruct:tool_rod:0, Brass Tool Rod
+tconstruct:tool_rod:0, Cold-Iron Tool Rod
+tconstruct:tool_rod:0, Cupronickel Tool Rod
+tconstruct:tool_rod:0, Invar Tool Rod
+tconstruct:tool_rod:0, Mithril Tool Rod
+tconstruct:tool_rod:0, Nickel Tool Rod
+tconstruct:tool_rod:0, Pewter Tool Rod
+tconstruct:tool_rod:0, Platinum Tool Rod
+tconstruct:tool_rod:0, Star-Steel Tool Rod
+tconstruct:tool_rod:0, Tin Tool Rod
+tconstruct:tool_rod:0, Zinc Tool Rod
 tconstruct:tool_rod:0, Beryllium Tool Rod
 tconstruct:tool_rod:0, Boron Tool Rod
 tconstruct:tool_rod:0, Cadmium Tool Rod
@@ -12889,21 +12904,6 @@ tconstruct:tool_rod:0, Titanium Tool Rod
 tconstruct:tool_rod:0, Tungsten Tool Rod
 tconstruct:tool_rod:0, Uranium Tool Rod
 tconstruct:tool_rod:0, Zirconium Tool Rod
-tconstruct:tool_rod:0, Adamantine Tool Rod
-tconstruct:tool_rod:0, Antimony Tool Rod
-tconstruct:tool_rod:0, Aquarium Tool Rod
-tconstruct:tool_rod:0, Bismuth Tool Rod
-tconstruct:tool_rod:0, Brass Tool Rod
-tconstruct:tool_rod:0, Cold-Iron Tool Rod
-tconstruct:tool_rod:0, Cupronickel Tool Rod
-tconstruct:tool_rod:0, Invar Tool Rod
-tconstruct:tool_rod:0, Mithril Tool Rod
-tconstruct:tool_rod:0, Nickel Tool Rod
-tconstruct:tool_rod:0, Pewter Tool Rod
-tconstruct:tool_rod:0, Platinum Tool Rod
-tconstruct:tool_rod:0, Star-Steel Tool Rod
-tconstruct:tool_rod:0, Tin Tool Rod
-tconstruct:tool_rod:0, Zinc Tool Rod
 tconstruct:tool_rod:0, Treated Wood Tool Rod
 tconstruct:tool_rod:0, Constantan Tool Rod
 tconstruct:tool_rod:0, Ruby Tool Rod
@@ -13029,6 +13029,21 @@ tconstruct:tough_tool_rod:0, Lead Tough Tool Rod
 tconstruct:tough_tool_rod:0, Silver Tough Tool Rod
 tconstruct:tough_tool_rod:0, Electrum Tough Tool Rod
 tconstruct:tough_tool_rod:0, Steel Tough Tool Rod
+tconstruct:tough_tool_rod:0, Adamantine Tough Tool Rod
+tconstruct:tough_tool_rod:0, Antimony Tough Tool Rod
+tconstruct:tough_tool_rod:0, Aquarium Tough Tool Rod
+tconstruct:tough_tool_rod:0, Bismuth Tough Tool Rod
+tconstruct:tough_tool_rod:0, Brass Tough Tool Rod
+tconstruct:tough_tool_rod:0, Cold-Iron Tough Tool Rod
+tconstruct:tough_tool_rod:0, Cupronickel Tough Tool Rod
+tconstruct:tough_tool_rod:0, Invar Tough Tool Rod
+tconstruct:tough_tool_rod:0, Mithril Tough Tool Rod
+tconstruct:tough_tool_rod:0, Nickel Tough Tool Rod
+tconstruct:tough_tool_rod:0, Pewter Tough Tool Rod
+tconstruct:tough_tool_rod:0, Platinum Tough Tool Rod
+tconstruct:tough_tool_rod:0, Star-Steel Tough Tool Rod
+tconstruct:tough_tool_rod:0, Tin Tough Tool Rod
+tconstruct:tough_tool_rod:0, Zinc Tough Tool Rod
 tconstruct:tough_tool_rod:0, Beryllium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Boron Tough Tool Rod
 tconstruct:tough_tool_rod:0, Cadmium Tough Tool Rod
@@ -13048,21 +13063,6 @@ tconstruct:tough_tool_rod:0, Titanium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Tungsten Tough Tool Rod
 tconstruct:tough_tool_rod:0, Uranium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Zirconium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Adamantine Tough Tool Rod
-tconstruct:tough_tool_rod:0, Antimony Tough Tool Rod
-tconstruct:tough_tool_rod:0, Aquarium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Bismuth Tough Tool Rod
-tconstruct:tough_tool_rod:0, Brass Tough Tool Rod
-tconstruct:tough_tool_rod:0, Cold-Iron Tough Tool Rod
-tconstruct:tough_tool_rod:0, Cupronickel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Invar Tough Tool Rod
-tconstruct:tough_tool_rod:0, Mithril Tough Tool Rod
-tconstruct:tough_tool_rod:0, Nickel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Pewter Tough Tool Rod
-tconstruct:tough_tool_rod:0, Platinum Tough Tool Rod
-tconstruct:tough_tool_rod:0, Star-Steel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Tin Tough Tool Rod
-tconstruct:tough_tool_rod:0, Zinc Tough Tool Rod
 tconstruct:tough_tool_rod:0, Treated Wood Tough Tool Rod
 tconstruct:tough_tool_rod:0, Constantan Tough Tool Rod
 tconstruct:tough_tool_rod:0, Ruby Tough Tool Rod
@@ -13188,6 +13188,21 @@ tconstruct:binding:0, Lead Binding
 tconstruct:binding:0, Silver Binding
 tconstruct:binding:0, Electrum Binding
 tconstruct:binding:0, Steel Binding
+tconstruct:binding:0, Adamantine Binding
+tconstruct:binding:0, Antimony Binding
+tconstruct:binding:0, Aquarium Binding
+tconstruct:binding:0, Bismuth Binding
+tconstruct:binding:0, Brass Binding
+tconstruct:binding:0, Cold-Iron Binding
+tconstruct:binding:0, Cupronickel Binding
+tconstruct:binding:0, Invar Binding
+tconstruct:binding:0, Mithril Binding
+tconstruct:binding:0, Nickel Binding
+tconstruct:binding:0, Pewter Binding
+tconstruct:binding:0, Platinum Binding
+tconstruct:binding:0, Star-Steel Binding
+tconstruct:binding:0, Tin Binding
+tconstruct:binding:0, Zinc Binding
 tconstruct:binding:0, Beryllium Binding
 tconstruct:binding:0, Boron Binding
 tconstruct:binding:0, Cadmium Binding
@@ -13207,21 +13222,6 @@ tconstruct:binding:0, Titanium Binding
 tconstruct:binding:0, Tungsten Binding
 tconstruct:binding:0, Uranium Binding
 tconstruct:binding:0, Zirconium Binding
-tconstruct:binding:0, Adamantine Binding
-tconstruct:binding:0, Antimony Binding
-tconstruct:binding:0, Aquarium Binding
-tconstruct:binding:0, Bismuth Binding
-tconstruct:binding:0, Brass Binding
-tconstruct:binding:0, Cold-Iron Binding
-tconstruct:binding:0, Cupronickel Binding
-tconstruct:binding:0, Invar Binding
-tconstruct:binding:0, Mithril Binding
-tconstruct:binding:0, Nickel Binding
-tconstruct:binding:0, Pewter Binding
-tconstruct:binding:0, Platinum Binding
-tconstruct:binding:0, Star-Steel Binding
-tconstruct:binding:0, Tin Binding
-tconstruct:binding:0, Zinc Binding
 tconstruct:binding:0, Treated Wood Binding
 tconstruct:binding:0, Constantan Binding
 tconstruct:binding:0, Ruby Binding
@@ -13347,6 +13347,21 @@ tconstruct:tough_binding:0, Lead Tough Binding
 tconstruct:tough_binding:0, Silver Tough Binding
 tconstruct:tough_binding:0, Electrum Tough Binding
 tconstruct:tough_binding:0, Steel Tough Binding
+tconstruct:tough_binding:0, Adamantine Tough Binding
+tconstruct:tough_binding:0, Antimony Tough Binding
+tconstruct:tough_binding:0, Aquarium Tough Binding
+tconstruct:tough_binding:0, Bismuth Tough Binding
+tconstruct:tough_binding:0, Brass Tough Binding
+tconstruct:tough_binding:0, Cold-Iron Tough Binding
+tconstruct:tough_binding:0, Cupronickel Tough Binding
+tconstruct:tough_binding:0, Invar Tough Binding
+tconstruct:tough_binding:0, Mithril Tough Binding
+tconstruct:tough_binding:0, Nickel Tough Binding
+tconstruct:tough_binding:0, Pewter Tough Binding
+tconstruct:tough_binding:0, Platinum Tough Binding
+tconstruct:tough_binding:0, Star-Steel Tough Binding
+tconstruct:tough_binding:0, Tin Tough Binding
+tconstruct:tough_binding:0, Zinc Tough Binding
 tconstruct:tough_binding:0, Beryllium Tough Binding
 tconstruct:tough_binding:0, Boron Tough Binding
 tconstruct:tough_binding:0, Cadmium Tough Binding
@@ -13366,21 +13381,6 @@ tconstruct:tough_binding:0, Titanium Tough Binding
 tconstruct:tough_binding:0, Tungsten Tough Binding
 tconstruct:tough_binding:0, Uranium Tough Binding
 tconstruct:tough_binding:0, Zirconium Tough Binding
-tconstruct:tough_binding:0, Adamantine Tough Binding
-tconstruct:tough_binding:0, Antimony Tough Binding
-tconstruct:tough_binding:0, Aquarium Tough Binding
-tconstruct:tough_binding:0, Bismuth Tough Binding
-tconstruct:tough_binding:0, Brass Tough Binding
-tconstruct:tough_binding:0, Cold-Iron Tough Binding
-tconstruct:tough_binding:0, Cupronickel Tough Binding
-tconstruct:tough_binding:0, Invar Tough Binding
-tconstruct:tough_binding:0, Mithril Tough Binding
-tconstruct:tough_binding:0, Nickel Tough Binding
-tconstruct:tough_binding:0, Pewter Tough Binding
-tconstruct:tough_binding:0, Platinum Tough Binding
-tconstruct:tough_binding:0, Star-Steel Tough Binding
-tconstruct:tough_binding:0, Tin Tough Binding
-tconstruct:tough_binding:0, Zinc Tough Binding
 tconstruct:tough_binding:0, Treated Wood Tough Binding
 tconstruct:tough_binding:0, Constantan Tough Binding
 tconstruct:tough_binding:0, Ruby Tough Binding
@@ -13506,6 +13506,21 @@ tconstruct:wide_guard:0, Lead Wide Guard
 tconstruct:wide_guard:0, Silver Wide Guard
 tconstruct:wide_guard:0, Electrum Wide Guard
 tconstruct:wide_guard:0, Steel Wide Guard
+tconstruct:wide_guard:0, Adamantine Wide Guard
+tconstruct:wide_guard:0, Antimony Wide Guard
+tconstruct:wide_guard:0, Aquarium Wide Guard
+tconstruct:wide_guard:0, Bismuth Wide Guard
+tconstruct:wide_guard:0, Brass Wide Guard
+tconstruct:wide_guard:0, Cold-Iron Wide Guard
+tconstruct:wide_guard:0, Cupronickel Wide Guard
+tconstruct:wide_guard:0, Invar Wide Guard
+tconstruct:wide_guard:0, Mithril Wide Guard
+tconstruct:wide_guard:0, Nickel Wide Guard
+tconstruct:wide_guard:0, Pewter Wide Guard
+tconstruct:wide_guard:0, Platinum Wide Guard
+tconstruct:wide_guard:0, Star-Steel Wide Guard
+tconstruct:wide_guard:0, Tin Wide Guard
+tconstruct:wide_guard:0, Zinc Wide Guard
 tconstruct:wide_guard:0, Beryllium Wide Guard
 tconstruct:wide_guard:0, Boron Wide Guard
 tconstruct:wide_guard:0, Cadmium Wide Guard
@@ -13525,21 +13540,6 @@ tconstruct:wide_guard:0, Titanium Wide Guard
 tconstruct:wide_guard:0, Tungsten Wide Guard
 tconstruct:wide_guard:0, Uranium Wide Guard
 tconstruct:wide_guard:0, Zirconium Wide Guard
-tconstruct:wide_guard:0, Adamantine Wide Guard
-tconstruct:wide_guard:0, Antimony Wide Guard
-tconstruct:wide_guard:0, Aquarium Wide Guard
-tconstruct:wide_guard:0, Bismuth Wide Guard
-tconstruct:wide_guard:0, Brass Wide Guard
-tconstruct:wide_guard:0, Cold-Iron Wide Guard
-tconstruct:wide_guard:0, Cupronickel Wide Guard
-tconstruct:wide_guard:0, Invar Wide Guard
-tconstruct:wide_guard:0, Mithril Wide Guard
-tconstruct:wide_guard:0, Nickel Wide Guard
-tconstruct:wide_guard:0, Pewter Wide Guard
-tconstruct:wide_guard:0, Platinum Wide Guard
-tconstruct:wide_guard:0, Star-Steel Wide Guard
-tconstruct:wide_guard:0, Tin Wide Guard
-tconstruct:wide_guard:0, Zinc Wide Guard
 tconstruct:wide_guard:0, Treated Wood Wide Guard
 tconstruct:wide_guard:0, Constantan Wide Guard
 tconstruct:wide_guard:0, Ruby Wide Guard
@@ -13665,6 +13665,21 @@ tconstruct:hand_guard:0, Lead Hand Guard
 tconstruct:hand_guard:0, Silver Hand Guard
 tconstruct:hand_guard:0, Electrum Hand Guard
 tconstruct:hand_guard:0, Steel Hand Guard
+tconstruct:hand_guard:0, Adamantine Hand Guard
+tconstruct:hand_guard:0, Antimony Hand Guard
+tconstruct:hand_guard:0, Aquarium Hand Guard
+tconstruct:hand_guard:0, Bismuth Hand Guard
+tconstruct:hand_guard:0, Brass Hand Guard
+tconstruct:hand_guard:0, Cold-Iron Hand Guard
+tconstruct:hand_guard:0, Cupronickel Hand Guard
+tconstruct:hand_guard:0, Invar Hand Guard
+tconstruct:hand_guard:0, Mithril Hand Guard
+tconstruct:hand_guard:0, Nickel Hand Guard
+tconstruct:hand_guard:0, Pewter Hand Guard
+tconstruct:hand_guard:0, Platinum Hand Guard
+tconstruct:hand_guard:0, Star-Steel Hand Guard
+tconstruct:hand_guard:0, Tin Hand Guard
+tconstruct:hand_guard:0, Zinc Hand Guard
 tconstruct:hand_guard:0, Beryllium Hand Guard
 tconstruct:hand_guard:0, Boron Hand Guard
 tconstruct:hand_guard:0, Cadmium Hand Guard
@@ -13684,21 +13699,6 @@ tconstruct:hand_guard:0, Titanium Hand Guard
 tconstruct:hand_guard:0, Tungsten Hand Guard
 tconstruct:hand_guard:0, Uranium Hand Guard
 tconstruct:hand_guard:0, Zirconium Hand Guard
-tconstruct:hand_guard:0, Adamantine Hand Guard
-tconstruct:hand_guard:0, Antimony Hand Guard
-tconstruct:hand_guard:0, Aquarium Hand Guard
-tconstruct:hand_guard:0, Bismuth Hand Guard
-tconstruct:hand_guard:0, Brass Hand Guard
-tconstruct:hand_guard:0, Cold-Iron Hand Guard
-tconstruct:hand_guard:0, Cupronickel Hand Guard
-tconstruct:hand_guard:0, Invar Hand Guard
-tconstruct:hand_guard:0, Mithril Hand Guard
-tconstruct:hand_guard:0, Nickel Hand Guard
-tconstruct:hand_guard:0, Pewter Hand Guard
-tconstruct:hand_guard:0, Platinum Hand Guard
-tconstruct:hand_guard:0, Star-Steel Hand Guard
-tconstruct:hand_guard:0, Tin Hand Guard
-tconstruct:hand_guard:0, Zinc Hand Guard
 tconstruct:hand_guard:0, Treated Wood Hand Guard
 tconstruct:hand_guard:0, Constantan Hand Guard
 tconstruct:hand_guard:0, Ruby Hand Guard
@@ -13824,6 +13824,21 @@ tconstruct:cross_guard:0, Lead Cross Guard
 tconstruct:cross_guard:0, Silver Cross Guard
 tconstruct:cross_guard:0, Electrum Cross Guard
 tconstruct:cross_guard:0, Steel Cross Guard
+tconstruct:cross_guard:0, Adamantine Cross Guard
+tconstruct:cross_guard:0, Antimony Cross Guard
+tconstruct:cross_guard:0, Aquarium Cross Guard
+tconstruct:cross_guard:0, Bismuth Cross Guard
+tconstruct:cross_guard:0, Brass Cross Guard
+tconstruct:cross_guard:0, Cold-Iron Cross Guard
+tconstruct:cross_guard:0, Cupronickel Cross Guard
+tconstruct:cross_guard:0, Invar Cross Guard
+tconstruct:cross_guard:0, Mithril Cross Guard
+tconstruct:cross_guard:0, Nickel Cross Guard
+tconstruct:cross_guard:0, Pewter Cross Guard
+tconstruct:cross_guard:0, Platinum Cross Guard
+tconstruct:cross_guard:0, Star-Steel Cross Guard
+tconstruct:cross_guard:0, Tin Cross Guard
+tconstruct:cross_guard:0, Zinc Cross Guard
 tconstruct:cross_guard:0, Beryllium Cross Guard
 tconstruct:cross_guard:0, Boron Cross Guard
 tconstruct:cross_guard:0, Cadmium Cross Guard
@@ -13843,21 +13858,6 @@ tconstruct:cross_guard:0, Titanium Cross Guard
 tconstruct:cross_guard:0, Tungsten Cross Guard
 tconstruct:cross_guard:0, Uranium Cross Guard
 tconstruct:cross_guard:0, Zirconium Cross Guard
-tconstruct:cross_guard:0, Adamantine Cross Guard
-tconstruct:cross_guard:0, Antimony Cross Guard
-tconstruct:cross_guard:0, Aquarium Cross Guard
-tconstruct:cross_guard:0, Bismuth Cross Guard
-tconstruct:cross_guard:0, Brass Cross Guard
-tconstruct:cross_guard:0, Cold-Iron Cross Guard
-tconstruct:cross_guard:0, Cupronickel Cross Guard
-tconstruct:cross_guard:0, Invar Cross Guard
-tconstruct:cross_guard:0, Mithril Cross Guard
-tconstruct:cross_guard:0, Nickel Cross Guard
-tconstruct:cross_guard:0, Pewter Cross Guard
-tconstruct:cross_guard:0, Platinum Cross Guard
-tconstruct:cross_guard:0, Star-Steel Cross Guard
-tconstruct:cross_guard:0, Tin Cross Guard
-tconstruct:cross_guard:0, Zinc Cross Guard
 tconstruct:cross_guard:0, Treated Wood Cross Guard
 tconstruct:cross_guard:0, Constantan Cross Guard
 tconstruct:cross_guard:0, Ruby Cross Guard
@@ -13983,6 +13983,21 @@ tconstruct:large_plate:0, Lead Large Plate
 tconstruct:large_plate:0, Silver Large Plate
 tconstruct:large_plate:0, Electrum Large Plate
 tconstruct:large_plate:0, Steel Large Plate
+tconstruct:large_plate:0, Adamantine Large Plate
+tconstruct:large_plate:0, Antimony Large Plate
+tconstruct:large_plate:0, Aquarium Large Plate
+tconstruct:large_plate:0, Bismuth Large Plate
+tconstruct:large_plate:0, Brass Large Plate
+tconstruct:large_plate:0, Cold-Iron Large Plate
+tconstruct:large_plate:0, Cupronickel Large Plate
+tconstruct:large_plate:0, Invar Large Plate
+tconstruct:large_plate:0, Mithril Large Plate
+tconstruct:large_plate:0, Nickel Large Plate
+tconstruct:large_plate:0, Pewter Large Plate
+tconstruct:large_plate:0, Platinum Large Plate
+tconstruct:large_plate:0, Star-Steel Large Plate
+tconstruct:large_plate:0, Tin Large Plate
+tconstruct:large_plate:0, Zinc Large Plate
 tconstruct:large_plate:0, Beryllium Large Plate
 tconstruct:large_plate:0, Boron Large Plate
 tconstruct:large_plate:0, Cadmium Large Plate
@@ -14002,21 +14017,6 @@ tconstruct:large_plate:0, Titanium Large Plate
 tconstruct:large_plate:0, Tungsten Large Plate
 tconstruct:large_plate:0, Uranium Large Plate
 tconstruct:large_plate:0, Zirconium Large Plate
-tconstruct:large_plate:0, Adamantine Large Plate
-tconstruct:large_plate:0, Antimony Large Plate
-tconstruct:large_plate:0, Aquarium Large Plate
-tconstruct:large_plate:0, Bismuth Large Plate
-tconstruct:large_plate:0, Brass Large Plate
-tconstruct:large_plate:0, Cold-Iron Large Plate
-tconstruct:large_plate:0, Cupronickel Large Plate
-tconstruct:large_plate:0, Invar Large Plate
-tconstruct:large_plate:0, Mithril Large Plate
-tconstruct:large_plate:0, Nickel Large Plate
-tconstruct:large_plate:0, Pewter Large Plate
-tconstruct:large_plate:0, Platinum Large Plate
-tconstruct:large_plate:0, Star-Steel Large Plate
-tconstruct:large_plate:0, Tin Large Plate
-tconstruct:large_plate:0, Zinc Large Plate
 tconstruct:large_plate:0, Treated Wood Large Plate
 tconstruct:large_plate:0, Constantan Large Plate
 tconstruct:large_plate:0, Ruby Large Plate
@@ -14142,6 +14142,21 @@ tconstruct:knife_blade:0, Lead Knife Blade
 tconstruct:knife_blade:0, Silver Knife Blade
 tconstruct:knife_blade:0, Electrum Knife Blade
 tconstruct:knife_blade:0, Steel Knife Blade
+tconstruct:knife_blade:0, Adamantine Knife Blade
+tconstruct:knife_blade:0, Antimony Knife Blade
+tconstruct:knife_blade:0, Aquarium Knife Blade
+tconstruct:knife_blade:0, Bismuth Knife Blade
+tconstruct:knife_blade:0, Brass Knife Blade
+tconstruct:knife_blade:0, Cold-Iron Knife Blade
+tconstruct:knife_blade:0, Cupronickel Knife Blade
+tconstruct:knife_blade:0, Invar Knife Blade
+tconstruct:knife_blade:0, Mithril Knife Blade
+tconstruct:knife_blade:0, Nickel Knife Blade
+tconstruct:knife_blade:0, Pewter Knife Blade
+tconstruct:knife_blade:0, Platinum Knife Blade
+tconstruct:knife_blade:0, Star-Steel Knife Blade
+tconstruct:knife_blade:0, Tin Knife Blade
+tconstruct:knife_blade:0, Zinc Knife Blade
 tconstruct:knife_blade:0, Beryllium Knife Blade
 tconstruct:knife_blade:0, Boron Knife Blade
 tconstruct:knife_blade:0, Cadmium Knife Blade
@@ -14161,21 +14176,6 @@ tconstruct:knife_blade:0, Titanium Knife Blade
 tconstruct:knife_blade:0, Tungsten Knife Blade
 tconstruct:knife_blade:0, Uranium Knife Blade
 tconstruct:knife_blade:0, Zirconium Knife Blade
-tconstruct:knife_blade:0, Adamantine Knife Blade
-tconstruct:knife_blade:0, Antimony Knife Blade
-tconstruct:knife_blade:0, Aquarium Knife Blade
-tconstruct:knife_blade:0, Bismuth Knife Blade
-tconstruct:knife_blade:0, Brass Knife Blade
-tconstruct:knife_blade:0, Cold-Iron Knife Blade
-tconstruct:knife_blade:0, Cupronickel Knife Blade
-tconstruct:knife_blade:0, Invar Knife Blade
-tconstruct:knife_blade:0, Mithril Knife Blade
-tconstruct:knife_blade:0, Nickel Knife Blade
-tconstruct:knife_blade:0, Pewter Knife Blade
-tconstruct:knife_blade:0, Platinum Knife Blade
-tconstruct:knife_blade:0, Star-Steel Knife Blade
-tconstruct:knife_blade:0, Tin Knife Blade
-tconstruct:knife_blade:0, Zinc Knife Blade
 tconstruct:knife_blade:0, Treated Wood Knife Blade
 tconstruct:knife_blade:0, Constantan Knife Blade
 tconstruct:knife_blade:0, Ruby Knife Blade
@@ -14301,6 +14301,21 @@ tconstruct:bow_limb:0, Lead Bowlimb
 tconstruct:bow_limb:0, Silver Bowlimb
 tconstruct:bow_limb:0, Electrum Bowlimb
 tconstruct:bow_limb:0, Steel Bowlimb
+tconstruct:bow_limb:0, Adamantine Bowlimb
+tconstruct:bow_limb:0, Antimony Bowlimb
+tconstruct:bow_limb:0, Aquarium Bowlimb
+tconstruct:bow_limb:0, Bismuth Bowlimb
+tconstruct:bow_limb:0, Brass Bowlimb
+tconstruct:bow_limb:0, Cold-Iron Bowlimb
+tconstruct:bow_limb:0, Cupronickel Bowlimb
+tconstruct:bow_limb:0, Invar Bowlimb
+tconstruct:bow_limb:0, Mithril Bowlimb
+tconstruct:bow_limb:0, Nickel Bowlimb
+tconstruct:bow_limb:0, Pewter Bowlimb
+tconstruct:bow_limb:0, Platinum Bowlimb
+tconstruct:bow_limb:0, Star-Steel Bowlimb
+tconstruct:bow_limb:0, Tin Bowlimb
+tconstruct:bow_limb:0, Zinc Bowlimb
 tconstruct:bow_limb:0, Beryllium Bowlimb
 tconstruct:bow_limb:0, Boron Bowlimb
 tconstruct:bow_limb:0, Cadmium Bowlimb
@@ -14320,21 +14335,6 @@ tconstruct:bow_limb:0, Titanium Bowlimb
 tconstruct:bow_limb:0, Tungsten Bowlimb
 tconstruct:bow_limb:0, Uranium Bowlimb
 tconstruct:bow_limb:0, Zirconium Bowlimb
-tconstruct:bow_limb:0, Adamantine Bowlimb
-tconstruct:bow_limb:0, Antimony Bowlimb
-tconstruct:bow_limb:0, Aquarium Bowlimb
-tconstruct:bow_limb:0, Bismuth Bowlimb
-tconstruct:bow_limb:0, Brass Bowlimb
-tconstruct:bow_limb:0, Cold-Iron Bowlimb
-tconstruct:bow_limb:0, Cupronickel Bowlimb
-tconstruct:bow_limb:0, Invar Bowlimb
-tconstruct:bow_limb:0, Mithril Bowlimb
-tconstruct:bow_limb:0, Nickel Bowlimb
-tconstruct:bow_limb:0, Pewter Bowlimb
-tconstruct:bow_limb:0, Platinum Bowlimb
-tconstruct:bow_limb:0, Star-Steel Bowlimb
-tconstruct:bow_limb:0, Tin Bowlimb
-tconstruct:bow_limb:0, Zinc Bowlimb
 tconstruct:bow_limb:0, Treated Wood Bowlimb
 tconstruct:bow_limb:0, Constantan Bowlimb
 tconstruct:bow_limb:0, Ruby Bowlimb
@@ -14437,6 +14437,21 @@ tconstruct:bow_string:0, String Bowstring
 tconstruct:bow_string:0, Slimevine Bowstring
 tconstruct:bow_string:0, Slimevine Bowstring
 tconstruct:bow_string:0, Vines Bowstring
+tconstruct:bow_string:0, Adamantine Bowstring
+tconstruct:bow_string:0, Antimony Bowstring
+tconstruct:bow_string:0, Aquarium Bowstring
+tconstruct:bow_string:0, Bismuth Bowstring
+tconstruct:bow_string:0, Brass Bowstring
+tconstruct:bow_string:0, Cold-Iron Bowstring
+tconstruct:bow_string:0, Cupronickel Bowstring
+tconstruct:bow_string:0, Invar Bowstring
+tconstruct:bow_string:0, Mithril Bowstring
+tconstruct:bow_string:0, Nickel Bowstring
+tconstruct:bow_string:0, Pewter Bowstring
+tconstruct:bow_string:0, Platinum Bowstring
+tconstruct:bow_string:0, Star-Steel Bowstring
+tconstruct:bow_string:0, Tin Bowstring
+tconstruct:bow_string:0, Zinc Bowstring
 tconstruct:bow_string:0, Beryllium Bowstring
 tconstruct:bow_string:0, Boron Bowstring
 tconstruct:bow_string:0, Cadmium Bowstring
@@ -14456,21 +14471,6 @@ tconstruct:bow_string:0, Titanium Bowstring
 tconstruct:bow_string:0, Tungsten Bowstring
 tconstruct:bow_string:0, Uranium Bowstring
 tconstruct:bow_string:0, Zirconium Bowstring
-tconstruct:bow_string:0, Adamantine Bowstring
-tconstruct:bow_string:0, Antimony Bowstring
-tconstruct:bow_string:0, Aquarium Bowstring
-tconstruct:bow_string:0, Bismuth Bowstring
-tconstruct:bow_string:0, Brass Bowstring
-tconstruct:bow_string:0, Cold-Iron Bowstring
-tconstruct:bow_string:0, Cupronickel Bowstring
-tconstruct:bow_string:0, Invar Bowstring
-tconstruct:bow_string:0, Mithril Bowstring
-tconstruct:bow_string:0, Nickel Bowstring
-tconstruct:bow_string:0, Pewter Bowstring
-tconstruct:bow_string:0, Platinum Bowstring
-tconstruct:bow_string:0, Star-Steel Bowstring
-tconstruct:bow_string:0, Tin Bowstring
-tconstruct:bow_string:0, Zinc Bowstring
 tconstruct:bow_string:0, Hemp Fiber Bowstring
 tconstruct:arrow_head:0, Wooden Arrow Head
 tconstruct:arrow_head:0, Stone Arrow Head
@@ -14499,6 +14499,21 @@ tconstruct:arrow_head:0, Lead Arrow Head
 tconstruct:arrow_head:0, Silver Arrow Head
 tconstruct:arrow_head:0, Electrum Arrow Head
 tconstruct:arrow_head:0, Steel Arrow Head
+tconstruct:arrow_head:0, Adamantine Arrow Head
+tconstruct:arrow_head:0, Antimony Arrow Head
+tconstruct:arrow_head:0, Aquarium Arrow Head
+tconstruct:arrow_head:0, Bismuth Arrow Head
+tconstruct:arrow_head:0, Brass Arrow Head
+tconstruct:arrow_head:0, Cold-Iron Arrow Head
+tconstruct:arrow_head:0, Cupronickel Arrow Head
+tconstruct:arrow_head:0, Invar Arrow Head
+tconstruct:arrow_head:0, Mithril Arrow Head
+tconstruct:arrow_head:0, Nickel Arrow Head
+tconstruct:arrow_head:0, Pewter Arrow Head
+tconstruct:arrow_head:0, Platinum Arrow Head
+tconstruct:arrow_head:0, Star-Steel Arrow Head
+tconstruct:arrow_head:0, Tin Arrow Head
+tconstruct:arrow_head:0, Zinc Arrow Head
 tconstruct:arrow_head:0, Beryllium Arrow Head
 tconstruct:arrow_head:0, Boron Arrow Head
 tconstruct:arrow_head:0, Cadmium Arrow Head
@@ -14518,21 +14533,6 @@ tconstruct:arrow_head:0, Titanium Arrow Head
 tconstruct:arrow_head:0, Tungsten Arrow Head
 tconstruct:arrow_head:0, Uranium Arrow Head
 tconstruct:arrow_head:0, Zirconium Arrow Head
-tconstruct:arrow_head:0, Adamantine Arrow Head
-tconstruct:arrow_head:0, Antimony Arrow Head
-tconstruct:arrow_head:0, Aquarium Arrow Head
-tconstruct:arrow_head:0, Bismuth Arrow Head
-tconstruct:arrow_head:0, Brass Arrow Head
-tconstruct:arrow_head:0, Cold-Iron Arrow Head
-tconstruct:arrow_head:0, Cupronickel Arrow Head
-tconstruct:arrow_head:0, Invar Arrow Head
-tconstruct:arrow_head:0, Mithril Arrow Head
-tconstruct:arrow_head:0, Nickel Arrow Head
-tconstruct:arrow_head:0, Pewter Arrow Head
-tconstruct:arrow_head:0, Platinum Arrow Head
-tconstruct:arrow_head:0, Star-Steel Arrow Head
-tconstruct:arrow_head:0, Tin Arrow Head
-tconstruct:arrow_head:0, Zinc Arrow Head
 tconstruct:arrow_head:0, Treated Wood Arrow Head
 tconstruct:arrow_head:0, Constantan Arrow Head
 tconstruct:arrow_head:0, Ruby Arrow Head
@@ -14637,6 +14637,21 @@ tconstruct:arrow_shaft:0, Blazerod Arrow Shaft
 tconstruct:arrow_shaft:0, Reeds Arrow Shaft
 tconstruct:arrow_shaft:0, Ice Arrow Shaft
 tconstruct:arrow_shaft:0, Endrod Arrow Shaft
+tconstruct:arrow_shaft:0, Adamantine Arrow Shaft
+tconstruct:arrow_shaft:0, Antimony Arrow Shaft
+tconstruct:arrow_shaft:0, Aquarium Arrow Shaft
+tconstruct:arrow_shaft:0, Bismuth Arrow Shaft
+tconstruct:arrow_shaft:0, Brass Arrow Shaft
+tconstruct:arrow_shaft:0, Cold-Iron Arrow Shaft
+tconstruct:arrow_shaft:0, Cupronickel Arrow Shaft
+tconstruct:arrow_shaft:0, Invar Arrow Shaft
+tconstruct:arrow_shaft:0, Mithril Arrow Shaft
+tconstruct:arrow_shaft:0, Nickel Arrow Shaft
+tconstruct:arrow_shaft:0, Pewter Arrow Shaft
+tconstruct:arrow_shaft:0, Platinum Arrow Shaft
+tconstruct:arrow_shaft:0, Star-Steel Arrow Shaft
+tconstruct:arrow_shaft:0, Tin Arrow Shaft
+tconstruct:arrow_shaft:0, Zinc Arrow Shaft
 tconstruct:arrow_shaft:0, Beryllium Arrow Shaft
 tconstruct:arrow_shaft:0, Boron Arrow Shaft
 tconstruct:arrow_shaft:0, Cadmium Arrow Shaft
@@ -14656,21 +14671,6 @@ tconstruct:arrow_shaft:0, Titanium Arrow Shaft
 tconstruct:arrow_shaft:0, Tungsten Arrow Shaft
 tconstruct:arrow_shaft:0, Uranium Arrow Shaft
 tconstruct:arrow_shaft:0, Zirconium Arrow Shaft
-tconstruct:arrow_shaft:0, Adamantine Arrow Shaft
-tconstruct:arrow_shaft:0, Antimony Arrow Shaft
-tconstruct:arrow_shaft:0, Aquarium Arrow Shaft
-tconstruct:arrow_shaft:0, Bismuth Arrow Shaft
-tconstruct:arrow_shaft:0, Brass Arrow Shaft
-tconstruct:arrow_shaft:0, Cold-Iron Arrow Shaft
-tconstruct:arrow_shaft:0, Cupronickel Arrow Shaft
-tconstruct:arrow_shaft:0, Invar Arrow Shaft
-tconstruct:arrow_shaft:0, Mithril Arrow Shaft
-tconstruct:arrow_shaft:0, Nickel Arrow Shaft
-tconstruct:arrow_shaft:0, Pewter Arrow Shaft
-tconstruct:arrow_shaft:0, Platinum Arrow Shaft
-tconstruct:arrow_shaft:0, Star-Steel Arrow Shaft
-tconstruct:arrow_shaft:0, Tin Arrow Shaft
-tconstruct:arrow_shaft:0, Zinc Arrow Shaft
 tconstruct:arrow_shaft:0, Treated Wood Arrow Shaft
 tconstruct:arrow_shaft:0, Ruby Arrow Shaft
 tconstruct:arrow_shaft:0, Garnet Arrow Shaft
@@ -14773,6 +14773,21 @@ tconstruct:fletching:0, Slimeleaf Fletching
 tconstruct:fletching:0, Slimeleaf Fletching
 tconstruct:fletching:0, Slimeleaf Fletching
 tconstruct:fletching:0, Leaf Fletching
+tconstruct:fletching:0, Adamantine Fletching
+tconstruct:fletching:0, Antimony Fletching
+tconstruct:fletching:0, Aquarium Fletching
+tconstruct:fletching:0, Bismuth Fletching
+tconstruct:fletching:0, Brass Fletching
+tconstruct:fletching:0, Cold-Iron Fletching
+tconstruct:fletching:0, Cupronickel Fletching
+tconstruct:fletching:0, Invar Fletching
+tconstruct:fletching:0, Mithril Fletching
+tconstruct:fletching:0, Nickel Fletching
+tconstruct:fletching:0, Pewter Fletching
+tconstruct:fletching:0, Platinum Fletching
+tconstruct:fletching:0, Star-Steel Fletching
+tconstruct:fletching:0, Tin Fletching
+tconstruct:fletching:0, Zinc Fletching
 tconstruct:fletching:0, Beryllium Fletching
 tconstruct:fletching:0, Boron Fletching
 tconstruct:fletching:0, Cadmium Fletching
@@ -14792,27 +14807,27 @@ tconstruct:fletching:0, Titanium Fletching
 tconstruct:fletching:0, Tungsten Fletching
 tconstruct:fletching:0, Uranium Fletching
 tconstruct:fletching:0, Zirconium Fletching
-tconstruct:fletching:0, Adamantine Fletching
-tconstruct:fletching:0, Antimony Fletching
-tconstruct:fletching:0, Aquarium Fletching
-tconstruct:fletching:0, Bismuth Fletching
-tconstruct:fletching:0, Brass Fletching
-tconstruct:fletching:0, Cold-Iron Fletching
-tconstruct:fletching:0, Cupronickel Fletching
-tconstruct:fletching:0, Invar Fletching
-tconstruct:fletching:0, Mithril Fletching
-tconstruct:fletching:0, Nickel Fletching
-tconstruct:fletching:0, Pewter Fletching
-tconstruct:fletching:0, Platinum Fletching
-tconstruct:fletching:0, Star-Steel Fletching
-tconstruct:fletching:0, Tin Fletching
-tconstruct:fletching:0, Zinc Fletching
 tconstruct:bolt_core:0, Wood-Iron Bolt Core
 tconstruct:bolt_core:0, Bone-Iron Bolt Core
 tconstruct:bolt_core:0, Blazerod-Iron Bolt Core
 tconstruct:bolt_core:0, Reeds-Iron Bolt Core
 tconstruct:bolt_core:0, Ice-Iron Bolt Core
 tconstruct:bolt_core:0, Endrod-Iron Bolt Core
+tconstruct:bolt_core:0, Adamantine-Iron Bolt Core
+tconstruct:bolt_core:0, Antimony-Iron Bolt Core
+tconstruct:bolt_core:0, Aquarium-Iron Bolt Core
+tconstruct:bolt_core:0, Bismuth-Iron Bolt Core
+tconstruct:bolt_core:0, Brass-Iron Bolt Core
+tconstruct:bolt_core:0, Cold-Iron-Iron Bolt Core
+tconstruct:bolt_core:0, Cupronickel-Iron Bolt Core
+tconstruct:bolt_core:0, Invar-Iron Bolt Core
+tconstruct:bolt_core:0, Mithril-Iron Bolt Core
+tconstruct:bolt_core:0, Nickel-Iron Bolt Core
+tconstruct:bolt_core:0, Pewter-Iron Bolt Core
+tconstruct:bolt_core:0, Platinum-Iron Bolt Core
+tconstruct:bolt_core:0, Star-Steel-Iron Bolt Core
+tconstruct:bolt_core:0, Tin-Iron Bolt Core
+tconstruct:bolt_core:0, Zinc-Iron Bolt Core
 tconstruct:bolt_core:0, Beryllium-Iron Bolt Core
 tconstruct:bolt_core:0, Boron-Iron Bolt Core
 tconstruct:bolt_core:0, Cadmium-Iron Bolt Core
@@ -14832,21 +14847,6 @@ tconstruct:bolt_core:0, Titanium-Iron Bolt Core
 tconstruct:bolt_core:0, Tungsten-Iron Bolt Core
 tconstruct:bolt_core:0, Uranium-Iron Bolt Core
 tconstruct:bolt_core:0, Zirconium-Iron Bolt Core
-tconstruct:bolt_core:0, Adamantine-Iron Bolt Core
-tconstruct:bolt_core:0, Antimony-Iron Bolt Core
-tconstruct:bolt_core:0, Aquarium-Iron Bolt Core
-tconstruct:bolt_core:0, Bismuth-Iron Bolt Core
-tconstruct:bolt_core:0, Brass-Iron Bolt Core
-tconstruct:bolt_core:0, Cold-Iron-Iron Bolt Core
-tconstruct:bolt_core:0, Cupronickel-Iron Bolt Core
-tconstruct:bolt_core:0, Invar-Iron Bolt Core
-tconstruct:bolt_core:0, Mithril-Iron Bolt Core
-tconstruct:bolt_core:0, Nickel-Iron Bolt Core
-tconstruct:bolt_core:0, Pewter-Iron Bolt Core
-tconstruct:bolt_core:0, Platinum-Iron Bolt Core
-tconstruct:bolt_core:0, Star-Steel-Iron Bolt Core
-tconstruct:bolt_core:0, Tin-Iron Bolt Core
-tconstruct:bolt_core:0, Zinc-Iron Bolt Core
 tconstruct:bolt_core:0, Treated Wood-Iron Bolt Core
 tconstruct:bolt_core:0, Ruby-Iron Bolt Core
 tconstruct:bolt_core:0, Garnet-Iron Bolt Core
@@ -15248,84 +15248,84 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Chisel Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Bowlimb Cast
 tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Polishing Kit Cast
 tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
 tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
 tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -15430,6 +15430,21 @@ conarm:helmet_core:0, Lead Helmet Core
 conarm:helmet_core:0, Silver Helmet Core
 conarm:helmet_core:0, Electrum Helmet Core
 conarm:helmet_core:0, Steel Helmet Core
+conarm:helmet_core:0, Adamantine Helmet Core
+conarm:helmet_core:0, Antimony Helmet Core
+conarm:helmet_core:0, Aquarium Helmet Core
+conarm:helmet_core:0, Bismuth Helmet Core
+conarm:helmet_core:0, Brass Helmet Core
+conarm:helmet_core:0, Cold-Iron Helmet Core
+conarm:helmet_core:0, Cupronickel Helmet Core
+conarm:helmet_core:0, Invar Helmet Core
+conarm:helmet_core:0, Mithril Helmet Core
+conarm:helmet_core:0, Nickel Helmet Core
+conarm:helmet_core:0, Pewter Helmet Core
+conarm:helmet_core:0, Platinum Helmet Core
+conarm:helmet_core:0, Star-Steel Helmet Core
+conarm:helmet_core:0, Tin Helmet Core
+conarm:helmet_core:0, Zinc Helmet Core
 conarm:helmet_core:0, Beryllium Helmet Core
 conarm:helmet_core:0, Boron Helmet Core
 conarm:helmet_core:0, Cadmium Helmet Core
@@ -15449,21 +15464,6 @@ conarm:helmet_core:0, Titanium Helmet Core
 conarm:helmet_core:0, Tungsten Helmet Core
 conarm:helmet_core:0, Uranium Helmet Core
 conarm:helmet_core:0, Zirconium Helmet Core
-conarm:helmet_core:0, Adamantine Helmet Core
-conarm:helmet_core:0, Antimony Helmet Core
-conarm:helmet_core:0, Aquarium Helmet Core
-conarm:helmet_core:0, Bismuth Helmet Core
-conarm:helmet_core:0, Brass Helmet Core
-conarm:helmet_core:0, Cold-Iron Helmet Core
-conarm:helmet_core:0, Cupronickel Helmet Core
-conarm:helmet_core:0, Invar Helmet Core
-conarm:helmet_core:0, Mithril Helmet Core
-conarm:helmet_core:0, Nickel Helmet Core
-conarm:helmet_core:0, Pewter Helmet Core
-conarm:helmet_core:0, Platinum Helmet Core
-conarm:helmet_core:0, Star-Steel Helmet Core
-conarm:helmet_core:0, Tin Helmet Core
-conarm:helmet_core:0, Zinc Helmet Core
 conarm:helmet_core:0, Treated Wood Helmet Core
 conarm:helmet_core:0, Constantan Helmet Core
 conarm:helmet_core:0, Ruby Helmet Core
@@ -15589,6 +15589,21 @@ conarm:armor_trim:0, Lead Armor Trim
 conarm:armor_trim:0, Silver Armor Trim
 conarm:armor_trim:0, Electrum Armor Trim
 conarm:armor_trim:0, Steel Armor Trim
+conarm:armor_trim:0, Adamantine Armor Trim
+conarm:armor_trim:0, Antimony Armor Trim
+conarm:armor_trim:0, Aquarium Armor Trim
+conarm:armor_trim:0, Bismuth Armor Trim
+conarm:armor_trim:0, Brass Armor Trim
+conarm:armor_trim:0, Cold-Iron Armor Trim
+conarm:armor_trim:0, Cupronickel Armor Trim
+conarm:armor_trim:0, Invar Armor Trim
+conarm:armor_trim:0, Mithril Armor Trim
+conarm:armor_trim:0, Nickel Armor Trim
+conarm:armor_trim:0, Pewter Armor Trim
+conarm:armor_trim:0, Platinum Armor Trim
+conarm:armor_trim:0, Star-Steel Armor Trim
+conarm:armor_trim:0, Tin Armor Trim
+conarm:armor_trim:0, Zinc Armor Trim
 conarm:armor_trim:0, Beryllium Armor Trim
 conarm:armor_trim:0, Boron Armor Trim
 conarm:armor_trim:0, Cadmium Armor Trim
@@ -15608,21 +15623,6 @@ conarm:armor_trim:0, Titanium Armor Trim
 conarm:armor_trim:0, Tungsten Armor Trim
 conarm:armor_trim:0, Uranium Armor Trim
 conarm:armor_trim:0, Zirconium Armor Trim
-conarm:armor_trim:0, Adamantine Armor Trim
-conarm:armor_trim:0, Antimony Armor Trim
-conarm:armor_trim:0, Aquarium Armor Trim
-conarm:armor_trim:0, Bismuth Armor Trim
-conarm:armor_trim:0, Brass Armor Trim
-conarm:armor_trim:0, Cold-Iron Armor Trim
-conarm:armor_trim:0, Cupronickel Armor Trim
-conarm:armor_trim:0, Invar Armor Trim
-conarm:armor_trim:0, Mithril Armor Trim
-conarm:armor_trim:0, Nickel Armor Trim
-conarm:armor_trim:0, Pewter Armor Trim
-conarm:armor_trim:0, Platinum Armor Trim
-conarm:armor_trim:0, Star-Steel Armor Trim
-conarm:armor_trim:0, Tin Armor Trim
-conarm:armor_trim:0, Zinc Armor Trim
 conarm:armor_trim:0, Treated Wood Armor Trim
 conarm:armor_trim:0, Constantan Armor Trim
 conarm:armor_trim:0, Ruby Armor Trim
@@ -15748,6 +15748,21 @@ conarm:armor_plate:0, Lead Armor Plates
 conarm:armor_plate:0, Silver Armor Plates
 conarm:armor_plate:0, Electrum Armor Plates
 conarm:armor_plate:0, Steel Armor Plates
+conarm:armor_plate:0, Adamantine Armor Plates
+conarm:armor_plate:0, Antimony Armor Plates
+conarm:armor_plate:0, Aquarium Armor Plates
+conarm:armor_plate:0, Bismuth Armor Plates
+conarm:armor_plate:0, Brass Armor Plates
+conarm:armor_plate:0, Cold-Iron Armor Plates
+conarm:armor_plate:0, Cupronickel Armor Plates
+conarm:armor_plate:0, Invar Armor Plates
+conarm:armor_plate:0, Mithril Armor Plates
+conarm:armor_plate:0, Nickel Armor Plates
+conarm:armor_plate:0, Pewter Armor Plates
+conarm:armor_plate:0, Platinum Armor Plates
+conarm:armor_plate:0, Star-Steel Armor Plates
+conarm:armor_plate:0, Tin Armor Plates
+conarm:armor_plate:0, Zinc Armor Plates
 conarm:armor_plate:0, Beryllium Armor Plates
 conarm:armor_plate:0, Boron Armor Plates
 conarm:armor_plate:0, Cadmium Armor Plates
@@ -15767,21 +15782,6 @@ conarm:armor_plate:0, Titanium Armor Plates
 conarm:armor_plate:0, Tungsten Armor Plates
 conarm:armor_plate:0, Uranium Armor Plates
 conarm:armor_plate:0, Zirconium Armor Plates
-conarm:armor_plate:0, Adamantine Armor Plates
-conarm:armor_plate:0, Antimony Armor Plates
-conarm:armor_plate:0, Aquarium Armor Plates
-conarm:armor_plate:0, Bismuth Armor Plates
-conarm:armor_plate:0, Brass Armor Plates
-conarm:armor_plate:0, Cold-Iron Armor Plates
-conarm:armor_plate:0, Cupronickel Armor Plates
-conarm:armor_plate:0, Invar Armor Plates
-conarm:armor_plate:0, Mithril Armor Plates
-conarm:armor_plate:0, Nickel Armor Plates
-conarm:armor_plate:0, Pewter Armor Plates
-conarm:armor_plate:0, Platinum Armor Plates
-conarm:armor_plate:0, Star-Steel Armor Plates
-conarm:armor_plate:0, Tin Armor Plates
-conarm:armor_plate:0, Zinc Armor Plates
 conarm:armor_plate:0, Treated Wood Armor Plates
 conarm:armor_plate:0, Constantan Armor Plates
 conarm:armor_plate:0, Ruby Armor Plates
@@ -15907,6 +15907,21 @@ conarm:chest_core:0, Lead Chestplate Core
 conarm:chest_core:0, Silver Chestplate Core
 conarm:chest_core:0, Electrum Chestplate Core
 conarm:chest_core:0, Steel Chestplate Core
+conarm:chest_core:0, Adamantine Chestplate Core
+conarm:chest_core:0, Antimony Chestplate Core
+conarm:chest_core:0, Aquarium Chestplate Core
+conarm:chest_core:0, Bismuth Chestplate Core
+conarm:chest_core:0, Brass Chestplate Core
+conarm:chest_core:0, Cold-Iron Chestplate Core
+conarm:chest_core:0, Cupronickel Chestplate Core
+conarm:chest_core:0, Invar Chestplate Core
+conarm:chest_core:0, Mithril Chestplate Core
+conarm:chest_core:0, Nickel Chestplate Core
+conarm:chest_core:0, Pewter Chestplate Core
+conarm:chest_core:0, Platinum Chestplate Core
+conarm:chest_core:0, Star-Steel Chestplate Core
+conarm:chest_core:0, Tin Chestplate Core
+conarm:chest_core:0, Zinc Chestplate Core
 conarm:chest_core:0, Beryllium Chestplate Core
 conarm:chest_core:0, Boron Chestplate Core
 conarm:chest_core:0, Cadmium Chestplate Core
@@ -15926,21 +15941,6 @@ conarm:chest_core:0, Titanium Chestplate Core
 conarm:chest_core:0, Tungsten Chestplate Core
 conarm:chest_core:0, Uranium Chestplate Core
 conarm:chest_core:0, Zirconium Chestplate Core
-conarm:chest_core:0, Adamantine Chestplate Core
-conarm:chest_core:0, Antimony Chestplate Core
-conarm:chest_core:0, Aquarium Chestplate Core
-conarm:chest_core:0, Bismuth Chestplate Core
-conarm:chest_core:0, Brass Chestplate Core
-conarm:chest_core:0, Cold-Iron Chestplate Core
-conarm:chest_core:0, Cupronickel Chestplate Core
-conarm:chest_core:0, Invar Chestplate Core
-conarm:chest_core:0, Mithril Chestplate Core
-conarm:chest_core:0, Nickel Chestplate Core
-conarm:chest_core:0, Pewter Chestplate Core
-conarm:chest_core:0, Platinum Chestplate Core
-conarm:chest_core:0, Star-Steel Chestplate Core
-conarm:chest_core:0, Tin Chestplate Core
-conarm:chest_core:0, Zinc Chestplate Core
 conarm:chest_core:0, Treated Wood Chestplate Core
 conarm:chest_core:0, Constantan Chestplate Core
 conarm:chest_core:0, Ruby Chestplate Core
@@ -16066,6 +16066,21 @@ conarm:leggings_core:0, Lead Leggings Core
 conarm:leggings_core:0, Silver Leggings Core
 conarm:leggings_core:0, Electrum Leggings Core
 conarm:leggings_core:0, Steel Leggings Core
+conarm:leggings_core:0, Adamantine Leggings Core
+conarm:leggings_core:0, Antimony Leggings Core
+conarm:leggings_core:0, Aquarium Leggings Core
+conarm:leggings_core:0, Bismuth Leggings Core
+conarm:leggings_core:0, Brass Leggings Core
+conarm:leggings_core:0, Cold-Iron Leggings Core
+conarm:leggings_core:0, Cupronickel Leggings Core
+conarm:leggings_core:0, Invar Leggings Core
+conarm:leggings_core:0, Mithril Leggings Core
+conarm:leggings_core:0, Nickel Leggings Core
+conarm:leggings_core:0, Pewter Leggings Core
+conarm:leggings_core:0, Platinum Leggings Core
+conarm:leggings_core:0, Star-Steel Leggings Core
+conarm:leggings_core:0, Tin Leggings Core
+conarm:leggings_core:0, Zinc Leggings Core
 conarm:leggings_core:0, Beryllium Leggings Core
 conarm:leggings_core:0, Boron Leggings Core
 conarm:leggings_core:0, Cadmium Leggings Core
@@ -16085,21 +16100,6 @@ conarm:leggings_core:0, Titanium Leggings Core
 conarm:leggings_core:0, Tungsten Leggings Core
 conarm:leggings_core:0, Uranium Leggings Core
 conarm:leggings_core:0, Zirconium Leggings Core
-conarm:leggings_core:0, Adamantine Leggings Core
-conarm:leggings_core:0, Antimony Leggings Core
-conarm:leggings_core:0, Aquarium Leggings Core
-conarm:leggings_core:0, Bismuth Leggings Core
-conarm:leggings_core:0, Brass Leggings Core
-conarm:leggings_core:0, Cold-Iron Leggings Core
-conarm:leggings_core:0, Cupronickel Leggings Core
-conarm:leggings_core:0, Invar Leggings Core
-conarm:leggings_core:0, Mithril Leggings Core
-conarm:leggings_core:0, Nickel Leggings Core
-conarm:leggings_core:0, Pewter Leggings Core
-conarm:leggings_core:0, Platinum Leggings Core
-conarm:leggings_core:0, Star-Steel Leggings Core
-conarm:leggings_core:0, Tin Leggings Core
-conarm:leggings_core:0, Zinc Leggings Core
 conarm:leggings_core:0, Treated Wood Leggings Core
 conarm:leggings_core:0, Constantan Leggings Core
 conarm:leggings_core:0, Ruby Leggings Core
@@ -16225,6 +16225,21 @@ conarm:boots_core:0, Lead Boots Core
 conarm:boots_core:0, Silver Boots Core
 conarm:boots_core:0, Electrum Boots Core
 conarm:boots_core:0, Steel Boots Core
+conarm:boots_core:0, Adamantine Boots Core
+conarm:boots_core:0, Antimony Boots Core
+conarm:boots_core:0, Aquarium Boots Core
+conarm:boots_core:0, Bismuth Boots Core
+conarm:boots_core:0, Brass Boots Core
+conarm:boots_core:0, Cold-Iron Boots Core
+conarm:boots_core:0, Cupronickel Boots Core
+conarm:boots_core:0, Invar Boots Core
+conarm:boots_core:0, Mithril Boots Core
+conarm:boots_core:0, Nickel Boots Core
+conarm:boots_core:0, Pewter Boots Core
+conarm:boots_core:0, Platinum Boots Core
+conarm:boots_core:0, Star-Steel Boots Core
+conarm:boots_core:0, Tin Boots Core
+conarm:boots_core:0, Zinc Boots Core
 conarm:boots_core:0, Beryllium Boots Core
 conarm:boots_core:0, Boron Boots Core
 conarm:boots_core:0, Cadmium Boots Core
@@ -16244,21 +16259,6 @@ conarm:boots_core:0, Titanium Boots Core
 conarm:boots_core:0, Tungsten Boots Core
 conarm:boots_core:0, Uranium Boots Core
 conarm:boots_core:0, Zirconium Boots Core
-conarm:boots_core:0, Adamantine Boots Core
-conarm:boots_core:0, Antimony Boots Core
-conarm:boots_core:0, Aquarium Boots Core
-conarm:boots_core:0, Bismuth Boots Core
-conarm:boots_core:0, Brass Boots Core
-conarm:boots_core:0, Cold-Iron Boots Core
-conarm:boots_core:0, Cupronickel Boots Core
-conarm:boots_core:0, Invar Boots Core
-conarm:boots_core:0, Mithril Boots Core
-conarm:boots_core:0, Nickel Boots Core
-conarm:boots_core:0, Pewter Boots Core
-conarm:boots_core:0, Platinum Boots Core
-conarm:boots_core:0, Star-Steel Boots Core
-conarm:boots_core:0, Tin Boots Core
-conarm:boots_core:0, Zinc Boots Core
 conarm:boots_core:0, Treated Wood Boots Core
 conarm:boots_core:0, Constantan Boots Core
 conarm:boots_core:0, Ruby Boots Core
@@ -16410,6 +16410,21 @@ conarm:polishing_kit:0, Lead Polishing Kit
 conarm:polishing_kit:0, Silver Polishing Kit
 conarm:polishing_kit:0, Electrum Polishing Kit
 conarm:polishing_kit:0, Steel Polishing Kit
+conarm:polishing_kit:0, Adamantine Polishing Kit
+conarm:polishing_kit:0, Antimony Polishing Kit
+conarm:polishing_kit:0, Aquarium Polishing Kit
+conarm:polishing_kit:0, Bismuth Polishing Kit
+conarm:polishing_kit:0, Brass Polishing Kit
+conarm:polishing_kit:0, Cold-Iron Polishing Kit
+conarm:polishing_kit:0, Cupronickel Polishing Kit
+conarm:polishing_kit:0, Invar Polishing Kit
+conarm:polishing_kit:0, Mithril Polishing Kit
+conarm:polishing_kit:0, Nickel Polishing Kit
+conarm:polishing_kit:0, Pewter Polishing Kit
+conarm:polishing_kit:0, Platinum Polishing Kit
+conarm:polishing_kit:0, Star-Steel Polishing Kit
+conarm:polishing_kit:0, Tin Polishing Kit
+conarm:polishing_kit:0, Zinc Polishing Kit
 conarm:polishing_kit:0, Beryllium Polishing Kit
 conarm:polishing_kit:0, Boron Polishing Kit
 conarm:polishing_kit:0, Cadmium Polishing Kit
@@ -16429,21 +16444,6 @@ conarm:polishing_kit:0, Titanium Polishing Kit
 conarm:polishing_kit:0, Tungsten Polishing Kit
 conarm:polishing_kit:0, Uranium Polishing Kit
 conarm:polishing_kit:0, Zirconium Polishing Kit
-conarm:polishing_kit:0, Adamantine Polishing Kit
-conarm:polishing_kit:0, Antimony Polishing Kit
-conarm:polishing_kit:0, Aquarium Polishing Kit
-conarm:polishing_kit:0, Bismuth Polishing Kit
-conarm:polishing_kit:0, Brass Polishing Kit
-conarm:polishing_kit:0, Cold-Iron Polishing Kit
-conarm:polishing_kit:0, Cupronickel Polishing Kit
-conarm:polishing_kit:0, Invar Polishing Kit
-conarm:polishing_kit:0, Mithril Polishing Kit
-conarm:polishing_kit:0, Nickel Polishing Kit
-conarm:polishing_kit:0, Pewter Polishing Kit
-conarm:polishing_kit:0, Platinum Polishing Kit
-conarm:polishing_kit:0, Star-Steel Polishing Kit
-conarm:polishing_kit:0, Tin Polishing Kit
-conarm:polishing_kit:0, Zinc Polishing Kit
 conarm:polishing_kit:0, Treated Wood Polishing Kit
 conarm:polishing_kit:0, Constantan Polishing Kit
 conarm:polishing_kit:0, Ruby Polishing Kit
@@ -21422,6 +21422,7 @@ iv_tpp:trin_game_console, item.iv_tpp.trin_game_console.name
 iv_tpp:trin_ornament, item.iv_tpp.trin_ornament.name
 iv_tpp:water_fountain, item.iv_tpp.water_fountain.name
 iv_tpp:water_fountain_tank, item.iv_tpp.water_fountain_tank.name
+jaffa:citricacid, Citric Acid
 jaffa:vanillamilkshake, Vanilla Milkshake
 jaffa:chipssaltvinegar, Salt & Vinegar Chips
 jaffa:chipschicken, Chicken Chips
@@ -21484,7 +21485,6 @@ jaffa:baconeggquiche, Bacon and Egg Quiche
 jaffa:salmonquiche, Salmon Quiche
 jaffa:kalesmoothie, Kale Smoothie
 jaffa:kalesandwich,  Kale Avocado Sandwich
-jaffa:citricacid, Citric Acid
 logisticspipes:module_item_sink, ItemSink Module
 logisticspipes:module_passive_supplier, Passive Supplier Module
 logisticspipes:module_extractor, Extractor Module
@@ -23761,23 +23761,23 @@ tektopia:iron_hammer, item.iron_hammer.name
 tektopia:beer, Beer
 tektopia:heart, Heart
 tektopia:rancher_hat, Rancher Hat
-tektopia:prof_farmer, Farmer
+tektopia:prof_captain, Captain
+tektopia:prof_druid, Druid
+tektopia:prof_miner, Miner
+tektopia:prof_child, Child
+tektopia:prof_blacksmith, Blacksmith
+tektopia:prof_rancher, Rancher
 tektopia:prof_nitwit, Nitwit
 tektopia:prof_butcher, Butcher
-tektopia:prof_chef, Chef
-tektopia:prof_captain, Captain
 tektopia:prof_cleric, Cleric
-tektopia:prof_enchanter, Enchanter
-tektopia:prof_lumberjack, Lumberjack
-tektopia:prof_blacksmith, Blacksmith
-tektopia:prof_child, Child
-tektopia:prof_bard, Bard
+tektopia:prof_farmer, Farmer
 tektopia:prof_teacher, Teacher
-tektopia:prof_druid, Druid
-tektopia:prof_nomad, Nomad
-tektopia:prof_miner, Miner
-tektopia:prof_rancher, Rancher
+tektopia:prof_bard, Bard
 tektopia:prof_guard, Guard
+tektopia:prof_chef, Chef
+tektopia:prof_lumberjack, Lumberjack
+tektopia:prof_nomad, Nomad
+tektopia:prof_enchanter, Enchanter
 tektopia:structure_tavern, Tavern
 tektopia:structure_townhall, Town Hall
 tektopia:structure_school, School
@@ -23971,6 +23971,21 @@ tcomplement:chisel_head:0, Lead Chisel Head
 tcomplement:chisel_head:0, Silver Chisel Head
 tcomplement:chisel_head:0, Electrum Chisel Head
 tcomplement:chisel_head:0, Steel Chisel Head
+tcomplement:chisel_head:0, Adamantine Chisel Head
+tcomplement:chisel_head:0, Antimony Chisel Head
+tcomplement:chisel_head:0, Aquarium Chisel Head
+tcomplement:chisel_head:0, Bismuth Chisel Head
+tcomplement:chisel_head:0, Brass Chisel Head
+tcomplement:chisel_head:0, Cold-Iron Chisel Head
+tcomplement:chisel_head:0, Cupronickel Chisel Head
+tcomplement:chisel_head:0, Invar Chisel Head
+tcomplement:chisel_head:0, Mithril Chisel Head
+tcomplement:chisel_head:0, Nickel Chisel Head
+tcomplement:chisel_head:0, Pewter Chisel Head
+tcomplement:chisel_head:0, Platinum Chisel Head
+tcomplement:chisel_head:0, Star-Steel Chisel Head
+tcomplement:chisel_head:0, Tin Chisel Head
+tcomplement:chisel_head:0, Zinc Chisel Head
 tcomplement:chisel_head:0, Beryllium Chisel Head
 tcomplement:chisel_head:0, Boron Chisel Head
 tcomplement:chisel_head:0, Cadmium Chisel Head
@@ -23990,21 +24005,6 @@ tcomplement:chisel_head:0, Titanium Chisel Head
 tcomplement:chisel_head:0, Tungsten Chisel Head
 tcomplement:chisel_head:0, Uranium Chisel Head
 tcomplement:chisel_head:0, Zirconium Chisel Head
-tcomplement:chisel_head:0, Adamantine Chisel Head
-tcomplement:chisel_head:0, Antimony Chisel Head
-tcomplement:chisel_head:0, Aquarium Chisel Head
-tcomplement:chisel_head:0, Bismuth Chisel Head
-tcomplement:chisel_head:0, Brass Chisel Head
-tcomplement:chisel_head:0, Cold-Iron Chisel Head
-tcomplement:chisel_head:0, Cupronickel Chisel Head
-tcomplement:chisel_head:0, Invar Chisel Head
-tcomplement:chisel_head:0, Mithril Chisel Head
-tcomplement:chisel_head:0, Nickel Chisel Head
-tcomplement:chisel_head:0, Pewter Chisel Head
-tcomplement:chisel_head:0, Platinum Chisel Head
-tcomplement:chisel_head:0, Star-Steel Chisel Head
-tcomplement:chisel_head:0, Tin Chisel Head
-tcomplement:chisel_head:0, Zinc Chisel Head
 tcomplement:chisel_head:0, Treated Wood Chisel Head
 tcomplement:chisel_head:0, Constantan Chisel Head
 tcomplement:chisel_head:0, Ruby Chisel Head
@@ -24975,49 +24975,24 @@ survivalist:hatchet, Crude Hatchet
 survivalist:pick, Crude Pick
 survivalist:spade, Crude Spade
 survivalist:plant_fibres, Plant Fibers
-ocdevices:upgrade_tier3, Upgrade (Any => Tier 3)
-ocdevices:upgrade_tier2, Upgrade (Any => Tier 2)
 ocdevices:upgrade_blastresistance, Upgrade (Blast Resistance)
 ocdevices:upgrade_tier4, Upgrade (Any => Creative)
-ocdevices:keyboard, Keyboard
-ocdevices:case_next, Case (Next)
+ocdevices:upgrade_tier2, Upgrade (Any => Tier 2)
+ocdevices:upgrade_tier3, Upgrade (Any => Tier 3)
+ocdevices:rack, Server Rack
+ocdevices:flat_screen, Flatscreen Panel
+ocdevices:case_workstation, Case (Workstation)
+ocdevices:case_ibm_5150, Case (IBM 5150)
+ocdevices:redstone, Advanced Redstone I/O
 ocdevices:bridge, Bridge
 ocdevices:database_adapter, Database Adapter
-ocdevices:case_workstation, Case (Workstation)
-ocdevices:redstone, Advanced Redstone I/O
-ocdevices:card_dock, Card Dock
-ocdevices:matrix, Matrix (WIP!)
-ocdevices:case_ibm_5150, Case (IBM 5150)
-ocdevices:flat_screen, Flatscreen Panel
-ocdevices:recipe_dictionary, Recipe Dictionary
-ocdevices:rack, Server Rack
+ocdevices:case_next, Case (Next)
 ocdevices:itembench, ItemBench
+ocdevices:card_dock, Card Dock
 ocdevices:case_slim_oc, Case (Slim-OC)
-agricraft:seed_analyzer, Seed Analyzer
-agricraft:peripheral, Computer Controlled Seed Analyzer
-agricraft:sprinkler, Sprinkler
-agricraft:crop_sticks, Crop Sticks
-agricraft:journal, Agricultural Journal
-agricraft:trowel, Gardening Trowel
-agricraft:debugger, Debugger
-agricraft:rake:0, Wooden Hand Rake
-agricraft:rake:1, Iron Hand Rake
-agricraft:clipper, Clipper
-agricraft:clipping, Clipping
-agricraft:agri_nugget:0, Emerald Nugget
-agricraft:agri_nugget:1, Diamond Nugget
-agricraft:agri_nugget:2, Quartz Shard
-agricraft:agri_nugget:3, Iron Nugget
-agricraft:agri_nugget:4, Copper Nugget
-agricraft:agri_nugget:5, Tin Nugget
-agricraft:agri_nugget:6, Lead Nugget
-agricraft:agri_nugget:7, Silver Nugget
-agricraft:agri_nugget:8, Aluminum Nugget
-agricraft:agri_nugget:9, Nickel Nugget
-agricraft:agri_nugget:10, Platinum Nugget
-agricraft:agri_nugget:11, Osmium Nugget
-agricraft:agri_nugget:12, Unknown Fragment
-agricraft:magnifying_glass, Magnifying Glass
+ocdevices:keyboard, Keyboard
+ocdevices:matrix, Matrix (WIP!)
+ocdevices:recipe_dictionary, Recipe Dictionary
 apotheosis:hellshelf, Hellshelf
 apotheosis:prismatic_web, Prismatic Cobweb
 apotheosis:null_book, Tome of the Others
@@ -26628,36 +26603,6 @@ minecraft:salmon, Raw Salmon
 minecraft:cooked_salmon, Cooked Salmon
 minecraft:clownfish, Clownfish
 minecraft:pufferfish, Pufferfish
-economy:item_creditcard, Credit Card
-economy:item_oneb, One Dollar
-economy:item_fiveb, Five Dollars
-economy:item_tenb, Ten Dollars
-economy:item_twentyb, Twenty Dollars
-economy:item_fiftybe, Fifty Dollars
-economy:item_hundreedb, Hundred Dollars
-economy:item_twohundreedb, Two Hundred Dollars
-economy:item_fivehundreedb, Five Hundred Dollars
-economy:item_remover, Vault wrench
-economy:item_gear, Gear
-economy:item_gearmecanism, Gears mechanism
-economy:item_microchip, Micro chip
-economy:item_goldnuggetsubs, Pure gold nugget
-economy:item_packetone, Packets of one dollar
-economy:item_packetfive, Packets of Five dollars
-economy:item_packetten, Packets of Ten dollars
-economy:item_packettwenty, Packets of Twenty dollars
-economy:item_packetfifty, Packets of Fifty dollars
-economy:item_packethundreed, Packets of Hundreed dollars
-economy:item_packettwohundreed, Packets of Two hundreed dollars
-economy:item_packetfivehundreed, Packets of Five hundreed dollars
-economy:item_vault_cracker, Digital vault cracker
-economy:block_vault, Personal Vault
-economy:block_seller, Vending Machine
-economy:block_changer, Gold Changer
-economy:block_vault2by2, tile.block_vault2by2.name
-economy:block_atm, ATM
-economy:block_vault_cracked, Safe bank vault
-economy:block_bills, tile.block_bills.name
 fenceoverhaul:oak_overhauledfence, Diagonal Oak Fence
 fenceoverhaul:spruce_overhauledfence, Diagonal Spruce Fence
 fenceoverhaul:birch_overhauledfence, Diagonal Birch Fence
@@ -26783,6 +26728,65 @@ magneticraft:steel_gear, item.magneticraft.steel_gear.name
 magneticraft:tungsten_gear, item.magneticraft.tungsten_gear.name
 magneticraft:inserter_upgrade:0, Inserter Upgrade: Speed
 magneticraft:inserter_upgrade:1, Inserter Upgrade: Stack
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
+magneticraft:connector:0, Electric Connector
+magneticraft:electric_pole:0, Electric Pole
+magneticraft:electric_cable:0, Electric cable
+magneticraft:tesla_tower:0, Tesla Tower
+magneticraft:energy_receiver:0, Energy Receiver
+magneticraft:electric_pole_transformer:0, Electric Pole Transformer
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
+magneticraft:ores:0, Chalcopyrite Ore (Copper)
+magneticraft:ores:1, Galena Ore (Lead)
+magneticraft:ores:2, Cobaltite Ore (Cobalt)
+magneticraft:ores:3, Wolframite Ore (Tungsten)
+magneticraft:ores:4, Pyrite Ore (Sulfur)
+magneticraft:oil_source:0, Oil Source (Full)
+magneticraft:oil_source:10, Oil Source (Empty)
+magneticraft:storage_blocks:0, Copper Block
+magneticraft:storage_blocks:1, Lead Block
+magneticraft:storage_blocks:2, Cobalt Block
+magneticraft:storage_blocks:3, Tungsten Block
+magneticraft:storage_blocks:4, Sulfur Block
+magneticraft:battery:0, Battery Block
+magneticraft:electric_furnace:0, Electric furnace
+magneticraft:infinite_energy:0, Infinite Energy
+magneticraft:air_bubble:0, Air Bubble
+magneticraft:airlock:0, Airlock
+magneticraft:thermopile:0, Thermopile
+magneticraft:wind_turbine:0, Wind turbine
+magneticraft:electric_heater:0, Electric Heater
+magneticraft:rf_heater:0, RF Heater
+magneticraft:rf_transformer:0, RF transformer
+magneticraft:electric_engine:0, Electric Engine
+magneticraft:combustion_chamber:0, Combustion Chamber
+magneticraft:steam_boiler:0, Boiler
+magneticraft:heat_pipe:0, Heat Pipe
+magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
+magneticraft:heat_sink:0, Heat sink
+magneticraft:gasification_unit:0, Gasification Unit
+magneticraft:brick_furnace:0, Brick furnace
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -26799,47 +26803,6 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
-magneticraft:ores:0, Chalcopyrite Ore (Copper)
-magneticraft:ores:1, Galena Ore (Lead)
-magneticraft:ores:2, Cobaltite Ore (Cobalt)
-magneticraft:ores:3, Wolframite Ore (Tungsten)
-magneticraft:ores:4, Pyrite Ore (Sulfur)
-magneticraft:oil_source:0, Oil Source (Full)
-magneticraft:oil_source:10, Oil Source (Empty)
-magneticraft:storage_blocks:0, Copper Block
-magneticraft:storage_blocks:1, Lead Block
-magneticraft:storage_blocks:2, Cobalt Block
-magneticraft:storage_blocks:3, Tungsten Block
-magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
-magneticraft:connector:0, Electric Connector
-magneticraft:electric_pole:0, Electric Pole
-magneticraft:electric_cable:0, Electric cable
-magneticraft:tesla_tower:0, Tesla Tower
-magneticraft:energy_receiver:0, Energy Receiver
-magneticraft:electric_pole_transformer:0, Electric Pole Transformer
-magneticraft:battery:0, Battery Block
-magneticraft:electric_furnace:0, Electric furnace
-magneticraft:infinite_energy:0, Infinite Energy
-magneticraft:air_bubble:0, Air Bubble
-magneticraft:airlock:0, Airlock
-magneticraft:thermopile:0, Thermopile
-magneticraft:wind_turbine:0, Wind turbine
-magneticraft:electric_heater:0, Electric Heater
-magneticraft:rf_heater:0, RF Heater
-magneticraft:rf_transformer:0, RF transformer
-magneticraft:electric_engine:0, Electric Engine
 magneticraft:conveyor_belt:0, Conveyor Belt
 magneticraft:inserter:0, Inserter
 magneticraft:water_generator:0, Atmospheric Water Generator
@@ -26849,26 +26812,8 @@ magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
 magneticraft:relay:0, Relay
 magneticraft:filter:0, Filter
 magneticraft:transposer:0, Transposer
-magneticraft:combustion_chamber:0, Combustion Chamber
-magneticraft:steam_boiler:0, Boiler
-magneticraft:heat_pipe:0, Heat Pipe
-magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
-magneticraft:heat_sink:0, Heat sink
-magneticraft:gasification_unit:0, Gasification Unit
-magneticraft:brick_furnace:0, Brick furnace
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
 storagenetwork:master, Storage Network Master
 storagenetwork:request, Storage Request Table
 storagenetwork:kabel, Storage Cable

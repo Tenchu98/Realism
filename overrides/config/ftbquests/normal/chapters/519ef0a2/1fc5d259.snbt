@@ -60,17 +60,6 @@
 		}]
 	},
 	{
-		uid: "679ce14f",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			id: "tconstruct:materials"
-		}],
-		count: 121L
-	},
-	{
 		uid: "db37b1de",
 		type: "item",
 		items: [{

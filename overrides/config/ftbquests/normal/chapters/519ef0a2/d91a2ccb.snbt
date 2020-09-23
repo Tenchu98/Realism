@@ -2,13 +2,14 @@
 	x: -9.0d,
 	y: -8.5d,
 	tasks: [{
-		uid: "be2ffe09",
+		uid: "02d76eef",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:lapis_ore"
+			id: "minecraft:dye",
+			Damage: 4s
 		}]
 	}]
 }

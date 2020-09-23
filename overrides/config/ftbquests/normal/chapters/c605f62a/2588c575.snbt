@@ -1,7 +1,10 @@
 {
-	title: "Sluid Storage",
+	title: "Fluid Storage",
 	x: 4.0d,
 	y: -2.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"bcbda058"
 	],

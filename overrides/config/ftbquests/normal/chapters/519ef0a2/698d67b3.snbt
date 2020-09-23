@@ -2,13 +2,13 @@
 	x: -10.0d,
 	y: -8.5d,
 	tasks: [{
-		uid: "8f7e83ea",
+		uid: "d75a7de2",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:coal_ore"
+			id: "minecraft:coal"
 		}]
 	}]
 }

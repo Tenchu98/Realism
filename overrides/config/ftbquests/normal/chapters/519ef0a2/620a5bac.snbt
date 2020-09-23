@@ -5,13 +5,13 @@
 		"a288aed7"
 	],
 	tasks: [{
-		uid: "94509d4d",
+		uid: "96d6f1ca",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "silentgems:gemore"
+			id: "silentgems:gem"
 		}]
 	}],
 	rewards: [{

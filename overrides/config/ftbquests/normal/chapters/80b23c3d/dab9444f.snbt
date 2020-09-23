@@ -1,4 +1,5 @@
 {
+	title: "Let's get piping",
 	icon: {
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
@@ -8,6 +9,20 @@
 	x: -3.5d,
 	y: -0.5d,
 	shape: "diamond",
+	description: "Extending Minecraft with pipes, auto-crafting, quarries, engines and much more!",
+	text: [
+		"Another type of automation."
+	],
+	tasks: [{
+		uid: "4c6dc4cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "buildcraftcore:gear_wood"
+		}]
+	}],
 	rewards: [{
 		uid: "90850a9d",
 		type: "item",
