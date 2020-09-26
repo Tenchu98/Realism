@@ -1,6 +1,6 @@
 {
 	x: 0.0d,
-	y: 6.5d,
+	y: 8.0d,
 	shape: "diamond",
 	description: "You seem like a knowledgable person.. How about I pay you to make a town?",
 	text: [
@@ -8,7 +8,7 @@
 		"There is a shop tab in the questbook where you can buy items not generated in the overworld. Other items can be purchased in the main city!"
 	],
 	dependencies: [
-		"b943e751"
+		"322d2fbb"
 	],
 	tasks: [{
 		uid: "668232f9",

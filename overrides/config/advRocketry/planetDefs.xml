@@ -5,7 +5,7 @@
 				<skyColor>0,0,0</skyColor>
 				<atmosphereDensity>0</atmosphereDensity>
 				<gravitationalMultiplier>16</gravitationalMultiplier>
-				<biomeIds>110</biomeIds>
+				<biome<orbitalDistance>Ids>110</biomeIds>
 				<rotationalPeriod>360000</rotationalPeriod>
 				<artifact>minecraft:cobblestone</artifact>
             </planet>
