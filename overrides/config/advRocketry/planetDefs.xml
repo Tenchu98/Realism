@@ -203,6 +203,7 @@
 			<orbitalPhi>180</orbitalPhi>
 			<planet name="Misty Desert Moon" DIMID="70">
 				 <biomeIds>2,7,17,37,38,39,75,78,91,94,99,116,117,130,139,165,166,167</biomeIds>
+            <ore block="oreOsmium" minHeight="1" maxHeight="80" clumpSize="64" chancePerChunk="100" />
 				 <rotationalPeriod>24000</rotationalPeriod>
 				 <gravitationalMultiplier>40</gravitationalMultiplier>
 			</planet>
@@ -270,6 +271,7 @@
 		</planet>
 		<planet name="Defiled Planet" DIMID="1206">
 			<biomeIds>159,168,169,170,171,172,173</biomeIds>
+            <ore block="oreOsmium" minHeight="1" maxHeight="80" clumpSize="64" chancePerChunk="100" />
 			<skyColor>1,0,1</skyColor>
 			<fogColor>1,0,1</fogColor>
 			<rotationalPeriod>13000</rotationalPeriod>
@@ -278,5 +280,12 @@
 			<orbitalPhi>315</orbitalPhi>
 			<artifact>advancedrocketry:crystal 0</artifact>
 		</planet>
+        <planet name="Eden" DIMID="1207"> 
+            <oceanBlock>biomeoplenty:hot_spring_water</oceanBlock> 
+            <artifact><appliedenergistics2:quartz_block></artifact>
+            <OreGen>
+            <ore block="oreOsmium" minHeight="1" maxHeight="80" clumpSize="64" chancePerChunk="100" />
+            </OreGen>       
+         </planet> 
 	</star>
 </galaxy>

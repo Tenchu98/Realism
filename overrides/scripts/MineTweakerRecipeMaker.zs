@@ -12,29 +12,39 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<immersiveengineering:stone_decoration>);
-recipes.remove(<minecraft:concrete_powder:8>);
-recipes.remove(<minecraft:furnace>);
-recipes.remove(<magneticraft:multiblock_parts:2>);
-recipes.remove(<ic2:resource:12>);
+recipes.remove(<hatchery:shredder>);
+recipes.remove(<advgenerators:iron_frame>);
+recipes.remove(<advancedrocketry:launchpad>);
+recipes.remove(<libvulpes:structuremachine>);
+recipes.remove(<logisticspipes:frame>);
+
+
+
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<emergingtechnology:machinecase>);
+recipes.removeShaped(<advgenerators:iron_tubing>);
 
 // ================================================================================
 //#MARKER ADD
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<advancedrocketry:launchpad>, [<ic2:resource:11>, <ore:dyeYellow>, <ore:dyeBlack>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<immersiveengineering:stone_decoration>, [[<minecraft:clay_ball>, <tcomplement:materials:1>, <minecraft:clay_ball>], [<tcomplement:materials:1>, <minecraft:sandstone>, <tcomplement:materials:1>], [<minecraft:clay_ball>, <tcomplement:materials:1>, <minecraft:clay_ball>]]);
-recipes.addShaped(<magneticraft:multiblock_parts:2>, [[null, <ore:barsIron>, null], [<ore:barsIron>, <ore:blockSheetmetalSteel>, <ore:barsIron>], [null, <minecraft:iron_bars>, null]]);
-recipes.addShaped(<ic2:resource:12>, [[<ore:heavyPlateIron>, <ore:heavyPlateIron>, <ore:heavyPlateIron>], [<magneticraft:heavy_plates>, <buildcraftsilicon:redstone_chipset:4>, <ore:heavyPlateIron>], [<magneticraft:heavy_plates>, <magneticraft:heavy_plates>, <ore:heavyPlateIron>]]);
-recipes.addShaped(<minecraft:furnace>, [[<ore:concrete>, <ore:concrete>, <ore:concrete>], [<ore:concrete>, <immcraft:furnace>, <ore:concrete>], [<minecraft:concrete:8>, <ore:concrete>, <minecraft:concrete:8>]]);
+recipes.addShaped(<hatchery:shredder>, [[<ic2:ingot:5>, <ic2:block_cutting_blade:1>, <ore:ingotSteel>], [<ore:ingotSteel>, <basemetals:diamond_gear>, <ore:ingotSteel>], [<ic2:ingot:5>, null, <ic2:ingot:5>]]);
+recipes.addShaped(<advgenerators:iron_frame>, [[<ore:wireSteel>, <ore:stickSteel>, <ore:wireSteel>], [<ore:stickSteel>, null, <ore:stickSteel>], [<ore:wireSteel>, <ore:stickSteel>, <ore:wireSteel>]]);
+recipes.addShaped(<libvulpes:structuremachine>, [[null, <advgenerators:iron_frame>, null], [<advgenerators:iron_frame>, <ic2:resource:13>, <advgenerators:iron_frame>], [null, <advgenerators:iron_frame>, null]]);
+recipes.addShaped(<emergingtechnology:machinecase>, [[<ore:rodPlastic>, <ore:rodPlastic>, <ore:rodPlastic>], [<ore:rodPlastic>, null, <ore:rodPlastic>], [<ore:rodPlastic>, <ore:rodPlastic>, <ore:rodPlastic>]]);
+recipes.addShaped(<logisticspipes:frame>, [[<ore:ingotSteel>, <tinker_io:upg:5>, <ore:ingotSteel>], [<ore:ingotSteel>, <immersiveengineering:metal_decoration0:3>, <ic2:ingot:5>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<advgenerators:iron_tubing>, [[null, <ore:ingotIron>, <ore:stickTreatedWood>], [<ore:ingotIron>, <ore:stickTreatedWood>, <minecraft:iron_ingot>], [<ore:stickTreatedWood>, <ore:ingotIron>, null]]);
 
-recipes.addShaped(<minecraft:concrete_powder:8>, [[<ore:dustCoal>, <ore:dyeLightGray>, <ore:dustCoal>], [<minecraft:sand>, <ore:sand>, <ore:sand>], [<minecraft:gravel>, <minecraft:gravel>, <ore:railBed>]]);
+
+
 

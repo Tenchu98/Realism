@@ -327,6 +327,29 @@
 					"state": "variant=granite"
 				}
 			]
+		},
+        "osmium": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [1207],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 112,
+				"variation": 50,
+				"frequency": 10,
+				"minHeight": 0,
+				"maxHeight": 255
+			},
+			"blocks": [
+				{
+					"name": "mekanism:oreblock",
+					"chance": 100,
+				}
+			]
 		}
 	}
 }

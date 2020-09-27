@@ -1,6 +1,10 @@
-recipes.remove(<magneticraft:water_generator>);
-recipes.addShaped(<magneticraft:water_generator>, [[<ore:plateCopper>, <ore:plateCopper>, <ic2:plate:1>], [<advgenerators:pressure_valve>, <magneticraft:small_tank>, <advgenerators:pressure_valve>], [<ore:plateCopper>, <ic2:plate:1>, <ic2:plate:1>]]);
-<magneticraft:water_generator>.displayName ="Atmospheric Water Generator";
 
-recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<appliedenergistics2:quartz_glass>, <immersiveintelligence:material>, <appliedenergistics2:quartz_glass>], [<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], [<ore:irTie>, <magneticraft:iron_pipe>, <immersiveengineering:treated_wood>]]);
 
+
+recipes.remove(<opencomputers:case1>);
+
+
+recipes.addShaped(<opencomputers:case1>, [[<ore:ingotSteel>, <ic2:crafting:1>, <ore:ingotSteel>], [<ic2:fence>, <ore:chest>, <ic2:fence>], [<ore:ingotSteel>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotSteel>]]);
+
+recipes.remove(<machinemod:transmission>);
+recipes.addShaped(<machinemod:transmission>, [[<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>], [<railcraft:gear:2>, <railcraft:gear:2>, <railcraft:gear:2>], [<magneticraft:light_plates>, <magneticraft:light_plates>, <magneticraft:light_plates>]]);

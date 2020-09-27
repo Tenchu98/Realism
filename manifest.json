@@ -11,10 +11,15 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Tanehu's Realism",
-  "version": "1.0.8c",
+  "version": "1.0.9",
   "author": "Tenchu98_1",
   "projectID": 399501,
   "files": [
+    {
+      "projectID": 225635,
+      "fileID": 2609648,
+      "required": true
+    },
     {
       "projectID": 227874,
       "fileID": 2563244,
@@ -98,6 +103,11 @@
     {
       "projectID": 289412,
       "fileID": 3015063,
+      "required": true
+    },
+    {
+      "projectID": 70492,
+      "fileID": 2516215,
       "required": true
     },
     {
@@ -236,6 +246,11 @@
       "required": true
     },
     {
+      "projectID": 237065,
+      "fileID": 2652853,
+      "required": true
+    },
+    {
       "projectID": 220311,
       "fileID": 2804966,
       "required": true
@@ -308,6 +323,11 @@
     {
       "projectID": 229302,
       "fileID": 2783190,
+      "required": true
+    },
+    {
+      "projectID": 251670,
+      "fileID": 2573301,
       "required": true
     },
     {
@@ -431,8 +451,18 @@
       "required": true
     },
     {
+      "projectID": 268560,
+      "fileID": 2835175,
+      "required": true
+    },
+    {
       "projectID": 246222,
       "fileID": 2531068,
+      "required": true
+    },
+    {
+      "projectID": 268566,
+      "fileID": 2835177,
       "required": true
     },
     {
@@ -486,8 +516,18 @@
       "required": true
     },
     {
+      "projectID": 59751,
+      "fileID": 2918418,
+      "required": true
+    },
+    {
       "projectID": 350179,
       "fileID": 3025092,
+      "required": true
+    },
+    {
+      "projectID": 273109,
+      "fileID": 2565848,
       "required": true
     },
     {
@@ -551,6 +591,11 @@
       "required": true
     },
     {
+      "projectID": 226294,
+      "fileID": 2497436,
+      "required": true
+    },
+    {
       "projectID": 221826,
       "fileID": 2996912,
       "required": true
@@ -581,13 +626,13 @@
       "required": true
     },
     {
-      "projectID": 235279,
-      "fileID": 2915375,
+      "projectID": 291126,
+      "fileID": 2625854,
       "required": true
     },
     {
-      "projectID": 267673,
-      "fileID": 2511902,
+      "projectID": 235279,
+      "fileID": 2915375,
       "required": true
     },
     {
@@ -701,6 +746,11 @@
       "required": true
     },
     {
+      "projectID": 248787,
+      "fileID": 2987247,
+      "required": true
+    },
+    {
       "projectID": 226447,
       "fileID": 2477566,
       "required": true
@@ -733,11 +783,6 @@
     {
       "projectID": 282313,
       "fileID": 2689835,
-      "required": true
-    },
-    {
-      "projectID": 359407,
-      "fileID": 3058115,
       "required": true
     },
     {
@@ -783,6 +828,11 @@
     {
       "projectID": 229876,
       "fileID": 2483393,
+      "required": true
+    },
+    {
+      "projectID": 301364,
+      "fileID": 2609434,
       "required": true
     },
     {
@@ -876,11 +926,6 @@
       "required": true
     },
     {
-      "projectID": 241119,
-      "fileID": 2449195,
-      "required": true
-    },
-    {
       "projectID": 300331,
       "fileID": 2754916,
       "required": true
@@ -946,6 +991,16 @@
       "required": true
     },
     {
+      "projectID": 319404,
+      "fileID": 2708193,
+      "required": true
+    },
+    {
+      "projectID": 224472,
+      "fileID": 2969118,
+      "required": true
+    },
+    {
       "projectID": 224476,
       "fileID": 2565122,
       "required": true
@@ -953,6 +1008,16 @@
     {
       "projectID": 291499,
       "fileID": 2685154,
+      "required": true
+    },
+    {
+      "projectID": 225603,
+      "fileID": 2554100,
+      "required": true
+    },
+    {
+      "projectID": 225605,
+      "fileID": 2489549,
       "required": true
     },
     {
@@ -986,28 +1051,8 @@
       "required": true
     },
     {
-      "projectID": 224472,
-      "fileID": 2969118,
-      "required": true
-    },
-    {
-      "projectID": 319404,
-      "fileID": 2708193,
-      "required": true
-    },
-    {
-      "projectID": 225603,
-      "fileID": 2554100,
-      "required": true
-    },
-    {
-      "projectID": 225605,
-      "fileID": 2489549,
-      "required": true
-    },
-    {
-      "projectID": 308134,
-      "fileID": 2909234,
+      "projectID": 359407,
+      "fileID": 3058115,
       "required": true
     }
   ],
