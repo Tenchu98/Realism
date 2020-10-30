@@ -8,8 +8,8 @@
 			TentData: {}
 		}
 	},
-	x: 0.0d,
-	y: -2.0d,
+	x: 1.0d,
+	y: -1.0d,
 	tasks: [{
 		uid: "b1a34bbe",
 		type: "item",
@@ -17,16 +17,42 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "yurtmod:tent",
-			tag: {
-				TentData: {}
-			}
+			id: "yurtmod:yurt_wall_piece"
 		}],
+		count: 3L,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "950378ca",
-		type: "ftbmoney:money",
-		ftb_money: 1L
+	},
+	{
+		uid: "52e54913",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yurtmod:yurt_wall_piece"
+		}],
+		count: 3L
+	},
+	{
+		uid: "2d16b4de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yurtmod:yurt_wall_piece"
+		}],
+		count: 3L
+	},
+	{
+		uid: "82d55737",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yurtmod:yurt_wall_piece"
+		}],
+		count: 3L
 	}]
 }

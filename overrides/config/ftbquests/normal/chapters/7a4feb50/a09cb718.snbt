@@ -1,0 +1,49 @@
+{
+	title: "Useless Diamond Sword",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:diamond_sword"
+	},
+	x: -6.5d,
+	y: 2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "0e53b97e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "4074bcfd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5869bd9b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:diamond_sword"
+		}
+	}]
+}

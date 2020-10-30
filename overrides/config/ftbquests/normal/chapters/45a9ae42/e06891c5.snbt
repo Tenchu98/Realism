@@ -1,0 +1,27 @@
+{
+	title: "Reduce everything to dust ..... ok not everything",
+	x: 0.0d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "This tool will make ore drop dust.",
+	text: [
+		"While this won't really double your ores, maybe some recipes need dust form instead ....."
+	],
+	dependencies: [
+		"2aa087dd"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "322d2fbb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "basemetals:wood_crackhammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

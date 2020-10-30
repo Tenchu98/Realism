@@ -1,0 +1,21 @@
+{
+	x: -17.3d,
+	y: 7.0d,
+	text: [
+		"Garage/Railroad/Airport looking a bit plane(get it..)? This has a lot of awesome docor to change that basic town into something more interesting."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9306aa2a"
+	],
+	tasks: [{
+		uid: "1a1d7986",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:decorbench"
+		}]
+	}]
+}

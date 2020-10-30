@@ -14,7 +14,8 @@
 			},
 			id: "minecraft:iron_ingot"
 		}],
-		only_from_crafting: true
+		consume_items: false,
+		only_from_crafting: false
 	}],
 	rewards: [{
 		uid: "f95e2f01",

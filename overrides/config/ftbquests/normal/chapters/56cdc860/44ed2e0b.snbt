@@ -23,8 +23,7 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "economy:item_tenb",
-			Count: 1b
+			id: "economy:item_tenb"
 		}
 	}]
 }

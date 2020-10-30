@@ -1,0 +1,51 @@
+{
+	title: "Useless Diamond Pickaxe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:diamond_pickaxe"
+	},
+	x: -6.5d,
+	y: 0.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "386d144c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}],
+		count: 3L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c57c4284",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3e35be91",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:diamond_pickaxe"
+		}
+	}]
+}

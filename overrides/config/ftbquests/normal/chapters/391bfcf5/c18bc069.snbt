@@ -13,8 +13,7 @@
 		"Deliver power to your entire city!"
 	],
 	dependencies: [
-		"cc9f2fe9",
-		"6883bda5"
+		"cc9f2fe9"
 	],
 	tasks: [{
 		uid: "338d3b11",

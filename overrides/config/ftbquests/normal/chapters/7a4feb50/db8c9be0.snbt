@@ -1,0 +1,49 @@
+{
+	title: "Useless Diamond Hoe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:diamond_hoe"
+	},
+	x: -6.5d,
+	y: 3.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "92db3040",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "02f8f92d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b0b0cbf9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:diamond_hoe"
+		}
+	}]
+}

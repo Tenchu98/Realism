@@ -1,0 +1,41 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "economy:item_packetfivehundreed"
+	},
+	x: -8.7d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		"RICHERER!!"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "815765fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:emerald_block"
+		}],
+		count: 50L,
+		consume_items: true,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "e2e4a15f",
+		type: "item",
+		team_reward: false,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "economy:item_fivehundreedb"
+		},
+		count: 10
+	}]
+}

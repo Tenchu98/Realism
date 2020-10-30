@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: 8.0d,
+	shape: "diamond",
+	text: [
+		"You can check your keybindings by accessing the keybinding GUI (default:'P')"
+	],
+	dependencies: [
+		"9a898733"
+	],
+	tasks: [{
+		uid: "b8b4cfa9",
+		type: "checkmark",
+		title: "Keybindings"
+	}],
+	rewards: [{
+		uid: "69edc5cc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:handbook_en"
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -16.0d,
+	y: 3.5d,
+	text: [
+		"Hey, everyone gets into the situation where they are stranded on the road, out of gas, and the battery ran out because you left the A/C running. Best carry a jumper and hose! Oh, and there is a ticket you can use to give a lift (non-players)."
+	],
+	dependencies: [
+		"7d20b203"
+	],
+	tasks: [{
+		uid: "9046b18b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:ticket"
+		}]
+	},
+	{
+		uid: "f72cb70b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:jumpercable"
+		}]
+	},
+	{
+		uid: "d25290fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:fuelhose"
+		}]
+	}]
+}

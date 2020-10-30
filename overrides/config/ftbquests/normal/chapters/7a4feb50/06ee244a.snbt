@@ -1,0 +1,47 @@
+{
+	title: "Useless Golden Hoe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:golden_hoe"
+	},
+	x: -7.5d,
+	y: 3.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "37f3e4c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}],
+		count: 2L
+	},
+	{
+		uid: "310fa15f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "19b759f6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:golden_hoe"
+		}
+	}]
+}

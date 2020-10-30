@@ -1,0 +1,49 @@
+{
+	title: "Useless Iron Sword",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:iron_sword"
+	},
+	x: -8.5d,
+	y: 2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "ffd2937e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "bf023464",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "577b85e7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:iron_sword"
+		}
+	}]
+}

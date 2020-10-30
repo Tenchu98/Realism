@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "533a1d8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "roughtweaks:bandage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d81bf688",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		},
+		count: 10
+	}]
+}

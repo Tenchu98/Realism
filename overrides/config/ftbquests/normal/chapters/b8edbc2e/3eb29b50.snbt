@@ -340,9 +340,12 @@
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "silentgear:stone_rod"
+			id: "tconstruct:stone_stick"
 		}],
-		count: 6L
+		count: 6L,
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
 	}],
 	rewards: [{
 		uid: "6b88593d",

@@ -1,0 +1,48 @@
+{
+	title: "Granite",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:stone",
+		Damage: 1s
+	},
+	x: -3.5d,
+	y: 2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "825df95a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "sgextraparts:genericitem",
+			Damage: 9s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "47050a31",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:quartz"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6032ace3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone",
+			Damage: 1s
+		}
+	}]
+}

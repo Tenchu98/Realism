@@ -1,0 +1,49 @@
+{
+	title: "Useless Diamond Axe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:diamond_axe"
+	},
+	x: -6.5d,
+	y: 1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "7252ef19",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "d7be5738",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2d84177d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:diamond_axe"
+		}
+	}]
+}

@@ -1,29 +1,34 @@
 {
-	x: 2.5d,
-	y: -2.5d,
+	x: -12.1d,
+	y: 5.5d,
 	dependencies: [
-		"0373a46c"
+		"e1d11ed0"
 	],
 	tasks: [{
-		uid: "ae8fe39f",
+		uid: "d17b3520",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "tektopia:prof_lumberjack"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			id: "mts:fuelpump"
+		}]
 	}],
 	rewards: [{
-		uid: "75ae910e",
+		uid: "d2947814",
 		type: "item",
 		item: {
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "economy:item_tenb"
-		}
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "gasoline",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
 	}]
 }

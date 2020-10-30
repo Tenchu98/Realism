@@ -1,0 +1,20 @@
+{
+	x: -13.9d,
+	y: 5.0d,
+	text: [
+		"Feeling down about the color choice of your vehicle? No worries, simply use this on your vehicle and apply that dye 'till it looks fly. Sorry, dumb rhyme."
+	],
+	dependencies: [
+		"9306aa2a"
+	],
+	tasks: [{
+		uid: "201680e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:paintgun"
+		}]
+	}]
+}

@@ -1,17 +1,20 @@
 {
-	x: 2.5d,
-	y: 0.0d,
+	x: -13.0d,
+	y: 4.0d,
+	text: [
+		"You know what this is."
+	],
 	dependencies: [
-		"0373a46c"
+		"03752e12"
 	],
 	tasks: [{
-		uid: "655374cb",
+		uid: "82e0327d",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "tektopia:prof_chef"
+			id: "mts:jerrycan"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

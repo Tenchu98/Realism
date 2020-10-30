@@ -1,0 +1,49 @@
+{
+	title: "Useless Gold pickaxe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:golden_pickaxe"
+	},
+	x: -7.5d,
+	y: 0.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "296fcf7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "a3702275",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "01db663e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:golden_pickaxe"
+		}
+	}]
+}

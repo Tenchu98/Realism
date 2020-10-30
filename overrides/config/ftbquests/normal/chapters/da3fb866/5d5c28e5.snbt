@@ -1,0 +1,37 @@
+{
+	title: "16x Sky Stone",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:sky_stone_block"
+	},
+	x: -1.5d,
+	y: 0.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "c9d3f090",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "economy:item_fivehundreedb"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d0f76e77",
+		type: "item",
+		team_reward: false,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:sky_stone_block"
+		},
+		count: 16
+	}]
+}

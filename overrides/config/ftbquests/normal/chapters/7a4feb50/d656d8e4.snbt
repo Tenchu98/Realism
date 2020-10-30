@@ -1,0 +1,48 @@
+{
+	title: "Useless Iron Hoe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:iron_hoe"
+	},
+	x: -8.5d,
+	y: 3.0d,
+	optional: true,
+	tasks: [{
+		uid: "4768427f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "b7d90d43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4b8b9141",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:iron_hoe"
+		}
+	}]
+}

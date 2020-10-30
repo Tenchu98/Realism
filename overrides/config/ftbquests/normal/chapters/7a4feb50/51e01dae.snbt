@@ -1,0 +1,48 @@
+{
+	title: "Useless Diamond Shovel",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:diamond_shovel"
+	},
+	x: -6.5d,
+	y: 4.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "5ab04d5a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e385f4f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "97301dbd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:diamond_shovel"
+		}
+	}]
+}

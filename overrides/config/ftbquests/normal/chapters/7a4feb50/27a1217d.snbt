@@ -1,0 +1,48 @@
+{
+	title: "Useless Golden Shovel",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:golden_shovel"
+	},
+	x: -7.5d,
+	y: 4.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "614788ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1df7e348",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "403e126f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:golden_shovel"
+		}
+	}]
+}

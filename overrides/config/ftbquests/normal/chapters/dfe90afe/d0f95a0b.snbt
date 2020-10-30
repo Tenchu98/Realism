@@ -1,0 +1,20 @@
+{
+	x: -10.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "f739b4e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:carrot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "18d8399d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

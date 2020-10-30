@@ -1,0 +1,15 @@
+{
+	title: "MMCC TR XChange",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "forestry:broken_bronze_shovel"
+	},
+	description: [
+		"Temporary Fix for broken recipe #blametanehu"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

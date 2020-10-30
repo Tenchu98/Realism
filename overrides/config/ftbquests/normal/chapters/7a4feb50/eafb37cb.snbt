@@ -1,0 +1,49 @@
+{
+	title: "Useless Iron Axe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:iron_axe"
+	},
+	x: -8.5d,
+	y: 1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "0ef3880f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "461ee3e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c1765bd2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:iron_axe"
+		}
+	}]
+}

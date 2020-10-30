@@ -1,0 +1,32 @@
+{
+	x: -14.5d,
+	y: 3.5d,
+	text: [
+		"Keys lock and unlock things. Huh.. who would have guessed? Cars can be locked by anyone, make sure to lock it up to protect it. If you loose your key somehow in the middle of no-where.. well... might want a spare in case. I'll make you a copy!"
+	],
+	dependencies: [
+		"2040edbb"
+	],
+	tasks: [{
+		uid: "b723ed12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70e280f4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mts:key"
+		}
+	}]
+}

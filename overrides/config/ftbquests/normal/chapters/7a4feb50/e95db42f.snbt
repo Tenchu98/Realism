@@ -1,0 +1,49 @@
+{
+	title: "Useless Gold Axe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:golden_axe"
+	},
+	x: -7.5d,
+	y: 1.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "a2c02025",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "dd31afcb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "df14791d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:golden_axe"
+		}
+	}]
+}

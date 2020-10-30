@@ -1,0 +1,51 @@
+{
+	title: "Useless Iron Pickaxe",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:iron_pickaxe"
+	},
+	x: -8.5d,
+	y: 0.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "7da745aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 3L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53627293",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "37cae71f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:iron_pickaxe"
+		}
+	}]
+}

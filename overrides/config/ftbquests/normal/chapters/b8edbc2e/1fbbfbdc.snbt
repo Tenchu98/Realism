@@ -4,8 +4,7 @@
 	shape: "square",
 	dependencies: [
 		"1c2e9ca2",
-		"b8ef8f42",
-		"1cbe4fdc"
+		"b8ef8f42"
 	],
 	size: 1.5d,
 	tasks: [{
@@ -16,7 +15,9 @@
 				"customnpcs:itemscripteddata": {}
 			},
 			id: "minecraft:iron_ingot"
-		}]
+		}],
+		consume_items: false,
+		only_from_crafting: false
 	}],
 	rewards: [{
 		uid: "3ee67363",

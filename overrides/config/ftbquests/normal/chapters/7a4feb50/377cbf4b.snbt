@@ -1,0 +1,37 @@
+{
+	title: "Useless Iron Shovel",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:iron_shovel"
+	},
+	x: -8.5d,
+	y: 4.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "430f0e1f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6de34ea4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"The wild can hurt, but i'll help you with your boo-boo. Show me you can craft this and I will give you potions for your adventure!"
+	],
+	tasks: [{
+		uid: "8b47bce7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "roughtweaks:salve"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b00e7529",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:healing"
+			}
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "Useless Gold Sword",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {},
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:golden_sword"
+	},
+	x: -7.5d,
+	y: 2.0d,
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "b3448eff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "202a4f7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d25315f3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:golden_sword"
+		}
+	}]
+}

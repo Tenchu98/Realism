@@ -1,0 +1,40 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "economy:item_packethundreed"
+	},
+	x: -8.7d,
+	y: 0.0d,
+	shape: "pentagon",
+	text: [
+		"GETTING RICH!"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "88cb55c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:emerald_block"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9e45baff",
+		type: "item",
+		team_reward: false,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "economy:item_fivehundreedb"
+		},
+		count: 2
+	}]
+}
