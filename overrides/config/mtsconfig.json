@@ -1,5 +1,9 @@
 {
   "general": {
+    "dumpCraftingConfig": {
+      "value": false,
+      "comment": "If true, then all recipes for all items in packs will be dumped into the config file at boot.  WARNING: this will overwrite your existing crafting overrides file!"
+    },
     "opSignEditingOnly": {
       "value": false,
       "comment": "If true, only OPs will be able to edit signs on servers.  Does not affect client worlds."
@@ -12,6 +16,18 @@
       "value": false,
       "comment": "If true, vehicles can only be picked up in creative mode."
     },
+    "blockBreakage": {
+      "value": true,
+      "comment": "Whether or not vehicles can break blocks when they hit them.  If false, vehicles will simply stop when they hit blocks."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
+    },
+    "creativeDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players."
+    },
     "speedFactor": {
       "value": 0.35,
       "comment": "Factor to apply to vehicle movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
@@ -23,10 +39,6 @@
     "engineHoursFactor": {
       "value": 1.0,
       "comment": "Factor times which engines hours accumulate.  Change this if you want to adjust how fast engines wear out."
-    },
-    "clingSpeed": {
-      "value": 0.25,
-      "comment": "Speed (in BLK/S) at which players start to slide off vehicles due to wind.  Does not affect collision boxes set as interior in the vehicle JSON."
     },
     "itemWeights": {
       "comment1": "The following section is used for calculating item weights.  Any item that contains the text bits will have its weight multiplied by the following factor.",
@@ -46,10 +58,6 @@
     "explosions": {
       "value": true,
       "comment": "Whether or not vehicles explode when crashed or shot down."
-    },
-    "blockBreakage": {
-      "value": true,
-      "comment": "Whether or not vehicles can break blocks when they hit them.  If false, vehicles will simply stop when they hit blocks."
     },
     "wheelBreakage": {
       "value": true,
@@ -129,6 +137,14 @@
       "value": true,
       "comment": "Should keyboard controls be ignored when a joystick control is mapped?  Leave true to free up the keyboard while using a joysick."
     },
+    "simpleThrottle": {
+      "value": true,
+      "comment": "If true, then vehicles will automatically go into reverse after stopped with the brake rather than staying stopped and waiting for you to shift.  When going in reverse, the opposite is true: the vehicle will shift into forwards when pressing forwards when stopped.  Additionally, the parking brake will automatically be set when leaving the vehicle.  Incompatible with joysticks."
+    },
+    "autostartEng": {
+      "value": true,
+      "comment": "If true, engines will automatically start when a driver enters a vehicle, and will turn off when they leave.  The parking brake will also be applied when leaving the vehicle.  Note: this does not bypass the fuel system."
+    },
     "renderHUD_1P": {
       "value": true,
       "comment": "If false, the HUD in vehicles will not render in 1st-person mode."
@@ -161,11 +177,23 @@
       "value": false,
       "comment": "Should the glass on windows be rendered on the inside of the vehicle?  Note: if renderWindows is false, this config has no effect."
     },
+    "vehicleBeams": {
+      "value": true,
+      "comment": "If false, beams on vehicles will not render."
+    },
+    "blockBeams": {
+      "value": true,
+      "comment": "If false, beams on blocks (decor) will not render."
+    },
     "flareBlending": {
       "value": false,
       "comment": "If true, light flares from vehicles and lamps will not do brightness blending.  Normally false, but can be set to true if it makes shaders better."
     },
     "beamBlending": {
+      "value": true,
+      "comment": "If false, beam-based lights from vehicles and lamps will not do brightness blending.  Useful if you have shaders and this is causing troubles."
+    },
+    "beamRender": {
       "value": true,
       "comment": "If false, beam-based lights from vehicles and lamps will not do brightness blending.  Useful if you have shaders and this is causing troubles."
     },

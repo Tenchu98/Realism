@@ -1,0 +1,62 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+         {
+            "dim": 7,
+            "override": true,
+            "dimensiontype": {
+                "id": 7,
+                "name": "Custom Mining World",
+                "suffix": "_dim7",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:bedrock,60*minecraft:stone,2*minecraft:dirt,minecraft:grass;1;decoration",
+                "DayTime": 16000,
+                "GameRules": {
+                    "doDaylightCycle": "false"
+                }
+            },
+            "worldinfo": {
+                "JED": {
+                    "SkyRenderType": 2
+                }
+            }        
+            {
+            "dim": 0,
+            "worldinfo": {
+                "Difficulty": 0,
+                "DifficultyLocked": 1
+            }
+        }
+},    
+{
+      "dim": 1207,
+      "biome": "biomesoplenty:Orchard",
+      "dimensiontype": {
+        "id": 1207,
+        "name": "Eden",
+        "suffix": "_1207",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+                    "worldinfo_onetime": {
+                "generatorName": "BIOMESOP"
+            },
+      "jed": {
+        "CustomDayCycle": "false"
+      },
+      "worldinfo": {
+        "GameRules": {
+          "default_fluid": "biomeoplenty:hot_spring_water",
+          "CanSpawnHostiles": "false"
+        }
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 				<skyColor>0,0,0</skyColor>
 				<atmosphereDensity>0</atmosphereDensity>
 				<gravitationalMultiplier>16</gravitationalMultiplier>
-				<biome<orbitalDistance>Ids>110</biomeIds>
+				<biomeIds>110</biomeIds>
 				<rotationalPeriod>360000</rotationalPeriod>
 				<artifact>minecraft:cobblestone</artifact>
             </planet>
@@ -282,7 +282,7 @@
 		</planet>
         <planet name="Eden" DIMID="1207"> 
             <oceanBlock>biomeoplenty:hot_spring_water</oceanBlock> 
-            <artifact><appliedenergistics2:quartz_block></artifact>
+            <artifact>oreOsmium</artifact>
             <OreGen>
             <ore block="oreOsmium" minHeight="1" maxHeight="80" clumpSize="64" chancePerChunk="100" />
             </OreGen>       

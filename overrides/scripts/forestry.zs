@@ -1,0 +1,1 @@
+mods.forestry.Moistener.addRecipe(<minecraft:clay>, <ic2:dust:1>, 60);
